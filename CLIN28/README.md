@@ -53,3 +53,13 @@ The method has four options: to remove stop- and function words, to ignore morph
 - If treating morphology is set to `True`, the algorithm does not add morphological features to the node dictionaries, but instead adds nodes to the graph with their value (e.g. `Acc`) as POS-tag. The edges leading to them will have the morphological feature (e.g. `Case`, in lower case, so that the algorithm will treat syntactic relation `case` and morphological feature `Case` as the same) as their label. Morphological nodes also receive CoNLL-U format features as items in their dictionary for possible `tf-idf` weight lookup. Note that using this option will render the UD parses directed acyclic graphs, instead of trees: all morphological-feature nodes only occur once in the graph, but multiple edges (from multiple words) can lead to them.
 
 - If tf-idf weighting is set to `True`, it calculates `idf` values for all **lemmas** (and morphological features, for when morphology is treated as nodes) for both languages, and redefines node insertion and deletion cost as the lemmas' `tf-idf` weight -- very frequent lemmas are therefore cheaper to insert or delete. Node substitution cost is redefined as the number of items in the node dictionaries that are different (in terms of items added, items removed or items assigned another value) times the average between the lemmas' `tf-idf` weights of the nodes in question. `tf-idf` is defined as (1 + \log(f_{f,d})) * log(\frac{N}{n_t}), using log normalization in the `tf` calculation and normal `idf` -- this way of calculating `tf-idf` has shown to be most effective.
+
+## senvec.py
+
+## fasttext_translator.py
+
+## isitsyntacticallyequivalent.py
+
+## en-nl.syn.train
+
+## en-nl.basicwordlist.csv
