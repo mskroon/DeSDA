@@ -26,7 +26,7 @@ An option is to remove stop- and funtion words or not. If `True`, it removes all
 
 ## zhang_shasha_UD.py
 
-Is a modular script for the method that uses Tree Edit Distance (TED) as a measure. It applies Zhang and Shasha's (1989) TED algorithm for ordered trees on two Universal Dependencies parses, which are obtained using Straka and Straková's (2017) `udpipe`. **This method therefore requires two UD models to parse the sentences** (available through [`udpipe`'s webpage](http://ufal.mff.cuni.cz/udpipe). 
+Is a modular script for the method that uses Tree Edit Distance (TED) as a measure. It applies Zhang and Shasha's (1989) TED algorithm for ordered trees on two Universal Dependencies parses, which are obtained using Straka and Straková's (2017) `udpipe`. **This method therefore requires two UD models to parse the sentences** (available through [`udpipe`'s webpage](http://ufal.mff.cuni.cz/udpipe). `udpipe` model file names are defined in `main.py`, lines 12 and 13.
 
 Tree nodes are represented as a string containing the POS-tag as well as its dependency relation to its head. Dependency relations are split if it contains a `:` (as to generalize over cases such as `nsubj` and `nsubj:pass`), in which case it only takes the part before the `:`. Morphological features are represented as nodes, as well, with names identical to features in CoNLL-U format (e.g. `Case=Acc`). Edges do not have a value, but do have a direction.
 
@@ -38,7 +38,7 @@ The method has two options: to remove stop- and function words and to ignore mor
 
 ## networkx_GED.py
 
-Is as modular script for the method that uses `networkx 2.1`'s Graph Edit Distance (GED) algorithm, which is an implementation of Abu-Aisheh et al.'s (2015) exact GED algorithm. The method takes the GED between two `udpipe` (Straka and Straková, 2017) parses. **This method therefore requires two UD models to parse the sentences** (available through [`udpipe`'s webpage](http://ufal.mff.cuni.cz/udpipe). 
+Is as modular script for the method that uses `networkx 2.1`'s Graph Edit Distance (GED) algorithm, which is an implementation of Abu-Aisheh et al.'s (2015) exact GED algorithm. The method takes the GED between two `udpipe` (Straka and Straková, 2017) parses. **This method therefore requires two UD models to parse the sentences** (available through [`udpipe`'s webpage](http://ufal.mff.cuni.cz/udpipe). `udpipe` model file names are defined in `main.py`, lines 12 and 13.
 
 Graph nodes are represented as a Python dictionary, containing POS-tag and morphological features. Edges have the value of the dependency relation between head and child. 
 
