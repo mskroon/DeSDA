@@ -2,7 +2,11 @@
 import tkinter
 import sys
 
-# python3 isitsyntacticallyequivalent.py /media/kroonms/Ubuntu/Data/en-nl.pos.join.ud /media/kroonms/Ubuntu/Data/en-nl.syn.train
+# python3 isitsyntacticallyequivalent.py en-nl.pos.join.ud en-nl.syn.train
+# en-nl.pos.join.ud not included due to size
+# 	it consists of two columns: English and Dutch sentences, divided by a tab (\t)
+#	columns contain sentence with all words POS-tagged with UD-tags, separated by a pipe (|):
+#		e.g.: word|POS word|pos ...\tword|POS word|POS
 
 corpus = set()
 result = set()

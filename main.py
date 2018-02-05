@@ -8,12 +8,12 @@ from sklearn.metrics import roc_curve, roc_auc_score
 
 
 
-data = '/media/kroonms/Ubuntu/Data/en-nl.syn.train'
-udM1 = '/vol/home/kroonms/Downloads/udpipe-ud-2.0-conll17-170315/models/english-ud-2.0-conll17-170315.udpipe'
-udM2 = '/vol/home/kroonms/Downloads/udpipe-ud-2.0-conll17-170315/models/dutch-ud-2.0-conll17-170315.udpipe'
-train_dict = '/media/kroonms/Ubuntu/Data/en-nl.basiswoordenlijst.englisssh-G1'
-svM1 = 'model1.bin'
-svM2 = 'model2.bin'
+data = 'en-nl.syn.train'
+udM1 = 'udpipe-ud-2.0-conll17-170315/models/english-ud-2.0-conll17-170315.udpipe' #a UDPipe model
+udM2 = 'udpipe-ud-2.0-conll17-170315/models/dutch-ud-2.0-conll17-170315.udpipe' #a UDPipe model
+train_dict = 'en-nl.basiswoordenlijst.englisssh-G1'
+svM1 = 'model1.bin' #a fastText model for English (files too big to be on GitHub)
+svM2 = 'model2.bin' #a fastText model for Dutch
 
 
 methods = [
@@ -47,15 +47,12 @@ methods = [
     # ('senvec_tf_rm_g', senvec.Sen_vec_cossim(data, train_dict, svM1, svM2, removestopwords=True, tfidf=True, geometric=True))
 ]
 
-# for method, label in zip(methods, labels):
 results = []
 for label, method in methods:
     print(label)
     print(method)
     roc = roc_curve([1 if p[1] == 'N' else 0 for p in method], [p[0] for p in method])
     auc = roc_auc_score([1 if p[1] == 'N' else 0 for p in method], [p[0] for p in method])
-    # for x in roc:
-    #     print(x)
     for x in zip(roc[0], roc[1]):
         print(x, end='')
     print()
