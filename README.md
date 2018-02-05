@@ -4,4 +4,4 @@ This is the working repository of my PhD research on the automatic detection of 
 
 ## CLIN28
 
-In the CLIN28 folder you will find files for research published on CLIN28 on the the development of a syntactic filter that automatically selects parallel sentences that are syntactically comparable.
+In the CLIN28 folder you will find files for research published at CLIN28 on the the development of a syntactic filter that automatically selects parallel sentences that are syntactically comparable.
