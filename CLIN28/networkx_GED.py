@@ -110,8 +110,10 @@ def conllu_to_nx_graph(c, ignore_morphology=False, sw=None, morphology_as_nodes=
                     e = []
                     n = []
                     for feat, val in w['feats'].items():
-                        e.append((id, val, {'deprel': feat}))
-                        n.append((val, {'upostag': 'MORPH', 'lemma': str(feat)+'='+str(val)}))
+                        e.append((id, val, {'deprel': feat.lower()}))
+                        # e.append((id, val, {'deprel': feat}))
+                        n.append((val, {'upostag': val, 'lemma': str(feat)+'='+str(val)}))
+                        # n.append((val, {'upostag': 'MORPH', 'lemma': str(feat)+'='+str(val)}))
                     G.add_edges_from(e)
                     G.add_nodes_from(n)
                 else:
@@ -200,6 +202,6 @@ def add_edge(C, w, id, G, sw=[]):
     if w['head'] == 0:
         pass
     elif C[w['head']]['deprel'] == 'root' or not C[w['head']]['lemma'] in sw:
-        G.add_edges_from([(w['head'], id, {'deprel': w['deprel'].split(':')[0]})])
+        G.add_edges_from([(w['head'], id, {'deprel': C[id]['deprel'].split(':')[0]})])
     else:
         add_edge(C, C[w['head']], id, G, sw)

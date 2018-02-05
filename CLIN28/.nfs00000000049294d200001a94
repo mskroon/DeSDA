@@ -11,7 +11,7 @@ from sklearn.metrics import roc_curve, roc_auc_score
 data = 'en-nl.syn.train'
 udM1 = 'udpipe-ud-2.0-conll17-170315/models/english-ud-2.0-conll17-170315.udpipe' #a UDPipe model
 udM2 = 'udpipe-ud-2.0-conll17-170315/models/dutch-ud-2.0-conll17-170315.udpipe' #a UDPipe model
-train_dict = 'en-nl.basicwordlist.csv'
+train_dict = 'en-nl.basiswoordenlijst.englisssh-G1'
 svM1 = 'model1.bin' #a fastText model for English (files too big to be on GitHub)
 svM2 = 'model2.bin' #a fastText model for Dutch
 
