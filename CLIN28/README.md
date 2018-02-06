@@ -1,6 +1,6 @@
 # CLIN28
 
-This folder contains files for research published on CLIN28 on the the development of a syntactic filter that automatically selects parallel sentences that are syntactically comparable.
+This folder contains files for research presented at CLIN28 on the the development of a syntactic filter that automatically selects parallel sentences that are syntactically comparable.
 
 
 
@@ -66,7 +66,7 @@ The method has four options: to remove stop- and function words, to ignore morph
 
 ## senvec.py
 
-Is a modular script for the method that uses the cosine similarity between two sentences as a measure. It makes use of Bojanowski et al.'s (2016) `fastText` algorithm and Mikolov et al's (2013) method of translating between two vector spaces to calculate sentence vectors. **This method therefore requires two `fastText` models for the two languages, as well as a basic dictionary to train the transformation matrix.** You can train the `fastText` models yourself (they are too big to be uploaded to GitHub), a basic dictionary for English-Dutch can be found in `en-nl.basicwordlist.csv`. The file names of the models and the basic dictionary are defined in lines 14, 15 and 16 of `main.py`.
+Is a modular script for the method that uses the cosine similarity between two sentences as a measure. It makes use of Bojanowski et al.'s (2016) `fastText` algorithm and Mikolov et al.'s (2013) method of translating between two vector spaces to calculate sentence vectors. **This method therefore requires two `fastText` models for the two languages, as well as a basic dictionary to train the transformation matrix.** You can train the `fastText` models yourself (they are too big to be uploaded to GitHub), a basic dictionary for English-Dutch can be found in `en-nl.basicwordlist.csv`. The file names of the models and the basic dictionary are defined in lines 14, 15 and 16 of `main.py`.
 
 A sentence vector is calculated as the arithmetic mean of the word vectors of all words in the sentence.
 
@@ -80,8 +80,22 @@ The method has three options: to remove stop- and function words, to use tf-idf 
 
 ## fasttext_translator.py
 
+Is a sub-script for `senvec.py`, defining a function to calculate a tranformation matrix (Mikolov et al., 2013). Function is based on [this script](https://github.com/n8686025/word2vec-translation-matrix/blob/master/jp-en-translation.py) by Lachlan, but is specifically made to understand `fastText` instead of `word2vec`.
+
 ## isitsyntacticallyequivalent.py
+
+This is a simple tool to manually annotate sentence pairs as being syntactically comparable or not. With a GUI, it presents the user with two (pre-POS-tagged) sentences, for which the user needs to decide if they are or are not syntactically comparable. When the user has decided whether it is a `Y` or a `N`, the annotated sentence pair will be saved to a data file.
+
+input file
+
+output file
+
+syntax
 
 ## en-nl.syn.train
 
+
+
 ## en-nl.basicwordlist.csv
+
+
