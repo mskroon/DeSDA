@@ -6,7 +6,17 @@ This folder contains files for research published on CLIN28 on the the developme
 
 ## main.py
 
-Runs all different methods and draws a graph with a ROC-curve for all methods (also reporting on the AUC score for all methods). It will also return the best threshold, as calculated as the point with the smallest Euclidean distance to the top left corner as well as the point where Youden's J statistic is highest.
+Runs all different methods and draws a graph with an ROC-curve for all methods (also reporting on the AUC score for all methods). It will also return the best threshold, as calculated as the point in the ROC-curve with the smallest Euclidean distance to the top left corner as well as the point in the ROC-curve where Youden's J statistic is highest. E.g.:
+
+> `label`
+
+> `AUC: value`
+
+> `Youden: (FPR, TPR, threshold)`
+
+> `Euclidean: (FPR, TPR, threshold)`
+
+In the method labels, `<` means that every instance below the threshold will be predicted `True`, `>` means that every instance above the threshold will be predicted `True`. 
 
 All methods take the `en-nl.syn.train` file as input. Some additional models and training-data files are hard-coded. Refer to lines 12 to 16, and change them accordingly.
 
@@ -52,9 +62,21 @@ The method has four options: to remove stop- and function words, to ignore morph
 
 - If treating morphology is set to `True`, the algorithm does not add morphological features to the node dictionaries, but instead adds nodes to the graph with their value (e.g. `Acc`) as POS-tag. The edges leading to them will have the morphological feature (e.g. `Case`, in lower case, so that the algorithm will treat syntactic relation `case` and morphological feature `Case` as the same) as their label. Morphological nodes also receive CoNLL-U format features as items in their dictionary for possible `tf-idf` weight lookup. Note that using this option will render the UD parses directed acyclic graphs, instead of trees: all morphological-feature nodes only occur once in the graph, but multiple edges (from multiple words) can lead to them.
 
-- If tf-idf weighting is set to `True`, it calculates `idf` values for all **lemmas** (and morphological features, for when morphology is treated as nodes) for both languages, and redefines node insertion and deletion cost as the lemmas' `tf-idf` weight -- very frequent lemmas are therefore cheaper to insert or delete. Node substitution cost is redefined as the number of items in the node dictionaries that are different (in terms of items added, items removed or items assigned another value) times the average between the lemmas' `tf-idf` weights of the nodes in question. `tf-idf` is defined as (1 + \log(f_{f,d})) * log(\frac{N}{n_t}), using log normalization in the `tf` calculation and normal `idf` -- this way of calculating `tf-idf` has shown to be most effective.
+- If tf-idf weighting is set to `True`, it calculates `idf` values for all **lemmas** (and morphological features, for when morphology is treated as nodes) for both languages, and redefines node insertion and deletion cost as the lemmas' `tf-idf` weight -- very frequent lemmas are therefore cheaper to insert or delete. Node substitution cost is redefined as the number of items in the node dictionaries that are different (in terms of items added, items removed or items assigned another value) times the average between the lemmas' `tf-idf` weights of the nodes in question. `tf-idf` is defined as (1 + \log(f_{f,d})) * log(\frac{N}{n_t}), using log normalization in the `tf` calculation and normal `idf` -- this way of calculating `tf-idf` has shown to give the best results.
 
 ## senvec.py
+
+Is a modular script for the method that uses the cosine similarity between two sentences as a measure. It makes use of Bojanowski et al.'s (2016) `fastText` algorithm and Mikolov et al's (2013) method of translating between two vector spaces to calculate sentence vectors. **This method therefore requires two `fastText` models for the two languages, as well as a basic dictionary to train the transformation matrix.** You can train the `fastText` models yourself (they are too big to be uploaded to GitHub), a basic dictionary for English-Dutch can be found in `en-nl.basicwordlist.csv`. The file names of the models and the basic dictionary are defined in lines 14, 15 and 16 of `main.py`.
+
+A sentence vector is calculated as the arithmetic mean of the word vectors of all words in the sentence.
+
+The method has three options: to remove stop- and function words, to use tf-idf weighting in the sentence vectors, and to use a geometric mean instead of the arithmetic mean.
+
+- If removing stop- and function words is set to `True`, it removes all words that are in the `nltk` stopwords corpus for the language in question before calculating sentence vectors (note that stop- and function words are in the corpus when training the `fastText` model). **For now removing stop- and funtion words is hard-coded to deal with English as source language and Dutch as target language.** If you want to change it to another language (pair), refer to lines 22 and 23, and change accordingly.
+
+- If tf-idf weighting is set to `True`, it weights all word vectors with their `tf-idf` when calculating the sentence vector. `tf-idf` is defined as (1 + \log(f_{f,d})) * log(\frac{N}{n_t}), using log normalization in the `tf` calculation and normal `idf` -- this way of calculating `tf-idf` has shown to give the best results.
+
+- If geometric mean is set to `True`, it will use a geometric mean, instead of an arithmetic mean, in the calculation of the sentence vectors. Although the geometric mean ordinarily only applies to numbers (or vectors with components) of the same sign, here it will produce complex vectors (taking the square root of negative numbers). The cosine similarity is in the case of complex vectors defined as [dot product **of the real parts** of the two vectors, divided by the product of the magnitudes of the two vectors](https://en.wikipedia.org/wiki/Dot_product#Complex_vectors).
 
 ## fasttext_translator.py
 
