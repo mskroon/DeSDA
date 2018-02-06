@@ -52,25 +52,21 @@ def Sen_vec_cossim(data_file, train_dict, M1, M2, removestopwords=False, tfidf=F
             if tfidf:
                 line1_counter = Counter(line[1])
                 line2_counter = Counter(line[2])
-                line[1] = [np.array([W.dot(model1[w])])*(line1_counter[w]/len(line[1]))*model1_idf[w] for w in line[1]] # dot product with W: sane as in word2vec_translation.py
-                line[2] = [np.array([model2[w]])*(line2_counter[w]/len(line[2]))*model2_idf[w] for w in line[2]]
+                line[1] = [np.array([W.dot(model1[w])])*(1+log(line1_counter[w]))*model1_idf[w] for w in line[1]] # dot product with W: same as in word2vec_translation.py
+                # line[1] = [np.array([W.dot(model1[w])])*(line1_counter[w]/len(line[1]))*model1_idf[w] for w in line[1]] # dot product with W: sane as in word2vec_translation.py
+                line[2] = [np.array([model2[w]])*(1+log(line2_counter[w]))*model2_idf[w] for w in line[2]]
+                # line[2] = [np.array([model2[w]])*(line2_counter[w]/len(line[2]))*model2_idf[w] for w in line[2]]
             else:
                 line[1] = [np.array([W.dot(model1[w])]) for w in line[1]]
                 line[2] = [np.array([model2[w]]) for w in line[2]]
 
             if geometric:
-                line[1] = scipy.stats.mstats.gmean(np.array(line[1])**2)**.5
-                line[2] = scipy.stats.mstats.gmean(np.array(line[2])**2)**.5
-                # line[1] = product(line[1]) ** (1/len(line[1]))
-                # print(line[1])
-                # line[2] = product(line[2]) ** (1/len(line[2]))
+                line[1] = scipy.stats.mstats.gmean(np.array(line[1], dtype=np.complex_))
+                line[2] = scipy.stats.mstats.gmean(np.array(line[2], dtype=np.complex_))
             else:
                 line[1] = np.mean(line[1], axis=0)
                 line[2] = np.mean(line[2], axis=0)
-                # line[1] = sum(line[1]) / len(line[1])
-                # line[2] = sum(line[2]) / len(line[2])
-            # print(line)
-            d = float(cosine_similarity(line[1], line[2]))
+            d = cosine_similarity(line[1], line[2])[0][0]
             value.append(d)
             target.append(line[0])
     print()
