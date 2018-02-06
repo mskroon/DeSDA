@@ -75,7 +75,7 @@ The method has three options: to remove stop- and function words, to use tf-idf 
 
 - If tf-idf weighting is set to `True`, it weights all word vectors with their `tf-idf` when calculating the sentence vector. `tf-idf` is defined as (1 + \log(f_{f,d})) * log(\frac{N}{n_t}), using log normalization in the `tf` calculation and normal `idf` -- this way of calculating `tf-idf` has shown to give the best results.
 
-- If geometric mean is set to `True`, it will use a geometric mean, instead of an arithmetic mean, in the calculation of the sentence vectors. Although the geometric mean ordinarily only applies to numbers (or vectors with components) of the same sign, here it will produce complex vectors (taking the square root of negative numbers). The cosine similarity is in the case of complex vectors defined as [dot product **of the real parts** of the two vectors, divided by the product of the magnitudes of the two vectors](https://en.wikipedia.org/wiki/Dot_product#Complex_vectors).
+- If geometric mean is set to `True`, it will use a geometric mean, instead of an arithmetic mean, in the calculation of the sentence vectors. Although the geometric mean ordinarily only applies to numbers (or vectors with components) of the same sign, here it will produce complex vectors (taking the square root of negative numbers). The cosine similarity is in the case of complex vectors defined as the [dot product **of the real parts** of the two vectors, divided by the product of the magnitudes of the two vectors](https://en.wikipedia.org/wiki/Dot_product#Complex_vectors).
 
 ## fasttext_translator.py
 
