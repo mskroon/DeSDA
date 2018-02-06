@@ -8,13 +8,12 @@ This folder contains files for research presented at CLIN28 on the the developme
 
 Runs all different methods and draws a graph with an ROC-curve for all methods (also reporting on the AUC score for all methods). It will also return the best threshold, as calculated as the point in the ROC-curve with the smallest Euclidean distance to the top left corner as well as the point in the ROC-curve where Youden's J statistic is highest. E.g.:
 
-> `label`
-
-> `AUC: value`
-
-> `Youden: (FPR, TPR, threshold)`
-
-> `Euclidean: (FPR, TPR, threshold)`
+```
+label
+AUC: value
+Youden: (FPR, TPR, threshold)
+Euclidean: (FPR, TPR, threshold)
+```
 
 In the method labels, `<` means that every instance below the threshold will be predicted `True`, `>` means that every instance above the threshold will be predicted `True`. 
 
@@ -84,18 +83,42 @@ Is a sub-script for `senvec.py`, defining a function to calculate a tranformatio
 
 ## isitsyntacticallyequivalent.py
 
-This is a simple tool to manually annotate sentence pairs as being syntactically comparable or not. With a GUI, it presents the user with two (pre-POS-tagged) sentences, for which the user needs to decide if they are or are not syntactically comparable. When the user has decided whether it is a `Y` or a `N`, the annotated sentence pair will be saved to a data file.
+This is a simple tool to manually annotate sentence pairs as being syntactically comparable or not. With a GUI, it presents the user with two random (pre-POS-tagged) parallel sentences, for which the user needs to decide if they are or are not syntactically comparable. When the user has decided whether it is a `Y` or a `N`, the annotated sentence pair will be saved to a data file -- in this case `en-nl.syn.train`, which is created from parallel sentences from the [Europarl corpus v7](http://www.statmt.org/europarl/) (Koehn, 2005). The user can also skip the presented parallel-sentence pair if they aren't sure how to label them. 
 
-input file
+**When done annotating it is important to press the quit button, and not to close the tool otherwise -- if closed otherwise, any progress won't be saved.**
 
-output file
+The tool is set to only present the user sentence pairs in which none of the two sentences is longer than 20 tokens -- this is to make annotation easier, and to get better results when parsing the sentences with `udpipe`. If you want to change this, refer to line 18.
 
-syntax
+The tool takes as input a file consisting of parallel-sentence pairs separated by a tab. All words are POS-tagged, separated from the word with a pipe (`|`). E.g.:
+
+```
+Resumption|NOUN of|ADP the|DET session|NOUN     Hervatting|NOUN van|ADP de|DET zitting|NOUN
+```
+
+The file from which I created the data set is not included on this GitHub since it is too big.
+
+The output file consists of parallel-sentence pairs, preceded by a `Y` or `N`; i.e. there are three columns, all separated by a tab, first the label, then sentence A, then sentence B. E.g.:
+
+```
+Y  Resumption|NOUN of|ADP the|DET session|NOUN     Hervatting|NOUN van|ADP de|DET zitting|NOUN
+```
+
+The syntax for running the tool is as follows:
+
+```
+python isitsyntacticallyequivalent.py input_file output_file
+```
 
 ## en-nl.syn.train
 
+This is the manually annotated data set for syntactically comparable sentences. It is created from parallel sentences from the [Europarl corpus v7](http://www.statmt.org/europarl/) (Koehn, 2005). The file consists of parallel-sentence pairs, preceded by a `Y` or `N`; i.e. there are three columns, all separated by a tab, first the label, then sentence A, then sentence B.
 
+For now it contains 60 instances of `Y` (i.e. syntactically comparable sentence pairs) and 104 instances of `N` (i.e. not syntactically comparable sentence pairs).
+
+My rule of thumb is that, if all lexical words in sentence A have an equivalent in sentence B, and there isn't a paradigm shift (such as active-to-passive or a relative clause in sentence A but a coordinated clause in sentence B), then it is syntactically comparable.
 
 ## en-nl.basicwordlist.csv
 
+This file is used by `senvec.py` to calculate the transformation matrix. It contains a basic dictionary for English-Dutch of 978 basic word translations. The csv (comma separated!) has a header `source,target`. The word list was obtained from [http://www.englisssh.nl/pdf/g1/G1_Basiswoordenlijst.docx1.pdf].
 
+Note that the list doesn't contain multiword expressions or even the English infinitival marker *to* -- this is because the `fastText` model only understands one-word input.
