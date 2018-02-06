@@ -119,6 +119,6 @@ My rule of thumb is that, if all lexical words in sentence A have an equivalent 
 
 ## en-nl.basicwordlist.csv
 
-This file is used by `senvec.py` to calculate the transformation matrix. It contains a basic dictionary for English-Dutch of 978 basic word translations. The csv (comma separated!) has a header `source,target`. The word list was obtained from [http://www.englisssh.nl/pdf/g1/G1_Basiswoordenlijst.docx1.pdf].
+This file is used by `senvec.py` to calculate the transformation matrix. It contains a basic dictionary for English-Dutch of 978 basic word translations. The csv (comma separated!) has a header `source,target`. The word list was obtained from [http://www.englisssh.nl/pdf/g1/G1_Basiswoordenlijst.docx1.pdf](http://www.englisssh.nl/pdf/g1/G1_Basiswoordenlijst.docx1.pdf).
 
 Note that the list doesn't contain multiword expressions or even the English infinitival marker *to* -- this is because the `fastText` model only understands one-word input.
