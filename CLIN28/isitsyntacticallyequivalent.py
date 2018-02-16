@@ -49,7 +49,7 @@ print(len(corpus))
 #         quit()
 
 for S in corpus:
-    print('Y: ' + str(YN.get('Y', 0)) + '\tN: ' + str(YN.get('N', 0)), end='\r')
+    print('Y: ' + str(YN.get('Y', 0)) + '\tN: ' + str(YN.get('N', 0)) + '\tTotal: ' + str(YN.get('Y', 0) + YN.get('N', 0)), end='\r')
     top = tkinter.Tk()
     def yes():
         resultfile.write('Y\t' + S[0] + '\t' + S[1] + '\n')

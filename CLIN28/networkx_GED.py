@@ -141,8 +141,8 @@ def Networkx_GED(data_file, M1, M2, ignore_morphology=False, removestopwords=Fal
         quit()
     M1 = Model.load(M1)
     M2 = Model.load(M2)
-    pipeline_1 = Pipeline(M1, 'tokenize', Pipeline.DEFAULT, Pipeline.DEFAULT, 'conllu')
-    pipeline_2 = Pipeline(M2, 'tokenize', Pipeline.DEFAULT, Pipeline.DEFAULT, 'conllu')
+    pipeline_1 = Pipeline(M1, 'horizontal', Pipeline.DEFAULT, Pipeline.DEFAULT, 'conllu')
+    pipeline_2 = Pipeline(M2, 'horizontal', Pipeline.DEFAULT, Pipeline.DEFAULT, 'conllu')
     if removestopwords:
         StopWords = [stopwords.words('english'), stopwords.words('dutch')]
     else:
