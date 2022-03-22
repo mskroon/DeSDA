@@ -4,7 +4,7 @@ This folder contains all the relevant code and data to recreate the experiments 
 
 ## Tools
 
-```Tools``` contain the DGAE, GTI and AAA, as well as a simple tokenizer on which the three tools depend. Also uploaded is a UDPipe model for convenience ([ParTUT; Sanguinetti and Bosco 2015](https://github.com/UniversalDependencies/UD_English-ParTUT); [Straka and Straková 2017](https://github.com/ufal/udpipe)).
+```Tools``` contain the DGAE, GTI and AAA, as well as a simple tokenizer on which the three tools depend. Also uploaded is a [UDPipe](https://github.com/ufal/udpipe) model for convenience ([ParTUT](https://github.com/UniversalDependencies/UD_English-ParTUT); Sanguinetti and Bosco 2015; Straka and Straková 2017).
 
 All three tools have a default
 ```
