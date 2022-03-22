@@ -1,0 +1,388 @@
+Reading done.
+Extracting paradigms with:
+	Target: translation
+	Ignoring: ['ancestor_cross', 'descendant_cross', 'cousin_cross']
+	Max. number of affixes: None
+	Max. number of feature sets: 100
+	Min. affix frequency: 100
+	Min. feature set frequency: 100
+	Level: type
+Total number of words: 292914
+Total number of affixes: 362403
+	Number of affixes selected: 4538
+Number of distinct features: 16915
+	Number of features selected: 956
+Number of distinct feature sets: 82948974
+	Number of distinct feature sets exceeding minimum frequency: 137307
+Processing feature sets...
+Number of feature sets selected: 100
+Number of non-zero values: 437326
+Taking top 1000 and cleaning...
+Number of feature set-affix pairs found: 364
+Features-affixes associations:
+                                                                                          features    affix    value
+                                             (feats=('Tense', 'Past'), feats=('VerbForm', 'Part'))    -tott 0.030375
+                                                               (children=NOUN_obj, pos=VERB_Trans)      -ék 0.030394
+                                                                      (feats=('PronType', 'Prs'),)     -ket 0.030575
+                                                                (feats=('Degree', 'Pos'), pos=ADJ)      -es 0.030595
+                                                                       (children=and_cc, pos=NOUN)      -at 0.030701
+                                                              (feats=('Number', 'Plur'), pos=NOUN)       s- 0.030706
+(feats=('Mood', 'Ind'), feats=('Person', '3'), feats=('Tense', 'Past'), feats=('VerbForm', 'Fin'))      -dá 0.030732
+                                                                                       (pos=PRON,)       õt 0.030765
+                                                             (children=NOUN_obl, pos=VERB_Intrans)     -éne 0.030829
+                                                             (deprel=nmod, parents=NOUN, pos=NOUN)       s- 0.030867
+                              (feats=('Mood', 'Ind'), feats=('VerbForm', 'Fin'), pos=VERB_Intrans)      -la 0.030888
+                      (feats=('Mood', 'Ind'), feats=('Number', 'Plur'), feats=('VerbForm', 'Fin'))    szól- 0.030891
+                                                                       (deprel=root, parents=None)     meg- 0.031215
+                                                                            (children=NOUN_nsubj,)      -om 0.031510
+                                                             (children=NOUN_obl, pos=VERB_Intrans)      -ék 0.031531
+                                                      (deprel=obl, parents=VERB_Intrans, pos=NOUN)      -al 0.031586
+                                                                      (feats=('PronType', 'Prs'),)    nékem 0.031587
+                                                                      (feats=('PronType', 'Prs'),)     -kem 0.031604
+                                          (feats=('Number', 'Sing'), parents=VERB_Trans, pos=NOUN)      -ot 0.031618
+                    (feats=('Number', 'Plur'), feats=('Tense', 'Pres'), feats=('VerbForm', 'Fin'))      -dd 0.031655
+                                                  (children=NOUN_nmod, children=the_det, pos=NOUN)     ház- 0.031685
+                                                         (feats=('Tense', 'Past'), pos=VERB_Trans)      -vé 0.031735
+                                            (children=the_det, feats=('Number', 'Sing'), pos=NOUN)       -n 0.031785
+                    (feats=('Number', 'Plur'), feats=('Tense', 'Pres'), feats=('VerbForm', 'Fin'))     -tek 0.031823
+                              (feats=('Mood', 'Ind'), feats=('VerbForm', 'Fin'), pos=VERB_Intrans) mondának 0.031843
+                                                       (feats=('Tense', 'Past'), pos=VERB_Intrans)     fel- 0.031845
+                                             (feats=('Tense', 'Past'), feats=('VerbForm', 'Part'))     -tak 0.031866
+                                               (feats=('Number', 'Plur'), feats=('Tense', 'Pres'))     -tek 0.031874
+                                                                                       (pos=PRON,)      azt 0.031902
+                                                  (deprel=obl, feats=('Number', 'Sing'), pos=NOUN)     -ból 0.031913
+                              (feats=('Mood', 'Ind'), feats=('VerbForm', 'Fin'), pos=VERB_Intrans)  mondán- 0.031922
+                                                              (feats=('Number', 'Plur'), pos=NOUN)     -ait 0.031944
+                      (feats=('Mood', 'Ind'), feats=('Number', 'Plur'), feats=('VerbForm', 'Fin'))     -tek 0.031948
+                                                          (feats=('Number', 'Plur'), parents=NOUN)     -kat 0.031999
+                                                          (feats=('Number', 'Plur'), parents=NOUN)     nép- 0.032240
+                                                                       (deprel=root, parents=None)    monda 0.032255
+                    (feats=('Number', 'Plur'), feats=('Tense', 'Pres'), feats=('VerbForm', 'Fin'))    szól- 0.032311
+                              (feats=('Mood', 'Ind'), feats=('VerbForm', 'Fin'), pos=VERB_Intrans)   -dának 0.032354
+                               (children=and_cc, feats=('Mood', 'Ind'), feats=('VerbForm', 'Fin')) mondának 0.032372
+                                                                                       (pos=PRON,)     néki 0.032514
+                               (children=and_cc, feats=('Mood', 'Ind'), feats=('VerbForm', 'Fin'))  mondán- 0.032543
+                      (feats=('Mood', 'Ind'), feats=('Number', 'Plur'), feats=('VerbForm', 'Fin'))       v- 0.032584
+                                                                      (feats=('PronType', 'Prs'),)    hozz- 0.032617
+                                                                                       (pos=PRON,)     -éki 0.032698
+                       (feats=('Mood', 'Ind'), feats=('Tense', 'Pres'), feats=('VerbForm', 'Fin'))      me- 0.032701
+                                                      (deprel=obl, parents=VERB_Intrans, pos=NOUN)     -ból 0.032872
+                                          (children=NOUN_nmod, feats=('Number', 'Sing'), pos=NOUN)      -át 0.032950
+                               (children=and_cc, feats=('Mood', 'Ind'), feats=('VerbForm', 'Fin'))   -dának 0.033020
+                                                                     (children=None, parents=NOUN)        a 0.033065
+                      (feats=('Mood', 'Ind'), feats=('Number', 'Plur'), feats=('VerbForm', 'Fin'))    -átok 0.033258
+                                                               (children=NOUN_obj, pos=VERB_Trans)      -ák 0.033283
+                                   (deprel=nmod, feats=('Number', 'Sing'), parents=NOUN, pos=NOUN)     -nek 0.033409
+                                                                                       (pos=PRON,)    azok- 0.033463
+                                                                     (children=None, parents=NOUN)       -z 0.033468
+                                                                      (children=of_case, pos=NOUN)       s- 0.033507
+                                                                      (feats=('VerbForm', 'Inf'),)     -tok 0.033518
+                                                                                       (pos=PRON,)   melye- 0.033530
+                                                                                   (deprel=advcl,)     -ván 0.033814
+                                                       (feats=('Tense', 'Past'), pos=VERB_Intrans)    -ének 0.033858
+                                                        (deprel=obj, parents=VERB_Trans, pos=NOUN)    -okat 0.033909
+                                                               (children=NOUN_obj, pos=VERB_Trans)       -é 0.034035
+                    (feats=('Number', 'Plur'), feats=('Tense', 'Pres'), feats=('VerbForm', 'Fin'))    -átok 0.034037
+                                                                      (feats=('PronType', 'Prs'),)        a 0.034177
+                                            (children=the_det, feats=('Number', 'Sing'), pos=NOUN)      -át 0.034198
+(feats=('Mood', 'Ind'), feats=('Person', '3'), feats=('Tense', 'Past'), feats=('VerbForm', 'Fin'))    -ának 0.034210
+                       (feats=('Mood', 'Ind'), feats=('Tense', 'Pres'), feats=('VerbForm', 'Fin'))     -tok 0.034222
+                                                  (feats=('Person', '3'), feats=('Tense', 'Past'))    -ának 0.034228
+                               (children=and_cc, feats=('Mood', 'Ind'), feats=('VerbForm', 'Fin'))    -méne 0.034233
+                                          (feats=('Number', 'Sing'), parents=VERB_Trans, pos=NOUN)      -ét 0.034336
+                                                        (deprel=obj, parents=VERB_Trans, pos=NOUN)      -it 0.034367
+                                           (children=ADJ_amod, feats=('Number', 'Sing'), pos=NOUN)       -d 0.034421
+                                                                  (deprel=obj, parents=VERB_Trans)      -it 0.034461
+                                                       (feats=('Tense', 'Past'), pos=VERB_Intrans)      -ek 0.034465
+                                                         (feats=('Tense', 'Past'), pos=VERB_Trans)     -ták 0.034528
+                      (feats=('Mood', 'Ind'), feats=('Number', 'Plur'), feats=('VerbForm', 'Fin'))     tud- 0.034564
+                                                                     (children=ADJ_amod, pos=NOUN)       -t 0.034612
+                                                              (feats=('Number', 'Plur'), pos=NOUN)      -ek 0.034635
+                                                                                     (deprel=obj,)      -it 0.034668
+                                                                       (deprel=root, parents=None)       -k 0.034714
+                                                         (feats=('Tense', 'Past'), pos=VERB_Trans)     -tta 0.034747
+                                   (deprel=nmod, feats=('Number', 'Sing'), parents=NOUN, pos=NOUN)       -n 0.034752
+                               (children=and_cc, feats=('Mood', 'Ind'), feats=('VerbForm', 'Fin'))      -ák 0.034823
+                                                      (children=and_cc, feats=('VerbForm', 'Fin'))      -ák 0.034971
+                                                                                       (pos=PRON,)     -ket 0.034973
+                                (feats=('Mood', 'Ind'), feats=('VerbForm', 'Fin'), pos=VERB_Trans)      el- 0.034999
+                                                                            (children=NOUN_nsubj,)     -tok 0.035088
+                                                                                       (pos=PRON,)        õ 0.035208
+                                                                                       (pos=PRON,)      -zt 0.035226
+                                (feats=('Mood', 'Ind'), feats=('VerbForm', 'Fin'), pos=VERB_Trans)      -ta 0.035246
+                                                          (feats=('Number', 'Plur'), parents=NOUN)    -knak 0.035331
+                                                                       (children=None, feats=None)        , 0.035339
+                                           (children=ADJ_amod, feats=('Number', 'Sing'), pos=NOUN)    iste- 0.035424
+                                                                      (feats=('VerbForm', 'Inf'),)      -ek 0.035431
+                                           (children=ADJ_amod, feats=('Number', 'Sing'), pos=NOUN)     ist- 0.035498
+                                                  (deprel=obl, feats=('Number', 'Sing'), pos=NOUN)    föld- 0.035702
+                              (feats=('Mood', 'Ind'), feats=('VerbForm', 'Fin'), pos=VERB_Intrans)    -ának 0.035807
+                                                         (feats=('Tense', 'Past'), pos=VERB_Trans)     -ott 0.035989
+                                                                                       (pos=PRON,)       ki 0.036015
+                    (feats=('Number', 'Plur'), feats=('Tense', 'Pres'), feats=('VerbForm', 'Fin'))     tud- 0.036128
+                                (feats=('Mood', 'Ind'), feats=('VerbForm', 'Fin'), pos=VERB_Trans)       -d 0.036222
+                                                  (children=NOUN_nmod, children=the_det, pos=NOUN)      -ei 0.036352
+                                                                      (feats=('PronType', 'Prs'),)    rajt- 0.036357
+                                                          (feats=('Number', 'Plur'), parents=NOUN)      -ak 0.036403
+                                                                              (children=NOUN_obl,)      -ék 0.036406
+(feats=('Mood', 'Ind'), feats=('Person', '3'), feats=('Tense', 'Past'), feats=('VerbForm', 'Fin'))      -té 0.036415
+                                (feats=('Mood', 'Ind'), feats=('VerbForm', 'Fin'), pos=VERB_Trans)      -te 0.036536
+                                                              (feats=('Number', 'Plur'), pos=NOUN)     fiai 0.036565
+(feats=('Mood', 'Ind'), feats=('Person', '3'), feats=('Tense', 'Past'), feats=('VerbForm', 'Fin'))   mondá- 0.036594
+                              (feats=('Mood', 'Ind'), feats=('VerbForm', 'Fin'), pos=VERB_Intrans)     men- 0.036628
+                                        (feats=('Number', 'Sing'), parents=VERB_Intrans, pos=NOUN)       -a 0.036647
+                               (children=and_cc, feats=('Mood', 'Ind'), feats=('VerbForm', 'Fin'))     fel- 0.036781
+                                                                      (feats=('PronType', 'Prs'),)       r- 0.036858
+                                                                      (feats=('VerbForm', 'Inf'),)      -om 0.036904
+                                                      (deprel=obl, parents=VERB_Intrans, pos=NOUN)       f- 0.036914
+                                                                       (children=and_cc, pos=NOUN)       f- 0.037093
+                                                             (deprel=nmod, parents=NOUN, pos=NOUN)     -nek 0.037116
+                              (feats=('Mood', 'Ind'), feats=('VerbForm', 'Fin'), pos=VERB_Intrans)     elm- 0.037118
+                               (children=and_cc, feats=('Mood', 'Ind'), feats=('VerbForm', 'Fin'))   mondá- 0.037453
+                                                              (feats=('Number', 'Plur'), pos=NOUN)      -ok 0.037624
+                                                      (deprel=obl, parents=VERB_Intrans, pos=NOUN)     -ben 0.037709
+                                                                       (children=None, feats=None)      -gy 0.038422
+                               (children=and_cc, feats=('Mood', 'Ind'), feats=('VerbForm', 'Fin'))      -té 0.038426
+(feats=('Mood', 'Ind'), feats=('Person', '3'), feats=('Tense', 'Past'), feats=('VerbForm', 'Fin'))    -méne 0.038520
+                                                                                       (pos=PRON,)      -nk 0.038657
+                               (children=and_cc, feats=('Mood', 'Ind'), feats=('VerbForm', 'Fin'))    -ának 0.038742
+                                                              (feats=('Number', 'Plur'), pos=NOUN)    -eket 0.038794
+                                                              (feats=('Number', 'Plur'), pos=NOUN)      -ei 0.038801
+                                                  (feats=('Person', '3'), feats=('Tense', 'Past'))    -méne 0.039014
+                      (feats=('Mood', 'Ind'), feats=('Number', 'Plur'), feats=('VerbForm', 'Fin'))      me- 0.039038
+                                             (feats=('Tense', 'Past'), feats=('VerbForm', 'Part'))     -tam 0.039119
+                                                       (feats=('VerbForm', 'Fin'), pos=VERB_Trans)       -d 0.039121
+                                          (feats=('Number', 'Sing'), parents=VERB_Trans, pos=NOUN)      -et 0.039255
+                                                             (children=NOUN_obl, pos=VERB_Intrans)     meg- 0.039285
+                                                                      (children=of_case, pos=NOUN)    -ának 0.039506
+                                                                                       (pos=PRON,)     min- 0.039523
+(feats=('Mood', 'Ind'), feats=('Person', '3'), feats=('Tense', 'Past'), feats=('VerbForm', 'Fin'))     fel- 0.039768
+                                                  (feats=('Person', '3'), feats=('Tense', 'Past'))     fel- 0.039773
+                                             (feats=('Tense', 'Past'), feats=('VerbForm', 'Part'))     -tik 0.039779
+                                (feats=('Mood', 'Ind'), feats=('VerbForm', 'Fin'), pos=VERB_Trans)      -ák 0.039789
+                                             (feats=('Tense', 'Past'), feats=('VerbForm', 'Part'))     -tek 0.039819
+                                                       (feats=('Tense', 'Past'), pos=VERB_Intrans)     -éne 0.039913
+                                                                     (children=ADJ_amod, pos=NOUN)       -d 0.039923
+                                                         (feats=('Tense', 'Past'), pos=VERB_Trans)     -tam 0.039929
+                                                             (children=NOUN_obl, pos=VERB_Intrans)      -ek 0.040144
+                                                          (feats=('Number', 'Plur'), parents=NOUN)     fia- 0.040183
+                                                              (feats=('Number', 'Plur'), pos=NOUN)    -okat 0.040349
+                                                  (deprel=obl, feats=('Number', 'Sing'), pos=NOUN)     -ben 0.040495
+                                                             (children=NOUN_obl, pos=VERB_Intrans)      -tt 0.040498
+                       (feats=('Mood', 'Ind'), feats=('Tense', 'Past'), feats=('VerbForm', 'Fin'))    -ának 0.040573
+                                                       (feats=('Tense', 'Past'), pos=VERB_Intrans)     -ett 0.040725
+                                                                      (feats=('VerbForm', 'Inf'),)       -m 0.040841
+                              (feats=('Mood', 'Ind'), feats=('VerbForm', 'Fin'), pos=VERB_Intrans)    -ének 0.040896
+(feats=('Mood', 'Ind'), feats=('Person', '3'), feats=('Tense', 'Past'), feats=('VerbForm', 'Fin'))      -la 0.040979
+                                                  (feats=('Person', '3'), feats=('Tense', 'Past'))      -la 0.041015
+                                                  (children=NOUN_nmod, children=the_det, pos=NOUN)      fia 0.041110
+                    (feats=('Number', 'Plur'), feats=('Tense', 'Pres'), feats=('VerbForm', 'Fin'))      me- 0.041248
+                       (feats=('Mood', 'Ind'), feats=('Tense', 'Pres'), feats=('VerbForm', 'Fin'))       -j 0.041311
+                                                         (feats=('Tense', 'Past'), pos=VERB_Trans)      ad- 0.041423
+                                                  (deprel=obl, feats=('Number', 'Sing'), pos=NOUN)      -re 0.041667
+                       (feats=('Mood', 'Ind'), feats=('Tense', 'Past'), feats=('VerbForm', 'Fin'))      -la 0.041834
+                                                                                   (deprel=nsubj,)       -i 0.041908
+                                                          (feats=('Number', 'Plur'), parents=NOUN)      -ai 0.042335
+                                             (feats=('Tense', 'Past'), feats=('VerbForm', 'Part'))      -ek 0.042392
+(feats=('Mood', 'Ind'), feats=('Person', '3'), feats=('Tense', 'Past'), feats=('VerbForm', 'Fin'))    -ének 0.042443
+                                                  (feats=('Person', '3'), feats=('Tense', 'Past'))    -ének 0.042471
+                                            (children=the_det, feats=('Number', 'Sing'), pos=NOUN)       úr 0.042506
+                              (feats=('Mood', 'Ind'), feats=('VerbForm', 'Fin'), pos=VERB_Intrans)   mondá- 0.042651
+                               (children=and_cc, feats=('Mood', 'Ind'), feats=('VerbForm', 'Fin'))    -ének 0.042733
+                                                      (deprel=obl, parents=VERB_Intrans, pos=NOUN)      -õl 0.042913
+(feats=('Mood', 'Ind'), feats=('Person', '3'), feats=('Tense', 'Past'), feats=('VerbForm', 'Fin'))      -tá 0.042995
+                                                                      (feats=('PronType', 'Prs'),)      azt 0.043095
+                                                       (feats=('Tense', 'Past'), pos=VERB_Intrans)     -ott 0.043159
+                                            (children=the_det, feats=('Number', 'Sing'), pos=NOUN)    föld- 0.043185
+                                                                      (feats=('PronType', 'Prs'),)    engem 0.043411
+                                                                                       (pos=PRON,)      -em 0.043675
+                                          (children=NOUN_nmod, feats=('Number', 'Sing'), pos=NOUN)       f- 0.043691
+                                            (children=the_det, feats=('Number', 'Sing'), pos=NOUN)       -e 0.043742
+                               (children=and_cc, feats=('Mood', 'Ind'), feats=('VerbForm', 'Fin'))      -tá 0.043966
+                                                                       (deprel=root, parents=None)    mond- 0.044064
+                                                          (feats=('Number', 'Plur'), parents=NOUN)      -ek 0.044232
+                                                      (deprel=obl, parents=VERB_Intrans, pos=NOUN)      -ba 0.044443
+(feats=('Mood', 'Ind'), feats=('Person', '3'), feats=('Tense', 'Past'), feats=('VerbForm', 'Fin'))      -ta 0.044510
+                                                                      (feats=('PronType', 'Prs'),)     -ünk 0.044583
+                              (feats=('Mood', 'Ind'), feats=('VerbForm', 'Fin'), pos=VERB_Intrans)    -méne 0.044735
+                                (feats=('Mood', 'Ind'), feats=('VerbForm', 'Fin'), pos=VERB_Trans)      -té 0.044815
+                                                                       (children=None, feats=None)        a 0.044824
+                               (children=and_cc, feats=('Mood', 'Ind'), feats=('VerbForm', 'Fin'))     -éne 0.045003
+                                                  (children=NOUN_nmod, children=the_det, pos=NOUN)      -át 0.045118
+                                          (children=NOUN_nmod, feats=('Number', 'Sing'), pos=NOUN)       -e 0.045224
+                                                                                       (pos=PRON,)    mely- 0.045271
+                                        (feats=('Number', 'Sing'), parents=VERB_Intrans, pos=NOUN)       -n 0.045590
+                      (feats=('Mood', 'Ind'), feats=('Number', 'Plur'), feats=('VerbForm', 'Fin'))     -tok 0.045635
+                                                                      (feats=('PronType', 'Prs'),)       õt 0.045685
+                                                                      (feats=('PronType', 'Prs'),)     mag- 0.045760
+                                (feats=('Mood', 'Ind'), feats=('VerbForm', 'Fin'), pos=VERB_Trans)      -tá 0.045763
+                                                  (deprel=obl, feats=('Number', 'Sing'), pos=NOUN)      -ól 0.046029
+                                                  (deprel=obl, feats=('Number', 'Sing'), pos=NOUN)      -õl 0.046093
+                                                  (deprel=obl, feats=('Number', 'Sing'), pos=NOUN)      -ba 0.046177
+                                                      (deprel=obl, parents=VERB_Intrans, pos=NOUN)      -ól 0.046950
+                                                        (deprel=obj, parents=VERB_Trans, pos=NOUN)     -ket 0.047134
+                                                                            (children=NOUN_nsubj,)       -k 0.047146
+                    (feats=('Number', 'Plur'), feats=('Tense', 'Pres'), feats=('VerbForm', 'Fin'))     -tok 0.047405
+                                                                      (feats=('PronType', 'Prs'),)    azok- 0.047493
+                                                  (children=NOUN_nmod, children=the_det, pos=NOUN)      -ét 0.047892
+                                                                                       (pos=PRON,)     vel- 0.047914
+                                                                       (children=None, feats=None)       az 0.047962
+                                                         (feats=('Tense', 'Past'), pos=VERB_Trans)      -ák 0.048070
+                                                                      (feats=('PronType', 'Prs'),)     néki 0.048282
+                                                      (deprel=obl, parents=VERB_Intrans, pos=NOUN)     -ban 0.048377
+                                                                      (feats=('PronType', 'Prs'),)     -éki 0.048594
+                                                                              (children=NOUN_obl,)     meg- 0.048724
+                                   (deprel=nmod, feats=('Number', 'Sing'), parents=NOUN, pos=NOUN)       -l 0.048772
+                                                              (feats=('Number', 'Plur'), pos=NOUN)     -iai 0.048923
+                                                  (children=NOUN_nmod, children=the_det, pos=NOUN)     fiai 0.049017
+                              (feats=('Mood', 'Ind'), feats=('VerbForm', 'Fin'), pos=VERB_Intrans)       -k 0.049286
+(feats=('Mood', 'Ind'), feats=('Person', '3'), feats=('Tense', 'Past'), feats=('VerbForm', 'Fin'))      -tt 0.049296
+                                                     (feats=('VerbForm', 'Fin'), pos=VERB_Intrans)       -k 0.049319
+                                                  (feats=('Person', '3'), feats=('Tense', 'Past'))      -tt 0.049436
+                                                                      (children=of_case, pos=NOUN)     -bõl 0.049439
+(feats=('Mood', 'Ind'), feats=('Person', '3'), feats=('Tense', 'Past'), feats=('VerbForm', 'Fin'))      el- 0.049502
+                                                  (feats=('Person', '3'), feats=('Tense', 'Past'))      el- 0.049676
+                                                                  (deprel=obj, parents=VERB_Trans)     -ket 0.049686
+                                                        (deprel=obj, parents=VERB_Trans, pos=NOUN)      -ét 0.049691
+                                                          (feats=('Number', 'Plur'), parents=NOUN)      -ok 0.049794
+                                                                                       (pos=PRON,)     azo- 0.050111
+                                          (feats=('Number', 'Sing'), parents=VERB_Trans, pos=NOUN)      -át 0.050447
+                                                                                     (deprel=obj,)     -ket 0.050482
+                                                              (feats=('Number', 'Plur'), pos=NOUN)      -it 0.050485
+                                                       (feats=('Tense', 'Past'), pos=VERB_Intrans)      -ék 0.050552
+                                                  (deprel=obl, feats=('Number', 'Sing'), pos=NOUN)     -ban 0.051076
+(feats=('Mood', 'Ind'), feats=('Person', '3'), feats=('Tense', 'Past'), feats=('VerbForm', 'Fin'))     -éne 0.051089
+                                                             (children=NOUN_obl, pos=VERB_Intrans)      me- 0.051326
+                                                  (feats=('Person', '3'), feats=('Tense', 'Past'))     -éne 0.051566
+                                                                                       (pos=PRON,)       õ- 0.051811
+                                                              (feats=('Number', 'Plur'), pos=NOUN)     -ket 0.051902
+                                             (feats=('Tense', 'Past'), feats=('VerbForm', 'Part'))      el- 0.052135
+                                                         (feats=('Tense', 'Past'), pos=VERB_Trans)      el- 0.052189
+                                             (feats=('Tense', 'Past'), feats=('VerbForm', 'Part'))     -ett 0.052295
+                                                                              (children=NOUN_obl,)      me- 0.052455
+                                            (children=the_det, feats=('Number', 'Sing'), pos=NOUN)     föl- 0.052545
+                                                                (feats=('Degree', 'Pos'), pos=ADJ)       -s 0.052839
+                                             (feats=('Tense', 'Past'), feats=('VerbForm', 'Part'))      -ék 0.052910
+                                                 (deprel=nmod, feats=('Number', 'Sing'), pos=NOUN)       -l 0.053212
+                                                               (children=NOUN_obj, pos=VERB_Trans)       -k 0.053231
+                       (feats=('Mood', 'Ind'), feats=('Tense', 'Pres'), feats=('VerbForm', 'Fin'))       -k 0.053473
+                                                       (feats=('Tense', 'Past'), pos=VERB_Intrans)      el- 0.053595
+                               (children=and_cc, feats=('Mood', 'Ind'), feats=('VerbForm', 'Fin'))      el- 0.053981
+                                                                       (children=None, feats=None)      mi- 0.054009
+                                            (children=the_det, feats=('Number', 'Sing'), pos=NOUN)      fö- 0.054064
+                                                         (feats=('Tense', 'Past'), pos=VERB_Trans)     -ték 0.054614
+                      (feats=('Mood', 'Ind'), feats=('Number', 'Plur'), feats=('VerbForm', 'Fin'))       -j 0.054912
+                                                                                   (deprel=advcl,)       -k 0.055498
+                                (feats=('Mood', 'Ind'), feats=('VerbForm', 'Fin'), pos=VERB_Trans)      -ék 0.055850
+                                            (children=the_det, feats=('Number', 'Sing'), pos=NOUN)       -a 0.056197
+                                                        (deprel=obj, parents=VERB_Trans, pos=NOUN)      -ot 0.056397
+                                                              (feats=('Number', 'Plur'), pos=NOUN)     nép- 0.056571
+                    (feats=('Number', 'Plur'), feats=('Tense', 'Pres'), feats=('VerbForm', 'Fin'))       -j 0.057385
+                                                         (feats=('Tense', 'Past'), pos=VERB_Trans)      -te 0.057992
+                                            (children=the_det, feats=('Number', 'Sing'), pos=NOUN)       ú- 0.058270
+                                                         (feats=('Tense', 'Past'), pos=VERB_Trans)      -té 0.058577
+                                        (feats=('Number', 'Sing'), parents=VERB_Intrans, pos=NOUN)       -l 0.058606
+                                                  (children=NOUN_nmod, children=the_det, pos=NOUN)     fia- 0.059296
+                                             (feats=('Tense', 'Past'), feats=('VerbForm', 'Part'))     -ott 0.059976
+                              (feats=('Mood', 'Ind'), feats=('VerbForm', 'Fin'), pos=VERB_Intrans)     -éne 0.060110
+                                                                      (children=of_case, pos=NOUN)     -ból 0.060536
+                                                                       (children=None, feats=None)       a- 0.060749
+                                                                                       (pos=PRON,)     mel- 0.061266
+                                                                      (children=of_case, pos=NOUN)      -õl 0.061536
+                                   (deprel=nmod, feats=('Number', 'Sing'), parents=NOUN, pos=NOUN)     -nak 0.061628
+                                                         (feats=('Tense', 'Past'), pos=VERB_Trans)      -tá 0.062021
+                                                         (feats=('Tense', 'Past'), pos=VERB_Trans)      -tt 0.062280
+                                                                       (children=None, feats=None)       és 0.062440
+                                                                            (children=NOUN_nsubj,)     meg- 0.062635
+                                                             (deprel=nmod, parents=NOUN, pos=NOUN)     -nak 0.062743
+                                                                      (feats=('PronType', 'Prs'),)      -nk 0.065479
+                                                                                   (deprel=advcl,)     meg- 0.065939
+                                                                      (feats=('PronType', 'Prs'),)        õ 0.066175
+                       (feats=('Mood', 'Ind'), feats=('Tense', 'Pres'), feats=('VerbForm', 'Fin'))       -d 0.067435
+                                                                      (feats=('PronType', 'Prs'),)     azo- 0.068183
+                                                                                       (pos=PRON,)      mi- 0.068263
+                                            (children=the_det, feats=('Number', 'Sing'), pos=NOUN)       f- 0.068525
+                                                         (feats=('Tense', 'Past'), pos=VERB_Trans)      -ta 0.068962
+(feats=('Mood', 'Ind'), feats=('Person', '3'), feats=('Tense', 'Past'), feats=('VerbForm', 'Fin'))       -é 0.069613
+                                                       (feats=('Tense', 'Past'), pos=VERB_Intrans)     meg- 0.069805
+                                                                      (feats=('PronType', 'Prs'),)     vel- 0.070412
+                                                                                   (deprel=advcl,)      me- 0.070535
+                                          (children=NOUN_nmod, feats=('Number', 'Sing'), pos=NOUN)       -a 0.070551
+                                                        (deprel=obj, parents=VERB_Trans, pos=NOUN)      -át 0.070654
+                                                        (deprel=obj, parents=VERB_Trans, pos=NOUN)     -kat 0.071477
+                                                  (children=NOUN_nmod, children=the_det, pos=NOUN)      -ai 0.071665
+                                                  (children=NOUN_nmod, children=the_det, pos=NOUN)       -e 0.072116
+                                                              (feats=('Number', 'Plur'), pos=NOUN)     fia- 0.072164
+                                                                       (children=and_cc, pos=NOUN)       -t 0.072408
+                                                            (children=NOUN_nmod, children=the_det)       -e 0.072529
+(feats=('Mood', 'Ind'), feats=('Person', '3'), feats=('Tense', 'Past'), feats=('VerbForm', 'Fin'))      -ék 0.072847
+                                                  (feats=('Person', '3'), feats=('Tense', 'Past'))      -ék 0.072909
+                                                                                   (deprel=advcl,)    mond- 0.073128
+                                                                      (feats=('PronType', 'Prs'),)       õ- 0.075045
+                                                                      (feats=('PronType', 'Prs'),)      -em 0.076616
+                                                                            (children=NOUN_nsubj,)       -m 0.078016
+                                                                                       (pos=PRON,)      az- 0.078170
+                                                              (feats=('Number', 'Plur'), pos=NOUN)     -kat 0.078705
+                                                               (children=NOUN_obj, pos=VERB_Trans)     meg- 0.079099
+                                                                      (children=of_case, pos=NOUN)      -ól 0.079694
+                               (children=and_cc, feats=('Mood', 'Ind'), feats=('VerbForm', 'Fin'))      -ék 0.079700
+                                                                      (feats=('VerbForm', 'Inf'),)      -ni 0.080587
+                               (children=and_cc, feats=('Mood', 'Ind'), feats=('VerbForm', 'Fin'))       -é 0.081038
+                                                  (children=NOUN_nmod, children=the_det, pos=NOUN)       -a 0.081622
+                                                              (feats=('Number', 'Plur'), pos=NOUN)      -ai 0.082250
+(feats=('Mood', 'Ind'), feats=('Person', '3'), feats=('Tense', 'Past'), feats=('VerbForm', 'Fin'))     meg- 0.082696
+                                                  (feats=('Person', '3'), feats=('Tense', 'Past'))     meg- 0.082762
+                               (children=and_cc, feats=('Mood', 'Ind'), feats=('VerbForm', 'Fin'))     meg- 0.083503
+                                (feats=('Mood', 'Ind'), feats=('VerbForm', 'Fin'), pos=VERB_Trans)       -á 0.083568
+                                                      (deprel=obl, parents=VERB_Intrans, pos=NOUN)       -n 0.085338
+                                                                      (children=of_case, pos=NOUN)     -nek 0.085649
+                                                                                       (pos=PRON,)        a 0.086049
+                      (feats=('Mood', 'Ind'), feats=('Number', 'Plur'), feats=('VerbForm', 'Fin'))       -d 0.086339
+                    (feats=('Number', 'Plur'), feats=('Tense', 'Pres'), feats=('VerbForm', 'Fin'))       -k 0.087383
+                                (feats=('Mood', 'Ind'), feats=('VerbForm', 'Fin'), pos=VERB_Trans)       -é 0.087567
+                                                         (feats=('Tense', 'Past'), pos=VERB_Trans)      -ék 0.087780
+                                                                                       (pos=PRON,)     nék- 0.087972
+                               (children=and_cc, feats=('Mood', 'Ind'), feats=('VerbForm', 'Fin'))       -á 0.088833
+(feats=('Mood', 'Ind'), feats=('Person', '3'), feats=('Tense', 'Past'), feats=('VerbForm', 'Fin'))       -á 0.089496
+                                                  (deprel=obl, feats=('Number', 'Sing'), pos=NOUN)       -n 0.089619
+                                                       (feats=('Tense', 'Past'), pos=VERB_Intrans)      -tt 0.089825
+                    (feats=('Number', 'Plur'), feats=('Tense', 'Pres'), feats=('VerbForm', 'Fin'))       -d 0.090624
+                                                              (feats=('Number', 'Plur'), pos=NOUN)       -t 0.090821
+                                                              (feats=('Number', 'Plur'), pos=NOUN)       -k 0.091196
+                                                                                   (deprel=advcl,)       m- 0.092097
+                                                       (feats=('Tense', 'Past'), pos=VERB_Intrans)       -k 0.093223
+                      (feats=('Mood', 'Ind'), feats=('Number', 'Plur'), feats=('VerbForm', 'Fin'))       -k 0.097639
+                                                                      (feats=('VerbForm', 'Inf'),)     meg- 0.098308
+                                (feats=('Mood', 'Ind'), feats=('VerbForm', 'Fin'), pos=VERB_Trans)     meg- 0.098923
+                                                       (feats=('Tense', 'Past'), pos=VERB_Intrans)    monda 0.100646
+                                                                      (children=of_case, pos=NOUN)       -l 0.102566
+                                                             (children=NOUN_obl, pos=VERB_Intrans)       -k 0.103807
+                                                                      (feats=('VerbForm', 'Inf'),)      me- 0.104870
+                                                                      (feats=('PronType', 'Prs'),)      az- 0.106351
+                                                         (feats=('Tense', 'Past'), pos=VERB_Trans)       -é 0.108650
+                                             (feats=('Tense', 'Past'), feats=('VerbForm', 'Part'))     meg- 0.108935
+                                                  (children=NOUN_nmod, children=the_det, pos=NOUN)      fi- 0.113544
+                                                      (deprel=obl, parents=VERB_Intrans, pos=NOUN)       -l 0.113636
+                                                        (deprel=obj, parents=VERB_Trans, pos=NOUN)      -at 0.114033
+                                                         (feats=('Tense', 'Past'), pos=VERB_Trans)       -á 0.115894
+                                             (feats=('Tense', 'Past'), feats=('VerbForm', 'Part'))      -tt 0.116655
+                                                        (deprel=obj, parents=VERB_Trans, pos=NOUN)      -et 0.125745
+                                                                      (feats=('VerbForm', 'Inf'),)       -k 0.126978
+                                                       (feats=('Tense', 'Past'), pos=VERB_Intrans)    mond- 0.127453
+                                                  (deprel=obl, feats=('Number', 'Sing'), pos=NOUN)       -l 0.127497
+                                             (feats=('Tense', 'Past'), feats=('VerbForm', 'Part'))       -k 0.128595
+                                                  (children=NOUN_nmod, children=the_det, pos=NOUN)       f- 0.130742
+                               (children=and_cc, feats=('Mood', 'Ind'), feats=('VerbForm', 'Fin'))    monda 0.132111
+                                                                      (feats=('PronType', 'Prs'),)     nék- 0.132633
+                                                                      (children=of_case, pos=NOUN)     -nak 0.135104
+(feats=('Mood', 'Ind'), feats=('Person', '3'), feats=('Tense', 'Past'), feats=('VerbForm', 'Fin'))    monda 0.138214
+                                                          (feats=('Number', 'Plur'), parents=NOUN)       -k 0.142976
+                              (feats=('Mood', 'Ind'), feats=('VerbForm', 'Fin'), pos=VERB_Intrans)    monda 0.144797
+                                                                      (children=of_case, pos=NOUN)       -k 0.145477
+                                                         (feats=('Tense', 'Past'), pos=VERB_Trans)     meg- 0.145837
+                                          (feats=('Number', 'Sing'), parents=VERB_Trans, pos=NOUN)       -t 0.155972
+                               (children=and_cc, feats=('Mood', 'Ind'), feats=('VerbForm', 'Fin'))    mond- 0.168884
+(feats=('Mood', 'Ind'), feats=('Person', '3'), feats=('Tense', 'Past'), feats=('VerbForm', 'Fin'))    mond- 0.172108
+                              (feats=('Mood', 'Ind'), feats=('VerbForm', 'Fin'), pos=VERB_Intrans)    mond- 0.225624
+                                                        (deprel=obj, parents=VERB_Trans, pos=NOUN)       -t 0.416462
+

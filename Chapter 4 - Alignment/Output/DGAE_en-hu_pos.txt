@@ -1,0 +1,597 @@
+Starting processing: en-hu , sorting on ['pos']
+Reading... Reading done.
+INTJ 8
+form 	 []
+lemma 	 []
+misc 	 [('', 8)]
+pos 	 [('INTJ', 8)]
+deprel 	 []
+deps 	 [('', 8)]
+feats 	 [('None', 8)]
+translation 	 []
+ancestor_cross 	 [("('_',)", 8)]
+descendant_cross 	 [("('_',)", 8)]
+cousin_cross 	 [("('_',)", 7)]
+children 	 []
+parents 	 []
+
+
+PROPN 301
+form 	 [('ahaz', 40), ('jehoahaz', 22), ('boaz', 19), ('amoz', 13), ('eliphaz', 11), ('ahimaaz', 10), ('assyria', 9), ('samaria', 9), ('kenaz', 8), ('beer-sheba', 7), ('pharez', 7), ('asia', 6), ('luz', 6), ('uz', 6), ('topaz', 5), ('helez', 5), ('jahaz', 5)]
+lemma 	 [('ahaz', 40), ('jehoahaz', 22), ('boaz', 19), ('amoz', 13), ('eliphaz', 11), ('ahimaaz', 10), ('assyria', 9), ('samaria', 9), ('kenaz', 8), ('pharez', 7), ('luz', 6), ('beer-sheba', 6), ('asia', 6), ('uz', 6), ('jahaz', 5), ('helez', 5), ('topaz', 5)]
+misc 	 [('', 301)]
+pos 	 [('PROPN', 301)]
+deprel 	 [('nmod', 140), ('obl', 61), ('nsubj', 25), ('obj', 20), ('root:conj', 11), ('nmod:conj', 9), ('root', 9)]
+deps 	 [('', 301)]
+feats 	 [('None', 301)]
+translation 	 [('akház', 31), ('joákház', 17), ('boáz', 17), ('ámós', 12), ('elifáz', 8), ('akhimás', 8), ('pérecz', 7), ('assiria', 6), ('akháznak', 5), ('kénáz', 5)]
+ancestor_cross 	 [("('_',)", 162), ("('nmod-1', '_')", 23), ("('_', 'root-1')", 18), ("('obl-1', '_')", 16), ("('obj-1', '_')", 16), ("('root-1', '_')", 13), ("('nsubj-1', '_')", 7), ("('acl-1', '_')", 6), ("('root:conj-1', '_')", 5)]
+descendant_cross 	 [("('_',)", 249), ("('case1', '_')", 35), ("('_', 'acl:relcl1')", 7), ("('_', 'nmod1')", 6)]
+cousin_cross 	 [("('_',)", 286), ("('obl-1', '_', 'obl:conj1*')", 17)]
+children 	 [('of_case', 86), ('None', 84), ('and_cc', 28), ('to_case', 27), ('NOUN_nmod', 24), ('in_case', 11), ('VERB:Intrans_acl:relcl', 10), ('NOUN_nmod:conj', 9), ('ADV_advmod', 9), ('be_cop', 9), ('from_case', 7), ('unto_case', 6), ('VERB:Intrans_acl', 6), ('NOUN_nsubj', 6), ('VERB:Trans_acl:relcl', 6), ('at_case', 5)]
+parents 	 [('NOUN_nmod', 52), ('NOUN_obj', 26), ('VERB:Intrans_root', 23), ('NOUN_root', 23), ('VERB:Trans_root', 19), ('NOUN_obl', 17), ('NOUN_nsubj', 14), ('VERB:Intrans_acl', 14), ('None_None', 9), ('VERB:Trans_advcl', 8), ('NOUN_root:conj', 7), ('VERB:Intrans_root:conj', 6), ('NOUN_nmod:conj', 6), ('VERB:Intrans_xcomp', 5), ('NOUN_appos', 5)]
+
+form      lemma     misc  pos    deprel  deps  feats   translation  ancestor_cross   descendant_cross    cousin_cross  children                              parents          
+jehoahaz  jehoahaz        PROPN  nmod          (None)  (joákház,)   ((obj-1, _),)    ((_,),)             ((_,),)       (of_case)                             NOUN_obj             3
+ahaz      ahaz            PROPN  nsubj         (None)  (akház,)     ((_, root-1),)   ((_,),)             ((_,),)       (None)                                VERB:Trans_root      3
+jehoahaz  jehoahaz        PROPN  nsubj         (None)  (joákház,)   ((_, root-1),)   ((_,),)             ((_,),)       (None)                                twenty_NUM_root      2
+eliphaz   eliphaz         PROPN  root          (None)  (elifáz,)    ((_,),)          ((_, acl:relcl1),)  ((_,),)       (VERB:Intrans_acl:relcl, ADV_advmod)  None_None            2
+linen     linan           PROPN  obl           (None)  (gyolcsba,)  ((acl-1, _),)    ((_,),)             ((_,),)       (in_case)                             VERB:Intrans_acl     2
+amoz      amoz            PROPN  nmod          (None)  (ámós,)      ((obj-1, _),)    ((_,),)             ((_,),)       (of_case)                             NOUN_obj             2
+                                                                    ((nsubj-1, _),)  ((case1, _),)       ((_,),)       (of_case)                             NOUN_nsubj           2
+boaz      boaz            PROPN  nsubj         (None)  (boáz,)      ((_,),)          ((_,),)             ((_,),)       (None)                                VERB:Intrans_root    2
+jehoahaz  jehoahaz        PROPN  nmod          (None)  (joákházt,)  ((_,),)          ((_,),)             ((_,),)       (None)                                NOUN_obj             2
+ahaz      ahaz            PROPN  obj           (None)  (akház,)     ((root-1, _),)   ((_,),)             ((_,),)       (None)                                VERB:Trans_root      2
+                                                                    ((csubj-1, _),)  ((_,),)             ((_,),)       (None)                                VERB:Trans_csubj     2
+assyria   assyria         PROPN  nmod          (None)  (assiria,)   ((obj-1, _),)    ((_,),)             ((_,),)       (of_case)                             NOUN_obj             2
+ahaz      ahaz            PROPN  nmod          (None)  (akház,)     ((_,),)          ((_,),)             ((_,),)       (None)                                NOUN_nmod            2
+                                                                    ((_, root-1),)   ((_,),)             ((_,),)       (None)                                NOUN_root            2
+
+
+X 3196
+form 	 [('i', 2097), ('yea', 111), ('ye', 92), ('joshua', 80), ('thine', 46), ('thou', 33), ('elisha', 25), ('isaac', 19), ('jacob', 17), ('jehoiada', 17), ('sin', 17), ('eye', 16), ('benjamin', 15), ('abishai', 14), ('joab', 14), ('mine', 14), ('asa', 13), ('go', 12), ('ahab', 10), ('haggai', 10)]
+lemma 	 [('i', 1247), ('first', 850), ('yea', 111), ('ye', 92), ('joshua', 76), ('thine', 46), ('thou', 33), ('elisha', 24), ('eye', 21), ('isaac', 19), ('jacob', 17), ('sin', 17), ('benjamin', 15), ('joab', 14), ('mine', 14), ('go', 12), ('abishai', 10), ('ahab', 10), ('jehoiada', 10), ('naomi', 9)]
+misc 	 [('', 3196)]
+pos 	 [('X', 3196)]
+deprel 	 [('nsubj', 1473), ('obl', 371), ('advmod', 352), ('case', 241), ('nmod', 176), ('flat:foreign', 103), ('nsubj:pass', 66), ('root:conj', 56), ('obj', 52), ('root', 47), ('obl:conj', 29), ('nmod:conj', 29), ('amod', 28), ('nsubj:conj', 20), ('appos', 19), ('aux:pass', 17), ('compound:prt', 15), ('fixed', 13), ('appos:conj', 9), ('advcl:conj', 8)]
+deps 	 [('', 3196)]
+feats 	 [('None', 2715), ("('Foreign', 'Yes')", 481)]
+translation 	 [('None', 1264), ('én', 486), ('józsué', 73), ('nem', 69), ('te', 42), ('és', 37), ('hogy', 28), ('azt', 26), ('elizeus', 23), ('ti', 22), ('izsák', 17), ('jójada', 17), ('úgy', 17), ('meg', 16), ('nékem', 15), ('jákób', 14), ('is', 14), ('asa', 14), ('hallám', 13), ('joáb', 13)]
+ancestor_cross 	 [("('_',)", 1478), ('None', 1264), ("('_', 'root-1')", 155), ("('_', 'advcl-1')", 38), ("('_', 'obl-1')", 23), ("('_', 'acl:relcl-1')", 21), ("('_', 'nmod-1')", 19), ("('_', 'acl-1')", 16), ("('_', 'root:conj-1')", 12), ("('root-1', '_')", 11), ("('_', 'ccomp-1')", 10), ("('advcl-1', '_')", 9), ("('nmod-1', '_')", 9), ("('_', 'nsubj-1')", 8), ("('advcl-2', '_', 'advcl-1')", 7), ("('nmod-2', '_', 'nmod-1')", 6), ("('acl-1', '_')", 5), ("('acl-2', 'obl-1', '_')", 5), ("('_', 'nmod:conj-1')", 5)]
+descendant_cross 	 [("('_',)", 1848), ('None', 1264), ("('case1', '_')", 25), ("('advmod1', '_')", 13), ("('cc1', '_')", 10), ("('_', 'flat:foreign1')", 9), ("('_', 'acl1')", 9), ("('_', 'advmod1')", 8), ("('cop1', '_')", 5)]
+cousin_cross 	 [("('_',)", 1625), ('None', 1264), ("('advmod1*', '_', 'root-1')", 21), ("('cc1*', '_', 'root-1')", 21), ("('_', 'root-1', 'obj1*')", 12), ("('_', 'advcl-1', 'obl1*')", 11), ("('cc1*', '_', 'root:conj-1')", 7), ("('_', 'root-1', 'root:conj1*')", 7), ("('_', 'det1*', 'obl-1')", 7), ("('advmod1*', '_', 'advcl-1')", 6), ("('root-1', '_', 'root:conj1*')", 6), ("('_', 'aux1*', 'root-1')", 6), ("('_', 'det1*', 'nmod-1')", 5), ("('nmod-1', 'nmod:conj1*', '_')", 5), ("('advmod1*', '_', 'ccomp:conj-1')", 5)]
+children 	 [('None', 2506), ('for_case', 142), ('and_cc', 139), ('ADV_advmod', 117), ('VERB:Intrans_acl', 61), ('of_case', 39), ('NOUN_nmod', 37), ('NOUN_appos', 25), ('be_cop', 25), ('as_case', 24), ('eye_flat:foreign', 19), ('VERB:Trans_acl', 16), ('ADJ_amod', 15), ('in_case', 13), ('but_cc', 13), ('thou_flat:foreign', 13), ('ye_flat:foreign', 12), ('not_advmod', 10), ('NOUN_nsubj', 10), ('to_case', 9)]
+parents 	 [('VERB:Trans_root', 461), ('VERB:Intrans_root', 417), ('VERB:Trans_advcl', 296), ('VERB:Intrans_advcl', 212), ('NOUN_nmod', 185), ('NOUN_obl', 127), ('NOUN_root', 125), ('VERB:Trans_acl:relcl', 107), ('VERB:Intrans_acl:relcl', 99), ('VERB:Trans_acl', 98), ('VERB:Intrans_acl', 89), ('VERB:Trans_root:conj', 67), ('NOUN_nsubj', 58), ('VERB:Trans_ccomp', 57), ('VERB:Intrans_ccomp', 52), ('None_None', 47), ('VERB:Intrans_root:conj', 43), ('ADV_advmod', 28), ('VERB:Trans_advcl:conj', 27), ('ADJ_root', 24)]
+
+form    lemma   misc  pos  deprel  deps  feats             translation  ancestor_cross  descendant_cross  cousin_cross  children    parents               
+i       i             X    nsubj         (None)            (None,)      (None,)         (None,)           (None,)       (None)      VERB:Trans_root           122
+                                                                                                                                    VERB:Intrans_root          93
+        first         X    nsubj         (None)            (None,)      (None,)         (None,)           (None,)       (None)      VERB:Trans_advcl           70
+        i             X    nsubj         (None)            (None,)      (None,)         (None,)           (None,)       (None)      VERB:Trans_advcl           48
+        first         X    nsubj         (None)            (None,)      (None,)         (None,)           (None,)       (None)      VERB:Intrans_advcl         41
+        i             X    nsubj         (None)            (None,)      (None,)         (None,)           (None,)       (None)      VERB:Intrans_advcl         37
+                           advmod        (None)            (None,)      (None,)         (None,)           (None,)       (None)      VERB:Intrans_root          30
+        first         X    nsubj         (None)            (None,)      (None,)         (None,)           (None,)       (None)      VERB:Trans_acl:relcl       26
+                                                                                                                                    VERB:Trans_root            24
+        i             X    advmod        (None)            (None,)      (None,)         (None,)           (None,)       (None)      VERB:Trans_root            23
+joshua  joshua        X    nsubj         ((Foreign, Yes))  (józsué,)    ((_, root-1),)  ((_,),)           ((_,),)       (None)      VERB:Intrans_root          18
+i       i             X    nsubj         (None)            (én,)        ((_,),)         ((_,),)           ((_,),)       (None)      VERB:Trans_root            18
+        first         X    nsubj         (None)            (None,)      (None,)         (None,)           (None,)       (None)      VERB:Intrans_root          16
+                                                                                                                                    VERB:Intrans_acl:relcl     15
+        i             X    nsubj         (None)            (None,)      (None,)         (None,)           (None,)       (None)      VERB:Trans_acl:relcl       15
+                                                           (én,)        ((_,),)         ((_,),)           ((_,),)       (None)      VERB:Intrans_root          14
+                           obl           (None)            (None,)      (None,)         (None,)           (None,)       (for_case)  VERB:Trans_root            13
+                           nsubj         (None)            (None,)      (None,)         (None,)           (None,)       (None)      VERB:Trans_acl             13
+        first         X    advmod        (None)            (None,)      (None,)         (None,)           (None,)       (None)      VERB:Trans_advcl           11
+                           nsubj         (None)            (None,)      (None,)         (None,)           (None,)       (None)      VERB:Trans_ccomp           11
+...
+
+
+NUM 6073
+form 	 [('one', 1482), ('thee', 873), ('two', 703), ('three', 392), ('hundred', 341), ('four', 267), ('five', 246), ('twenty', 243), ('o', 205), ('ten', 186), ('seven', 179), ('six', 170), ('fifty', 118), ('twelve', 69), ('forty', 65), ('eight', 63), ('heaven', 60), ('thirty', 47), ('nine', 37), ('seventy', 24)]
+lemma 	 [('one', 1481), ('thee', 873), ('two', 703), ('three', 392), ('hundred', 331), ('four', 267), ('five', 246), ('twenty', 243), ('o', 206), ('ten', 186), ('seven', 179), ('six', 170), ('fifty', 118), ('twelve', 69), ('forty', 65), ('eight', 59), ('thirty', 47), ('heavan', 46), ('nine', 37), ('seventy', 24)]
+misc 	 [('', 6073)]
+pos 	 [('NUM', 6073)]
+deprel 	 [('nummod', 4511), ('obj', 523), ('obl', 354), ('nsubj', 135), ('root:conj', 83), ('nummod:conj', 79), ('nmod:conj', 47), ('root', 46), ('obl:conj', 38), ('nmod', 30), ('compound', 27), ('advcl', 22), ('flat', 16), ('obj:conj', 15), ('xcomp', 14), ('acl:relcl', 14), ('nsubj:pass', 11), ('nsubj:conj', 10), ('cc:conj', 8), ('acl:relcl:conj', 8)]
+deps 	 [('', 6073)]
+feats 	 [("('NumType', 'Card')", 6073)]
+translation 	 [('None', 525), ('egy', 488), ('két', 454), ('három', 248), ('téged', 224), ('néked', 164), ('négy', 146), ('hét', 120), ('tíz', 114), ('öt', 111), ('egyik', 106), ('húsz', 93), ('száz', 90), ('a', 87), ('hat', 77), ('ötven', 69), ('fiai', 68), ('tizenkét', 67), ('egyet', 64), ('kétszáz', 59)]
+ancestor_cross 	 [("('_',)", 4046), ('None', 525), ("('_', 'obj-1')", 170), ("('_', 'nmod-1')", 89), ("('root-2', '_', 'obj-1')", 68), ("('_', 'root-1')", 65), ("('obl-2', '_', 'nmod-1')", 63), ("('obl-1', '_')", 47), ("('nmod-1', '_')", 46), ("('root-1', '_')", 46), ("('advcl-2', '_', 'obj-1')", 39), ("('_', 'nsubj-1')", 34), ("('advcl-1', '_')", 34), ("('_', 'obl-1')", 33), ("('acl:relcl-1', '_')", 32), ("('obj-1', '_')", 31), ("('nmod-2', '_', 'nmod-1')", 28), ("('acl-1', '_')", 25), ("('_', 'root:conj-1')", 24), ("('root:conj-1', '_')", 23)]
+descendant_cross 	 [("('_',)", 5172), ('None', 525), ("('_', 'nmod1')", 113), ("('case1', '_')", 53), ("('advmod1', '_')", 32), ("('cop1', '_')", 31), ("('cc1', '_')", 28), ("('_', 'nummod:conj1')", 19), ("('nsubj1', '_')", 18), ("('_', 'cc2', 'nummod:conj1')", 15), ("('det1', '_')", 14), ("('_', 'amod1')", 12), ("('_', 'case2', 'nmod1')", 12), ("('_', 'det2', 'nmod1')", 9), ("('_', 'nummod1')", 8), ("('_', 'nmod1', 'nmod2')", 6), ("('_', 'advmod1')", 6), ("('aux1', '_')", 5), ("('_', 'acl1')", 5), ("('_', 'cc2', 'obl:conj1')", 5)]
+cousin_cross 	 [("('_',)", 4579), ('None', 525), ("('_', 'obj-1', 'nmod1*')", 30), ("('_', 'nmod-1', 'nmod1*')", 27), ("('case1*', '_', 'obl-1')", 24), ("('_', 'obl-1', 'nmod1*')", 22), ("('nsubj1*', '_', 'root-1')", 20), ("('nsubj1*', 'root-1', '_')", 16), ("('case1*', '_', 'nmod-1')", 14), ("('cop1*', '_', 'root-1')", 12), ("('cop1*', 'root-3', '_', 'nsubj-1', 'root:conj-2')", 10), ("('obl1*', '_', 'root-1')", 10), ("('cc1*', '_', 'nsubj-1', 'root:conj-2')", 9), ("('root-1', '_', 'obl1*')", 9), ("('cc1*', '_', 'nummod:conj-1')", 9), ("('_', 'root:conj-1', 'nmod1*')", 8), ("('nsubj1*', '_', 'nsubj-1', 'root-2')", 8), ("('root-1', '_', 'root:conj1*')", 8), ("('cop1*', '_', 'nsubj-1', 'root-2')", 8), ("('_', 'nsubj-1', 'nmod1*')", 8)]
+children 	 [('None', 4416), ('NOUN_nmod', 341), ('and_cc', 334), ('ADV_advmod', 189), ('be_cop', 140), ('of_case', 125), ('every_det', 101), ('the_det', 100), ('NOUN_nummod:conj', 84), ('from_case', 65), ('with_case', 62), ('NOUN_nsubj', 59), ('ADJ_amod', 55), ('in_case', 54), ('they_nmod', 54), ('unto_case', 52), ('a_det', 49), ('for_case', 44), ('VERB:Intrans_acl', 38), ('to_case', 38)]
+parents 	 [('NOUN_obj', 1000), ('NOUN_nmod', 962), ('NOUN_obl', 661), ('NOUN_nsubj', 398), ('NOUN_root', 359), ('VERB:Trans_root', 303), ('NOUN_root:conj', 201), ('VERB:Trans_advcl', 139), ('VERB:Intrans_root', 134), ('NOUN_nmod:conj', 101), ('NOUN_obj:conj', 92), ('NOUN_appos', 76), ('VERB:Trans_acl:relcl', 71), ('VERB:Trans_root:conj', 65), ('VERB:Intrans_advcl', 65), ('VERB:Trans_acl', 64), ('NOUN_obl:conj', 61), ('VERB:Intrans_acl', 57), ('VERB:Trans_ccomp', 48), ('None_None', 46)]
+
+form    lemma   misc  pos  deprel  deps  feats              translation  ancestor_cross  descendant_cross  cousin_cross  children  parents       
+two     two           NUM  nummod        ((NumType, Card))  (két,)       ((_,),)         ((_,),)           ((_,),)       (None)    NOUN_obj          63
+                                                                                                                                   NOUN_obl          43
+one     one           NUM  nummod        ((NumType, Card))  (egy,)       ((_,),)         ((_,),)           ((_,),)       (None)    NOUN_nmod         43
+two     two           NUM  nummod        ((NumType, Card))  (két,)       ((_,),)         ((_,),)           ((_,),)       (None)    NOUN_nmod         39
+three   three         NUM  nummod        ((NumType, Card))  (három,)     ((_,),)         ((_,),)           ((_,),)       (None)    NOUN_nmod         33
+one     one           NUM  nummod        ((NumType, Card))  (None,)      (None,)         (None,)           (None,)       (None)    NOUN_obl          32
+                                                                                                                                   NOUN_nmod         30
+thee    thee          NUM  nummod        ((NumType, Card))  (néked,)     ((_,),)         ((_,),)           ((_,),)       (None)    NOUN_obj          30
+two     two           NUM  nummod        ((NumType, Card))  (két,)       ((_,),)         ((_,),)           ((_,),)       (None)    NOUN_nsubj        30
+one     one           NUM  nummod        ((NumType, Card))  (egy,)       ((_,),)         ((_,),)           ((_,),)       (None)    NOUN_obl          27
+thee    thee          NUM  nummod        ((NumType, Card))  (None,)      (None,)         (None,)           (None,)       (None)    NOUN_obj          25
+seven   seven         NUM  nummod        ((NumType, Card))  (hét,)       ((_,),)         ((_,),)           ((_,),)       (None)    NOUN_nmod         22
+ten     ten           NUM  nummod        ((NumType, Card))  (tíz,)       ((_,),)         ((_,),)           ((_,),)       (None)    NOUN_obj          22
+three   three         NUM  nummod        ((NumType, Card))  (három,)     ((_,),)         ((_,),)           ((_,),)       (None)    NOUN_obj          22
+two     two           NUM  nummod        ((NumType, Card))  (két,)       ((_,),)         ((_,),)           ((_,),)       (None)    NOUN_root         21
+twenty  twenty        NUM  nummod        ((NumType, Card))  (húsz,)      ((_,),)         ((_,),)           ((_,),)       (None)    NOUN_nmod         20
+thee    thee          NUM  nummod        ((NumType, Card))  (téged,)     ((_,),)         ((_,),)           ((_,),)       (None)    NOUN_obj          19
+one     one           NUM  nummod        ((NumType, Card))  (egy,)       ((_,),)         ((_,),)           ((_,),)       (None)    NOUN_obj          19
+                                                            (None,)      (None,)         (None,)           (None,)       (None)    NOUN_obj          18
+two     two           NUM  nummod        ((NumType, Card))  (két,)       ((_,),)         ((_,),)           ((_,),)       (None)    NOUN_root:conj    18
+...
+
+
+PART 13832
+form 	 [('to', 6863), ('not', 6234), ('unto', 268), ("'", 209), ('cannot', 92), ("david's", 11), ("father's", 10), ("name's", 7), ("neighbour's", 7), ('hitherto', 6), ("brother's", 6), ("abraham's", 6), ('whereunto', 5), ("man's", 5)]
+lemma 	 [('to', 6863), ('not', 6229), ('unto', 268), ("'", 209), ('cannot', 90), ("david's", 11), ("father'", 7), ("abraham's", 6), ('hitherto', 6), ("neighbour's", 6), ('whereunto', 5), ("name's", 5), ('net', 5), ("man's", 5)]
+misc 	 [('', 13832)]
+pos 	 [('PART', 13832)]
+deprel 	 [('mark', 7229), ('advmod', 6318), ('case', 255), ('fixed', 6)]
+deps 	 [('', 13832)]
+feats 	 [('None', 7495), ("('Polarity', 'Neg')", 6337)]
+translation 	 [('nem', 4022), ('None', 3848), ('hogy', 2024), ('ne', 1356), ('a', 498), ('az', 332), (',', 323), ('sem', 284), ('meg', 159), ('el', 89), ('nincs', 83), ('se', 75), ('vala', 64), ('és', 62), ('nincsen', 56), ('pedig', 38), ('[', 35), ('nemcsak', 33), ('való', 30), ('nincsenek-é', 28)]
+ancestor_cross 	 [("('_',)", 7113), ('None', 3848), ("('_', 'xcomp-1')", 253), ("('_', 'advcl-1')", 152), ("('_', 'acl-1')", 151), ("('_', 'root-1')", 117), ("('advcl-1', '_')", 88), ("('_', 'obj-1')", 78), ("('_', 'nmod-1')", 71), ("('_', 'advmod-1')", 66), ("('acl:relcl-1', '_')", 61), ("('root-1', '_')", 60), ("('nmod-1', '_')", 59), ("('acl-1', '_')", 58), ("('obj-2', '_', 'acl-1')", 57), ("('advcl-2', '_', 'xcomp-1')", 56), ("('root:conj-1', '_')", 54), ("('_', 'ccomp-1')", 51), ("('root-2', '_', 'obj-1')", 44), ("('acl:relcl-2', '_', 'xcomp-1')", 44)]
+descendant_cross 	 [("('_',)", 9969), ('None', 3848)]
+cousin_cross 	 [("('_',)", 8041), ('None', 3848), ("('nsubj1*', '_', 'root-1')", 106), ("('aux1*', '_', 'root-1')", 82), ("('aux1*', '_', 'advcl-1')", 51), ("('nsubj1*', '_', 'advcl-1')", 51), ("('_', 'xcomp-1', 'obj1*')", 41), ("('_', 'advcl-1', 'obj1*')", 41), ("('cop1*', '_', 'root-1')", 40), ("('_', 'xcomp-1', 'obl1*')", 34), ("('_', 'acl-1', 'obj1*')", 31), ("('_', 'root-1', 'obl1*')", 28), ("('_', 'advcl-1', 'obl1*')", 27), ("('nsubj1*', '_', 'root:conj-1')", 25), ("('nsubj1*', '_', 'ccomp-1')", 24), ("('_', 'root-1', 'obj1*')", 24), ("('obl1*', '_', 'root-1')", 23), ("('_', 'acl-1', 'obl1*')", 23), ("('aux1*', '_', 'root:conj-1')", 22), ("('_', 'ccomp-1', 'obj1*')", 22)]
+children 	 [('None', 13742), ('ADV_advmod', 10), ('NOUN_obl', 9), ('or_cc', 8), ('NOUN_advmod:conj', 8), ('VERB:Intrans_ccomp', 7), ('i_obl', 5)]
+parents 	 [('VERB:Intrans_xcomp', 2062), ('VERB:Intrans_acl', 1313), ('VERB:Trans_advcl', 1266), ('VERB:Trans_xcomp', 1195), ('VERB:Intrans_advcl', 945), ('VERB:Trans_acl', 813), ('NOUN_nmod', 571), ('VERB:Intrans_root', 564), ('VERB:Trans_root', 383), ('VERB:Intrans_ccomp', 316), ('NOUN_obj', 313), ('ADV_advmod', 309), ('VERB:Intrans_root:conj', 221), ('VERB:Intrans_acl:relcl', 206), ('VERB:Trans_ccomp', 203), ('NOUN_root', 201), ('VERB:Trans_root:conj', 194), ('NOUN_obl', 136), ('VERB:Trans_acl:relcl', 121), ('VERB:Trans_advcl:conj', 120)]
+
+form  lemma  misc  pos   deprel  deps  feats              translation  ancestor_cross  descendant_cross  cousin_cross  children  parents               
+to    to           PART  mark          (None)             (None,)      (None,)         (None,)           (None,)       (None)    VERB:Intrans_xcomp        1135
+                                                                                                                                 VERB:Intrans_acl           484
+                                                                                                                                 VERB:Trans_xcomp           435
+                                                          (hogy,)      ((_,),)         ((_,),)           ((_,),)       (None)    VERB:Trans_advcl           387
+                                                          (None,)      (None,)         (None,)           (None,)       (None)    VERB:Trans_advcl           287
+                                                          (hogy,)      ((_,),)         ((_,),)           ((_,),)       (None)    VERB:Trans_acl             250
+                                                                                                                                 VERB:Trans_xcomp           237
+                                                          (None,)      (None,)         (None,)           (None,)       (None)    VERB:Intrans_advcl         229
+                                                                                                                                 VERB:Trans_acl             188
+not   not          PART  advmod        ((Polarity, Neg))  (nem,)       ((_,),)         ((_,),)           ((_,),)       (None)    VERB:Intrans_root          172
+to    to           PART  mark          (None)             (hogy,)      ((_,),)         ((_,),)           ((_,),)       (None)    VERB:Intrans_xcomp         164
+                                                                                                                                 VERB:Intrans_acl           130
+                                                                                                                                 VERB:Intrans_advcl         130
+not   not          PART  advmod        ((Polarity, Neg))  (nem,)       ((_,),)         ((_,),)           ((_,),)       (None)    VERB:Intrans_advcl         110
+                                                                                                                                 VERB:Trans_advcl           100
+                                                                                                                                 VERB:Trans_root             98
+                                                                                                                                 VERB:Intrans_acl            85
+'     '            PART  case          (None)             (None,)      (None,)         (None,)           (None,)       (None)    NOUN_nmod                   84
+not   not          PART  advmod        ((Polarity, Neg))  (nem,)       ((_,),)         ((_,),)           ((_,),)       (None)    VERB:Intrans_acl:relcl      64
+                                                          (ne,)        ((_,),)         ((_,),)           ((_,),)       (None)    VERB:Intrans_root           63
+...
+
+
+SCONJ 16960
+form 	 [('that', 6836), ('when', 2636), ('if', 1522), ('because', 982), ('saith', 755), ('as', 699), ('unto', 326), ('until', 312), ('thy', 223), ('though', 210), ('while', 181), ('whether', 160), ('hath', 138), ('o', 134), ('so', 126), ('wherewith', 86), ('whither', 67), ('wherefore', 56), ('why', 52), ('whereof', 50)]
+lemma 	 [('that', 6836), ('when', 2636), ('if', 1522), ('because', 982), ('saith', 755), ('as', 699), ('unto', 326), ('until', 312), ('thy', 223), ('though', 210), ('while', 181), ('whether', 160), ('hath', 138), ('o', 134), ('so', 126), ('wherewith', 86), ('whither', 67), ('wherefore', 56), ('why', 52), ('whereof', 50)]
+misc 	 [('', 16960)]
+pos 	 [('SCONJ', 16960)]
+deprel 	 [('mark', 14843), ('case', 1784), ('fixed', 292), ('advmod', 8), ('obj', 6), ('obl', 5)]
+deps 	 [('', 16960)]
+feats 	 [('None', 16960)]
+translation 	 [('hogy', 3223), ('None', 2275), ('ha', 1581), ('mikor', 1443), ('a', 1070), (',', 936), ('ki', 610), ('mondja', 552), ('mert', 446), ('mint', 427), ('az', 379), ('mivelhogy', 246), ('és', 187), ('szól', 175), ('míg', 174), ('te', 157), ('pedig', 152), ('kik', 139), ('mit', 104), ('melyet', 102)]
+ancestor_cross 	 [("('_',)", 12975), ('None', 2275), ("('_', 'advcl-1')", 334), ("('_', 'root-1')", 136), ("('_', 'nmod-1')", 129), ("('_', 'acl-1')", 128), ("('_', 'obl-1')", 118), ("('_', 'ccomp-1')", 110), ("('root-2', '_', 'advcl-1')", 59), ("('obl-2', '_', 'acl-1')", 56), ("('obj-2', '_', 'acl-1')", 33), ("('nmod-2', '_', 'acl-1')", 30), ("('root-2', '_', 'acl-1')", 30), ("('root-2', '_', 'ccomp-1')", 28), ("('advcl-2', '_', 'advcl-1')", 21), ("('root-2', '_', 'nmod-1')", 20), ("('advcl-2', '_', 'ccomp-1')", 20), ("('nmod-2', '_', 'nmod-1')", 20), ("('obj-2', '_', 'nmod-1')", 19), ("('obl-2', '_', 'nmod-1')", 18)]
+descendant_cross 	 [("('_',)", 14676), ('None', 2275), ("('case1', '_')", 7)]
+cousin_cross 	 [("('_',)", 12764), ('None', 2275), ("('_', 'nsubj1*', 'advcl-1')", 150), ("('cc1*', '_', 'root-1')", 103), ("('_', 'nsubj1*', 'root-1')", 54), ("('_', 'nsubj1*', 'acl-1')", 53), ("('_', 'nsubj1*', 'ccomp-1')", 50), ("('advmod1*', '_', 'root-1')", 41), ("('cc1*', '_', 'advcl-1')", 32), ("('_', 'advcl-1', 'obj1*')", 27), ("('root-2', 'obl1*', '_', 'advcl-1')", 24), ("('_', 'aux1*', 'advcl-1')", 20), ("('_', 'advmod1*', 'root-1')", 20), ("('cc1*', '_', 'root:conj-1')", 20), ("('_', 'nsubj:pass1*', 'advcl-1')", 19), ("('cc1*', '_', 'advcl-1', 'root-2')", 19), ("('_', 'advcl-1', 'obl1*')", 19), ("('_', 'det1*', 'nmod-1')", 18), ("('_', 'advcl-1', 'advcl:conj1*')", 17), ("('advmod1*', '_', 'advcl-1', 'root-2')", 16)]
+children 	 [('None', 16877), ('of_case', 18), ('for_case', 14), ('from_case', 9), ('NOUN_nmod', 8)]
+parents 	 [('VERB:Intrans_advcl', 2571), ('VERB:Trans_advcl', 1935), ('VERB:Intrans_acl', 1133), ('NOUN_obl', 1054), ('VERB:Intrans_ccomp', 983), ('VERB:Intrans_root', 970), ('VERB:Trans_acl', 859), ('NOUN_nmod', 854), ('VERB:Trans_root', 841), ('VERB:Trans_ccomp', 664), ('NOUN_advcl', 574), ('NOUN_root', 523), ('NOUN_ccomp', 485), ('ADJ_advcl', 304), ('NOUN_acl', 291), ('ADJ_ccomp', 166), ('VERB:Intrans_root:conj', 116), ('ADJ_acl', 106), ('VERB:Trans_root:conj', 105), ('ADJ_root', 98)]
+
+form     lemma    misc  pos    deprel  deps  feats   translation  ancestor_cross  descendant_cross  cousin_cross  children  parents           
+that     that           SCONJ  mark          (None)  (hogy,)      ((_,),)         ((_,),)           ((_,),)       (None)    VERB:Intrans_ccomp    375
+when     when           SCONJ  mark          (None)  (mikor,)     ((_,),)         ((_,),)           ((_,),)       (None)    VERB:Intrans_advcl    299
+that     that           SCONJ  mark          (None)  (hogy,)      ((_,),)         ((_,),)           ((_,),)       (None)    VERB:Trans_ccomp      231
+                                                                                                                            VERB:Intrans_advcl    223
+                                                                                                                            VERB:Intrans_acl      223
+                                                                                                                            NOUN_ccomp            207
+                                                                                                                            VERB:Trans_advcl      192
+if       if             SCONJ  mark          (None)  (ha,)        ((_,),)         ((_,),)           ((_,),)       (None)    VERB:Intrans_advcl    190
+saith    saith          SCONJ  case          (None)  (mondja,)    ((_,),)         ((_,),)           ((_,),)       (None)    NOUN_obl              182
+that     that           SCONJ  mark          (None)  (hogy,)      ((_,),)         ((_,),)           ((_,),)       (None)    VERB:Trans_acl        175
+if       if             SCONJ  mark          (None)  (ha,)        ((_,),)         ((_,),)           ((_,),)       (None)    VERB:Trans_advcl      168
+when     when           SCONJ  mark          (None)  (mikor,)     ((_,),)         ((_,),)           ((_,),)       (None)    VERB:Trans_advcl      167
+that     that           SCONJ  mark          (None)  (None,)      (None,)         (None,)           (None,)       (None)    VERB:Intrans_ccomp    140
+when     when           SCONJ  mark          (None)  (mikor,)     ((_,),)         ((_,),)           ((_,),)       (None)    VERB:Intrans_root     126
+if       if             SCONJ  mark          (None)  (ha,)        ((_,),)         ((_,),)           ((_,),)       (None)    VERB:Intrans_root     123
+                                                                                                                            VERB:Trans_root       111
+that     that           SCONJ  mark          (None)  (None,)      (None,)         (None,)           (None,)       (None)    VERB:Intrans_acl      111
+                                                                                                                            VERB:Intrans_advcl    104
+                                                                                                                            VERB:Trans_advcl       96
+because  because        SCONJ  mark          (None)  (mert,)      ((_,),)         ((_,),)           ((_,),)       (None)    VERB:Trans_advcl       89
+...
+
+
+ADV 31541
+form 	 [('then', 2054), ('also', 1676), ('so', 1457), ('now', 1287), ('even', 1250), ('therefore', 1169), ('thy', 953), ('hast', 873), ('down', 858), ('away', 837), ('thereof', 836), ('forth', 697), ('thus', 673), ('again', 631), ('up', 537), ('how', 523), ('more', 520), ('yet', 494), ('there', 469), ('ever', 460)]
+lemma 	 [('then', 2054), ('also', 1676), ('so', 1457), ('now', 1287), ('even', 1250), ('therefore', 1169), ('thy', 1020), ('hast', 873), ('down', 858), ('away', 837), ('thereof', 836), ('forth', 697), ('thus', 673), ('again', 631), ('up', 537), ('how', 523), ('more', 520), ('yet', 494), ('there', 469), ('ever', 460)]
+misc 	 [('', 31541)]
+pos 	 [('ADV', 31541)]
+deprel 	 [('advmod', 30324), ('root', 192), ('fixed', 140), ('acl:relcl', 102), ('mark', 98), ('root:conj', 88), ('advmod:conj', 58), ('case', 53), ('nmod:conj', 50), ('obl', 42), ('obl:conj', 42), ('nmod', 37), ('advcl:conj', 32), ('cc', 31), ('compound:prt', 30), ('obj:conj', 20), ('nsubj:conj', 19), ('ccomp', 17), ('advcl', 15), ('ccomp:conj', 15)]
+deps 	 [('', 31541)]
+feats 	 [('None', 29933), ("('Degree', 'Sup')", 803), ("('Degree', 'Cmp')", 608), ("('PronType', 'Neg')", 196)]
+translation 	 [('None', 6281), ('és', 1423), ('is', 1075), ('azért', 1065), ('te', 630), (',', 501), ('a', 473), ('pedig', 461), ('most', 432), ('akkor', 432), ('így', 385), ('többé', 341), ('ott', 310), ('az', 273), ('még', 266), ('miért', 263), ('ezt', 248), ('úgy', 242), ('nem', 209), ('ki', 199)]
+ancestor_cross 	 [("('_',)", 18975), ('None', 6281), ("('_', 'root-1')", 729), ("('root-1', '_')", 417), ("('advcl-1', '_')", 285), ("('_', 'advcl-1')", 274), ("('_', 'advmod-1')", 231), ("('_', 'amod-1')", 196), ("('acl-1', '_')", 196), ("('root:conj-1', '_')", 190), ("('_', 'nmod-1')", 189), ("('acl:relcl-1', '_')", 185), ("('_', 'acl-1')", 149), ("('_', 'obl-1')", 136), ("('_', 'obj-1')", 134), ("('_', 'xcomp-1')", 130), ("('nmod-1', '_')", 127), ("('xcomp-1', '_')", 118), ("('_', 'acl:relcl-1')", 115), ("('obl-1', '_')", 105)]
+descendant_cross 	 [("('_',)", 24391), ('None', 6281), ("('advmod1', '_')", 334), ("('case1', '_')", 138), ("('cop1', '_')", 124), ("('_', 'obl1')", 62), ("('nsubj1', '_')", 59), ("('cc1', '_')", 45), ("('_', 'advmod:conj1')", 34), ("('det1', '_')", 21), ("('_', 'case2', 'obl1')", 20), ("('obl1', '_')", 20), ("('_', 'cc2', 'advmod:conj1')", 19), ("('_', 'advmod1')", 18), ("('_', 'fixed1')", 18), ("('advmod2', 'advmod1', '_')", 13), ("('_', 'advcl1')", 12), ("('_', 'mark2', 'advcl1')", 12), ("('aux1', '_')", 11), ("('_', 'root:conj1')", 7)]
+cousin_cross 	 [("('_',)", 20726), ('None', 6281), ("('nsubj1*', '_', 'root-1')", 158), ("('_', 'nsubj1*', 'root-1')", 108), ("('nsubj1*', 'root-1', '_')", 83), ("('aux1*', '_', 'root-1')", 79), ("('_', 'root-1', 'obj1*')", 71), ("('nsubj1*', '_', 'advcl-1')", 65), ("('advmod1*', '_', 'root-1')", 53), ("('cop1*', '_', 'root-1')", 52), ("('root-1', '_', 'obl1*')", 49), ("('_', 'root-1', 'obl1*')", 49), ("('_', 'advmod1*', 'root-1')", 48), ("('advcl-1', '_', 'obl1*')", 44), ("('advcl-1', 'obj1*', '_')", 43), ("('root-1', 'obj1*', '_')", 42), ("('acl:relcl-1', '_', 'obl1*')", 40), ("('cc1*', '_', 'root-1')", 36), ("('_', 'mark1*', 'root-1')", 35), ("('_', 'advcl-1', 'obj1*')", 35)]
+children 	 [('None', 27347), ('ADV_advmod', 1532), ('be_cop', 508), ('for_case', 483), ('and_cc', 390), ('not_advmod', 332), ('NOUN_obl', 274), ('NOUN_advmod:conj', 153), ('NOUN_nsubj', 138), ('the_det', 123), ('VERB:Intrans_advcl', 118), ('that_fixed', 110), ('it_nsubj', 77), ('of_case', 75), ('that_nsubj', 72), ('from_case', 68), ('shall_aux', 66), ('VERB:Trans_advcl', 63), ('ADV_fixed', 60), ('VERB:Intrans_advmod:conj', 56)]
+parents 	 [('VERB:Intrans_root', 3356), ('VERB:Trans_root', 2912), ('VERB:Intrans_advcl', 2157), ('VERB:Intrans_acl', 1523), ('VERB:Trans_advcl', 1516), ('ADV_advmod', 1509), ('NOUN_nmod', 1411), ('ADJ_amod', 1346), ('NOUN_root', 1339), ('NOUN_obl', 1119), ('NOUN_obj', 864), ('VERB:Intrans_acl:relcl', 860), ('VERB:Intrans_root:conj', 696), ('VERB:Trans_acl', 622), ('VERB:Trans_root:conj', 560), ('VERB:Intrans_ccomp', 560), ('VERB:Intrans_xcomp', 539), ('VERB:Trans_acl:relcl', 518), ('NOUN_nsubj', 373), ('ADJ_root', 354)]
+
+form       lemma      misc  pos  deprel  deps  feats            translation  ancestor_cross  descendant_cross  cousin_cross  children  parents          
+then       then             ADV  advmod        (None)           (és,)        ((_,),)         ((_,),)           ((_,),)       (None)    VERB:Trans_root      114
+                                                                                                                                       VERB:Intrans_root    101
+even       even             ADV  advmod        (None)           (None,)      (None,)         (None,)           (None,)       (None)    NOUN_nmod             97
+then       then             ADV  advmod        (None)           (None,)      (None,)         (None,)           (None,)       (None)    VERB:Trans_root       87
+                                                                (akkor,)     ((_,),)         ((_,),)           ((_,),)       (None)    VERB:Trans_root       86
+even       even             ADV  advmod        (None)           (None,)      (None,)         (None,)           (None,)       (None)    NOUN_obl              81
+thy        thy              ADV  advmod        (None)           (None,)      (None,)         (None,)           (None,)       (None)    ADJ_amod              75
+therefore  therefore        ADV  advmod        (None)           (azért,)     ((_,),)         ((_,),)           ((_,),)       (None)    VERB:Intrans_root     73
+thy        thy              ADV  advmod        (None)           (te,)        ((_,),)         ((_,),)           ((_,),)       (None)    ADJ_amod              72
+thereof    thereof          ADV  advmod        (None)           (None,)      (None,)         (None,)           (None,)       (None)    NOUN_nmod             69
+therefore  therefore        ADV  advmod        (None)           (azért,)     ((_,),)         ((_,),)           ((_,),)       (None)    VERB:Trans_root       68
+then       then             ADV  advmod        (None)           (akkor,)     ((_,),)         ((_,),)           ((_,),)       (None)    VERB:Intrans_root     65
+hast       hast             ADV  advmod        ((Degree, Sup))  (None,)      (None,)         (None,)           (None,)       (None)    VERB:Trans_root       63
+then       then             ADV  advmod        (None)           (None,)      (None,)         (None,)           (None,)       (None)    VERB:Intrans_root     60
+hast       hast             ADV  advmod        ((Degree, Sup))  (None,)      (None,)         (None,)           (None,)       (None)    VERB:Trans_advcl      58
+                                                                                                                                       VERB:Intrans_acl      56
+now        now              ADV  advmod        (None)           (None,)      (None,)         (None,)           (None,)       (None)    VERB:Intrans_root     55
+                                                                                                                                       NOUN_root             54
+also       also             ADV  advmod        (None)           (None,)      (None,)         (None,)           (None,)       (None)    VERB:Trans_root       54
+up         up               ADV  advmod        (None)           (None,)      (None,)         (None,)           (None,)       (None)    VERB:Intrans_root     52
+...
+
+
+ADJ 35169
+form 	 [('thy', 2253), ('i', 2208), ('lord', 1732), ('great', 886), ('own', 583), ('mine', 539), ('many', 531), ('unto', 527), ('good', 488), ('thine', 486), ('ye', 471), ('o', 470), ('other', 381), ('high', 375), ('first', 347), ('right', 319), ('holy', 284), ('old', 282), ('young', 268), ('thou', 268)]
+lemma 	 [('thy', 2254), ('lord', 1732), ('first', 1626), ('i', 930), ('great', 886), ('own', 583), ('mine', 539), ('many', 531), ('unto', 527), ('thine', 486), ('good', 483), ('ye', 471), ('o', 470), ('other', 381), ('high', 375), ('right', 318), ('holy', 284), ('old', 282), ('thou', 268), ('young', 268)]
+misc 	 [('', 35169)]
+pos 	 [('ADJ', 35169)]
+deprel 	 [('amod', 27545), ('xcomp', 1179), ('root', 1008), ('nsubj', 670), ('advcl', 614), ('acl:relcl', 540), ('root:conj', 526), ('nmod', 374), ('obl', 360), ('ccomp', 287), ('amod:conj', 266), ('acl', 209), ('nmod:conj', 204), ('advcl:conj', 177), ('obl:conj', 151), ('nsubj:conj', 106), ('obj', 103), ('nsubj:pass', 102), ('ccomp:conj', 82), ('obj:conj', 77)]
+deps 	 [('', 35169)]
+feats 	 [("('Degree', 'Pos')", 33308), ("('NumType', 'Ord')", 1773), ("('Degree', 'Sup')", 747), ("('Degree', 'Cmp')", 658), ("('Number', 'Sing')", 451), ("('Gender', 'Masc')", 281)]
+translation 	 [('None', 4202), ('te', 1607), ('úr', 1230), ('nagy', 713), ('én', 709), ('sok', 333), ('a', 305), ('uram', 295), ('jó', 260), ('szent', 217), ('király', 211), ('izráel', 202), (',', 201), ('hogy', 184), ('úrnak', 183), ('jézus', 181), ('elsõ', 162), ('igaz', 157), ('egész', 148), ('dávid', 145)]
+ancestor_cross 	 [("('_',)", 21600), ('None', 4202), ("('_', 'nmod-1')", 978), ("('_', 'obl-1')", 645), ("('_', 'obj-1')", 630), ("('_', 'root-1')", 511), ("('obl-2', '_', 'nmod-1')", 420), ("('_', 'nsubj-1')", 418), ("('nmod-2', '_', 'nmod-1')", 342), ("('obj-2', '_', 'nmod-1')", 329), ("('_', 'root:conj-1')", 199), ("('root-2', '_', 'obj-1')", 193), ("('root-1', '_')", 176), ("('_', 'nsubj-1', 'root-2')", 170), ("('root-2', '_', 'nmod-1')", 161), ("('advcl-2', '_', 'obj-1')", 156), ("('nmod-1', '_')", 146), ("('nsubj-2', '_', 'nmod-1')", 141), ("('root-2', '_', 'obl-1')", 137), ("('advcl-2', '_', 'obl-1')", 136)]
+descendant_cross 	 [("('_',)", 28435), ('None', 4202), ("('cop1', '_')", 651), ("('nsubj1', '_')", 564), ("('_', 'obl1')", 470), ("('advmod1', '_')", 460), ("('cc1', '_')", 164), ("('case1', '_')", 148), ("('_', 'advcl1')", 110), ("('_', 'case2', 'obl1')", 81), ("('_', 'advmod1')", 73), ("('mark1', '_')", 70), ("('aux1', '_')", 67), ("('_', 'amod:conj1')", 50), ("('_', 'det2', 'obl1')", 48), ("('det1', '_')", 44), ("('obl1', '_')", 40), ("('nsubj1', 'nmod2', '_')", 25), ("('_', 'root:conj1')", 24), ("('_', 'obl1', 'nmod2')", 21)]
+cousin_cross 	 [("('_',)", 26255), ('None', 4202), ("('case1*', '_', 'obl-1')", 185), ("('_', 'obl-1', 'nmod1*')", 181), ("('case1*', '_', 'nmod-1')", 139), ("('_', 'nmod-1', 'nmod1*')", 130), ("('det1*', '_', 'obl-1')", 97), ("('_', 'obj-1', 'nmod1*')", 83), ("('det1*', '_', 'nmod-1')", 81), ("('_', 'root-1', 'nmod1*')", 72), ("('_', 'nsubj-1', 'nmod1*')", 57), ("('nsubj1*', '_', 'root-1')", 51), ("('_', 'root-1', 'acl1*')", 50), ("('cc1*', '_', 'root:conj-1')", 48), ("('det1*', '_', 'obj-1')", 47), ("('cop1*', '_', 'root-1')", 44), ("('cc1*', '_', 'root-1')", 43), ("('root-1', '_', 'root:conj1*')", 42), ("('_', 'obj-1', 'acl1*')", 41), ("('root-2', '_', 'obj-1', 'obl1*')", 38)]
+children 	 [('None', 26816), ('be_cop', 3437), ('ADV_advmod', 2632), ('NOUN_obl', 1746), ('NOUN_nsubj', 1437), ('and_cc', 1405), ('VERB:Intrans_advcl', 605), ('VERB:Trans_advcl', 417), ('shall_aux', 393), ('the_det', 386), ('that_mark', 345), ('not_advmod', 326), ('of_case', 306), ('he_nsubj', 291), ('ADJ_amod:conj', 260), ('that_nsubj', 229), ('it_nsubj', 214), ('which_nsubj', 206), ('but_cc', 189), ('NOUN_root:conj', 185)]
+parents 	 [('NOUN_nmod', 6510), ('NOUN_obl', 5289), ('NOUN_obj', 4936), ('NOUN_nsubj', 3170), ('NOUN_root', 2224), ('NOUN_root:conj', 1062), ('None_None', 1008), ('VERB:Intrans_root', 885), ('NOUN_nmod:conj', 595), ('VERB:Trans_root', 568), ('VERB:Intrans_advcl', 481), ('NOUN_nsubj:pass', 443), ('NOUN_obl:conj', 435), ('NOUN_appos', 409), ('NOUN_advcl', 363), ('VERB:Trans_advcl', 316), ('NOUN_acl:relcl', 313), ('NOUN_obj:conj', 303), ('ADJ_amod', 284), ('NOUN_advcl:conj', 275)]
+
+form  lemma  misc  pos  deprel  deps  feats            translation  ancestor_cross  descendant_cross  cousin_cross  children  parents   
+thy   thy          ADJ  amod          ((Degree, Pos))  (None,)      (None,)         (None,)           (None,)       (None)    NOUN_nmod     181
+                                                       (te,)        ((_,),)         ((_,),)           ((_,),)       (None)    NOUN_obl      174
+unto  unto         ADJ  amod          ((Degree, Pos))  (None,)      (None,)         (None,)           (None,)       (None)    NOUN_obj      172
+thy   thy          ADJ  amod          ((Degree, Pos))  (None,)      (None,)         (None,)           (None,)       (None)    NOUN_obl      165
+lord  lord         ADJ  amod          ((Degree, Pos))  (úr,)        ((_,),)         ((_,),)           ((_,),)       (None)    NOUN_obl      162
+                                                                                                                              NOUN_nsubj    130
+thy   thy          ADJ  amod          ((Degree, Pos))  (None,)      (None,)         (None,)           (None,)       (None)    NOUN_obj      125
+                                                       (te,)        ((_,),)         ((_,),)           ((_,),)       (None)    NOUN_obj      123
+lord  lord         ADJ  amod          ((Degree, Pos))  (úr,)        ((_, root-1),)  ((_,),)           ((_,),)       (None)    NOUN_root     119
+                                                                    ((_,),)         ((_,),)           ((_,),)       (None)    NOUN_nmod      98
+i     first        ADJ  amod          ((Degree, Pos))  (None,)      (None,)         (None,)           (None,)       (None)    NOUN_nmod      98
+thy   thy          ADJ  amod          ((Degree, Pos))  (te,)        ((_,),)         ((_,),)           ((_,),)       (None)    NOUN_nmod      93
+i     i            ADJ  amod          ((Degree, Pos))  (None,)      (None,)         (None,)           (None,)       (None)    NOUN_root      87
+      first        ADJ  amod          ((Degree, Pos))  (None,)      (None,)         (None,)           (None,)       (None)    NOUN_obj       78
+thy   thy          ADJ  amod          ((Degree, Pos))  (te,)        ((_,),)         ((_,),)           ((_,),)       (None)    NOUN_nsubj     74
+i     i            ADJ  amod          ((Degree, Pos))  (None,)      (None,)         (None,)           (None,)       (None)    NOUN_nsubj     71
+                                                                                                                              NOUN_nmod      71
+own   own          ADJ  amod          ((Degree, Pos))  (None,)      (None,)         (None,)           (None,)       (None)    NOUN_obl       66
+i     first        ADJ  amod          ((Degree, Pos))  (None,)      (None,)         (None,)           (None,)       (None)    NOUN_nsubj     65
+thy   thy          ADJ  amod          ((Degree, Pos))  (None,)      (None,)         (None,)           (None,)       (None)    NOUN_nsubj     61
+...
+
+
+VERB:Trans 38288
+form 	 [('let', 936), ('made', 873), ('make', 851), ('said', 743), ('have', 736), ('give', 663), ('take', 654), ('took', 591), ('bring', 533), ('put', 521), ('brought', 514), ('shalt', 452), ('set', 429), ('sent', 371), ('see', 350), ('gave', 336), ('do', 326), ('had', 325), ('saw', 305), ('know', 301)]
+lemma 	 [('make', 1744), ('take', 1359), ('give', 1216), ('have', 1179), ('say', 1123), ('bring', 1063), ('let', 938), ('see', 834), ('do', 757), ('send', 540), ('go', 522), ('put', 521), ('hear', 449), ('set', 430), ('know', 423), ('deliver', 367), ('come', 363), ('keep', 358), ('shal', 346), ('call', 319)]
+misc 	 [('', 38288)]
+pos 	 [('VERB:Trans', 38288)]
+deprel 	 [('root', 9270), ('advcl', 7445), ('root:conj', 4561), ('acl', 3728), ('acl:relcl', 3707), ('xcomp', 2038), ('ccomp', 1606), ('advcl:conj', 1310), ('acl:conj', 536), ('ccomp:conj', 512), ('root:conj:conj', 511), ('nmod:conj', 403), ('obl:conj', 371), ('acl:relcl:conj', 320), ('xcomp:conj', 283), ('csubj', 231), ('obj:conj', 173), ('advcl:conj:conj', 169), ('root:conj:conj:conj', 147), ('nsubj:conj', 112)]
+deps 	 [('', 38288)]
+feats 	 [("('VerbForm', 'Fin')", 20593), ("('Mood', 'Ind')", 19807), ("('Tense', 'Past')", 16437), ("('Person', '3')", 12435), ("('VerbForm', 'Inf')", 11008), ("('Tense', 'Pres')", 9278), ("('Number', 'Plur')", 7788), ("('VerbForm', 'Part')", 5091), ("('VerbForm', 'Ger')", 1596), ("('Number', 'Sing')", 880), ("('Mood', 'Imp')", 776), ("('Person', '1')", 204), ("('Person', '2')", 185), ("('Mood', 'Sub')", 10)]
+translation 	 [('None', 3630), ('az', 513), ('a', 488), ('monda', 464), (',', 377), ('meg', 341), ('hogy', 237), ('mondván', 219), ('el', 201), ('és', 172), ('vala', 138), ('te', 137), ('adott', 99), ('adom', 99), ('adá', 98), ('ímé', 87), ('isten', 87), ('felele', 87), ('mondának', 85), ('vedd', 83)]
+ancestor_cross 	 [("('_',)", 32766), ('None', 3630), ("('root-1', '_')", 416), ("('nmod-1', '_')", 182), ("('advcl-1', '_')", 174), ("('obl-1', '_')", 154), ("('obj-1', '_')", 132), ("('root:conj-1', '_')", 116), ("('acl:relcl-1', '_')", 80), ("('acl-1', '_')", 68), ("('ccomp-1', '_')", 58), ("('xcomp-1', '_')", 42), ("('advcl:conj-1', '_')", 39), ("('nsubj-1', '_')", 35), ("('nmod:conj-1', '_')", 28), ("('root:conj:conj-1', '_')", 28), ("('_', 'root-1')", 24), ("('acl:conj-1', '_')", 20), ("('nsubj-1', '_', 'root-2')", 18), ("('ccomp:conj-1', '_')", 17)]
+descendant_cross 	 [("('_',)", 20140), ("('_', 'obj1')", 7416), ('None', 3630), ("('nsubj1', '_')", 2598), ("('_', 'obl1')", 1902), ("('cc1', '_')", 903), ("('aux1', '_')", 854), ("('advmod1', '_')", 676), ("('_', 'det2', 'obj1')", 629), ("('_', 'advmod1')", 581), ("('mark1', '_')", 518), ("('_', 'xcomp1')", 459), ("('_', 'obj1', 'nmod2')", 323), ("('_', 'amod2', 'obj1')", 292), ("('_', 'case2', 'obl1')", 253), ("('_', 'advcl1')", 234), ("('_', 'advmod2', 'obj1')", 217), ("('obl1', '_')", 165), ("('_', 'root:conj1')", 140), ("('_', 'nmod:poss2', 'obj1')", 134)]
+cousin_cross 	 [("('_',)", 32966), ('None', 3630), ("('root-1', 'obj1*', '_')", 79), ("('root-1', 'obl1*', '_')", 75), ("('root-1', 'root:conj1*', '_')", 64), ("('root-1', '_', 'root:conj1*')", 59), ("('advcl-1', 'obj1*', '_')", 35), ("('nsubj1*', 'root-1', '_')", 33), ("('advcl-1', 'obl1*', '_')", 28), ("('root-1', 'root:conj1*', 'obj2*', '_')", 24), ("('det1*', 'nmod-1', '_')", 24), ("('root:conj-1', 'obj1*', '_')", 21), ("('root-1', '_', 'cc2*', 'root:conj1*')", 20), ("('root-1', 'advmod1*', '_')", 20), ("('amod1*', 'nmod-1', '_')", 19), ("('acl-1', 'obj1*', '_')", 19), ("('root-1', 'cc2*', 'root:conj1*', '_')", 16), ("('amod1*', 'root-1', '_')", 15), ("('root-1', 'obj1*', 'nmod2*', '_')", 14), ("('cc1*', 'root:conj-1', '_')", 14)]
+children 	 [('NOUN_obj', 25537), ('and_cc', 11898), ('NOUN_obl', 10126), ('NOUN_nsubj', 7786), ('ADV_advmod', 6713), ('he_nsubj', 3589), ('shall_aux', 3451), ('he_obj', 2992), ('to_mark', 2976), ('VERB:Intrans_advcl', 2967), ('they_obj', 2954), ('VERB:Trans_advcl', 2929), ('they_nsubj', 2593), ('have_aux', 2565), ('will_aux', 2374), ('that_mark', 1895), ('VERB:Trans_root:conj', 1824), ('it_obj', 1590), ('not_advmod', 1461), ('thou_nsubj', 1453)]
+parents 	 [('None_None', 9270), ('VERB:Intrans_root', 4206), ('VERB:Trans_root', 3795), ('NOUN_root', 1938), ('NOUN_nmod', 1719), ('VERB:Intrans_advcl', 1597), ('VERB:Trans_advcl', 1394), ('NOUN_obl', 1379), ('NOUN_obj', 1153), ('VERB:Intrans_acl', 858), ('VERB:Intrans_root:conj', 753), ('VERB:Trans_root:conj', 612), ('VERB:Intrans_ccomp', 504), ('VERB:Trans_acl', 475), ('VERB:Intrans_acl:relcl', 468), ('VERB:Intrans_xcomp', 455), ('NOUN_root:conj', 403), ('VERB:Trans_acl:relcl', 390), ('VERB:Trans_ccomp', 355), ('ADJ_root', 332)]
+
+form      lemma     misc  pos         deprel     deps  feats                                                          translation      ancestor_cross  descendant_cross  cousin_cross           children                                            parents             
+said      say             VERB:Trans  root:conj        ((Tense, Past), (Person, 3), (Mood, Ind), (VerbForm, Fin))     (monda,)         ((_,),)         ((_,),)           ((_,),)                (and_cc, NOUN_obj)                                  VERB:Intrans_root       14
+                                                                                                                                                                                                                                                    VERB:Trans_root         10
+                                      root             ((Tense, Past), (Person, 3), (Mood, Ind), (VerbForm, Fin))     (monda,)         ((_,),)         ((nsubj1, _),)    ((_,),)                (VERB:Intrans_advcl, NOUN_nsubj, and_cc, NOUN_obj)  None_None                9
+                                                                                                                                                       ((_,),)           ((_,),)                (he_nsubj, and_cc, NOUN_obj)                        None_None                9
+begat     begat           VERB:Trans  root:conj        ((Number, Plur), (Mood, Ind), (VerbForm, Fin), (Tense, Pres))  (nemzé,)         ((_,),)         ((_,),)           ((_,),)                (and_cc, NOUN_obj)                                  VERB:Trans_root          8
+let       let             VERB:Trans  root             ((Mood, Imp), (VerbForm, Fin), (Tense, Pres), (Number, Plur))  (None,)          (None,)         (None,)           (None,)                (NOUN_obj)                                          None_None                8
+saying    say             VERB:Trans  advcl            ((VerbForm, Ger))                                              (mondván,)       ((_,),)         ((_,),)           ((_,),)                (NOUN_obj)                                          VERB:Trans_advcl         7
+said      say             VERB:Trans  root             ((Tense, Past), (Person, 3), (Mood, Ind), (VerbForm, Fin))     (monda,)         ((_,),)         ((nsubj1, _),)    ((_,),)                (NOUN_nsubj, VERB:Trans_advcl, and_cc, NOUN_obj)    None_None                7
+saying    say             VERB:Trans  advcl            ((VerbForm, Ger))                                              (mondván,)       ((_,),)         ((_,),)           ((_,),)                (NOUN_obj)                                          VERB:Trans_root          7
+                                                                                                                                                                                                                                                    VERB:Intrans_root        6
+said      say             VERB:Trans  root:conj        ((Tense, Past), (Person, 3), (Mood, Ind), (VerbForm, Fin))     (monda,)         ((_,),)         ((_,),)           ((_,),)                (he_obl, and_cc, NOUN_obj)                          VERB:Intrans_root        6
+likewise  likewise        VERB:Trans  root             ((Mood, Imp), (Person, 3), (VerbForm, Fin), (Tense, Pres))     (hasonlóképen,)  ((_,),)         ((_,),)           ((_,),)                (NOUN_obj)                                          None_None                6
+let       let             VERB:Trans  root             ((Number, Plur), (Mood, Ind), (VerbForm, Fin), (Tense, Pres))  (hallja,)        ((_,),)         ((_,),)           ((_,),)                (VERB:Trans_xcomp, that_nsubj, he_nsubj, he_obj)    None_None                6
+said      say             VERB:Trans  root:conj        ((Tense, Past), (Person, 3), (Mood, Ind), (VerbForm, Fin))     (monda,)         ((root-1, _),)  ((_,),)           ((_,),)                (NOUN_obj)                                          NOUN_root                6
+came      come            VERB:Trans  root             ((Tense, Past), (Person, 3), (Mood, Ind), (VerbForm, Fin))     (None,)          (None,)         (None,)           (None,)                (VERB:Intrans_advcl, NOUN_obj, ADV_advmod)          None_None                6
+saying    say             VERB:Trans  advcl            ((VerbForm, Ger))                                              (mondván,)       ((_,),)         ((_,),)           ((_,),)                (NOUN_obj)                                          VERB:Trans_root:conj     5
+choose    choose          VERB:Trans  acl:relcl        ((VerbForm, Inf))                                              (kiválaszt,)     ((_,),)         ((nsubj1, _),)    ((_,),)                (NOUN_nsubj, which_obj, shall_aux)                  NOUN_obl                 5
+behold    behold          VERB:Trans  root:conj        ((Tense, Past), (Person, 3), (Mood, Ind), (VerbForm, Fin))     (ímé,)           ((_,),)         ((_,),)           ((_,),)                (and_cc, NOUN_obj)                                  VERB:Intrans_root        5
+called    call            VERB:Trans  root:conj        ((Tense, Past), (Person, 3), (Mood, Ind), (VerbForm, Fin))     (nevezé,)        ((_,),)         ((_,),)           ((_,),)                (and_cc, NOUN_obj)                                  VERB:Trans_root          5
+hear      hear            VERB:Trans  xcomp            ((Number, Plur), (Mood, Ind), (VerbForm, Fin), (Tense, Pres))  (hallja,)        ((_,),)         ((_,),)           ((root-1, obj1*, _),)  (what_obj)                                          VERB:Trans_root          5
+...
+
+
+AUX 45286
+form 	 [('shall', 9165), ('be', 6557), ('is', 6158), ('was', 4088), ('will', 3542), ('have', 2883), ('are', 2739), ('were', 2189), ('had', 1446), ('may', 946), ('should', 763), ('do', 629), ('am', 594), ('would', 424), ('might', 407), ('did', 337), ('been', 292), ('being', 268), ('david', 260), ('can', 215)]
+lemma 	 [('be', 22842), ('shall', 9927), ('have', 4386), ('will', 3960), ('may', 1342), ('do', 964), ('can', 366), ('davo', 254), ('must', 124), ('bare', 83), ('behold', 74), ('tell', 71), ('abrahbe', 50), ('israel', 39), ('lay', 39), ('till', 32), ('dwell', 24), ('saul', 21), ('hold', 21), ('haman', 20)]
+misc 	 [('', 45286)]
+pos 	 [('AUX', 45286)]
+deprel 	 [('aux', 23384), ('cop', 14215), ('aux:pass', 7443), ('obj', 24), ('xcomp', 21), ('acl:relcl', 20), ('advcl', 20), ('obl', 15), ('root:conj', 13), ('ccomp', 11), ('nmod', 10), ('root', 10), ('det', 8), ('appos', 8), ('parataxis', 8), ('fixed', 8), ('acl', 7), ('advcl:conj', 6), ('acl:relcl:conj', 6), ('nmod:conj', 5)]
+deps 	 [('', 45286)]
+feats 	 [("('VerbForm', 'Fin')", 38294), ("('Mood', 'Ind')", 37867), ("('Person', '3')", 29152), ("('Tense', 'Pres')", 28173), ("('Number', 'Sing')", 11301), ("('Tense', 'Past')", 10655), ("('Number', 'Plur')", 8405), ("('VerbForm', 'Inf')", 6270), ("('Person', '1')", 750), ("('VerbForm', 'Part')", 467), ("('Mood', 'Sub')", 399), ("('VerbForm', 'Ger')", 188), ("('Person', '2')", 60), ("('Mood', 'Imp')", 28)]
+translation 	 [('None', 24771), (',', 1221), ('az', 1084), ('hogy', 877), ('vala', 807), ('a', 781), ('pedig', 654), ('van', 654), ('lesz', 631), ('legyen', 609), ('volt', 504), ('kik', 396), ('meg', 376), ('vagyok', 355), ('mely', 351), ('is', 340), ('valának', 291), (']', 284), ('nem', 265), ('dávid', 249)]
+ancestor_cross 	 [('None', 24771), ("('_',)", 14697), ("('_', 'root-1')", 1617), ("('_', 'acl:relcl-1')", 801), ("('_', 'advcl-1')", 796), ("('_', 'ccomp-1')", 353), ("('_', 'root:conj-1')", 320), ("('_', 'acl-1')", 268), ("('_', 'obj-1')", 166), ("('_', 'xcomp-1')", 122), ("('_', 'nmod-1')", 95), ("('_', 'obl-1')", 90), ("('_', 'advcl:conj-1')", 83), ("('_', 'nsubj-1')", 75), ("('_', 'advmod-1')", 74), ("('_', 'amod-1')", 70), ("('_', 'nmod:conj-1')", 63), ("('_', 'ccomp:conj-1')", 62), ("('nmod-2', '_', 'acl:relcl-1')", 59), ("('_', 'root:conj:conj-1')", 49)]
+descendant_cross 	 [('None', 24771), ("('_',)", 20434), ("('_', 'advmod1')", 41), ("('_', 'obl1')", 7), ("('nsubj1', '_')", 6)]
+cousin_cross 	 [('None', 24771), ("('_',)", 15857), ("('nsubj1*', '_', 'root-1')", 385), ("('_', 'advmod1*', 'root-1')", 185), ("('nsubj1*', '_', 'advcl-1')", 150), ("('nsubj1*', '_', 'acl:relcl-1')", 136), ("('nsubj1*', '_', 'ccomp-1')", 125), ("('nsubj:pass1*', '_', 'root-1')", 106), ("('_', 'root-1', 'obl1*')", 103), ("('_', 'root-1', 'obj1*')", 89), ("('nsubj1*', '_', 'acl-1')", 74), ("('nsubj:pass1*', '_', 'advcl-1')", 73), ("('_', 'advmod1*', 'advcl-1')", 72), ("('nsubj1*', '_', 'root:conj-1')", 69), ("('advmod1*', '_', 'root-1')", 66), ("('cc1*', '_', 'root-1')", 64), ("('cc1*', '_', 'root:conj-1')", 60), ("('_', 'advcl-1', 'obj1*')", 59), ("('_', 'advcl-1', 'obl1*')", 56), ("('_', 'acl:relcl-1', 'obl1*')", 50)]
+children 	 [('None', 44957), ('ADV_advmod', 80), ('not_advmod', 56), ('and_cc', 27), ('they_nsubj', 23), ('NOUN_nsubj', 22), ('NOUN_cop:conj', 20), ('NOUN_obl', 18), ('that_mark', 15), ('NOUN_nmod', 14), ('he_nsubj', 13), ('shall_aux', 11), ('it_nsubj', 10), ('this_det', 8), ('VERB:Trans_advcl', 7), ('but_cc', 7), ('VERB:Intrans_cop:conj', 7), ('you_nmod', 6), ('VERB:Trans_cop:conj', 6), ('ADJ_cop:conj', 5)]
+parents 	 [('VERB:Intrans_root', 5230), ('VERB:Trans_root', 3421), ('VERB:Intrans_advcl', 3353), ('NOUN_root', 2796), ('VERB:Intrans_acl:relcl', 2292), ('VERB:Trans_advcl', 2085), ('VERB:Intrans_acl', 1651), ('VERB:Intrans_ccomp', 1548), ('NOUN_acl:relcl', 1274), ('VERB:Intrans_root:conj', 1238), ('VERB:Trans_acl:relcl', 1236), ('ADJ_root', 1049), ('NOUN_obj', 947), ('VERB:Trans_root:conj', 909), ('VERB:Trans_acl', 835), ('VERB:Trans_ccomp', 789), ('NOUN_advcl', 730), ('ADJ_advcl', 615), ('NOUN_obl', 601), ('NOUN_root:conj', 585)]
+
+form   lemma  misc  pos  deprel    deps  feats                                                                       translation  ancestor_cross  descendant_cross  cousin_cross  children  parents               
+shall  shall        AUX  aux             ((Person, 3), (Mood, Ind), (VerbForm, Fin), (Tense, Pres))                  (None,)      (None,)         (None,)           (None,)       (None)    VERB:Intrans_root         1006
+                                                                                                                                                                                            VERB:Trans_root            845
+will   will         AUX  aux             ((Person, 3), (Mood, Ind), (VerbForm, Fin), (Tense, Pres))                  (None,)      (None,)         (None,)           (None,)       (None)    VERB:Trans_root            577
+shall  shall        AUX  aux             ((Person, 3), (Mood, Ind), (VerbForm, Fin), (Tense, Pres))                  (None,)      (None,)         (None,)           (None,)       (None)    VERB:Intrans_advcl         426
+be     be           AUX  aux:pass        ((VerbForm, Inf))                                                           (None,)      (None,)         (None,)           (None,)       (None)    VERB:Intrans_root          404
+is     be           AUX  cop             ((VerbForm, Fin), (Number, Sing), (Person, 3), (Mood, Ind), (Tense, Pres))  (None,)      (None,)         (None,)           (None,)       (None)    NOUN_root                  398
+shall  shall        AUX  aux             ((Person, 3), (Mood, Ind), (VerbForm, Fin), (Tense, Pres))                  (None,)      (None,)         (None,)           (None,)       (None)    VERB:Trans_advcl           350
+have   have         AUX  aux             ((Mood, Ind), (VerbForm, Fin), (Tense, Pres), (Number, Plur))               (None,)      (None,)         (None,)           (None,)       (None)    VERB:Trans_root            346
+                                                                                                                                                                                            VERB:Trans_advcl           324
+be     be           AUX  aux:pass        ((VerbForm, Inf))                                                           (None,)      (None,)         (None,)           (None,)       (None)    VERB:Intrans_advcl         311
+shall  shall        AUX  aux             ((Person, 3), (Mood, Ind), (VerbForm, Fin), (Tense, Pres))                  (None,)      (None,)         (None,)           (None,)       (None)    VERB:Intrans_root:conj     309
+will   will         AUX  aux             ((Person, 3), (Mood, Ind), (VerbForm, Fin), (Tense, Pres))                  (None,)      (None,)         (None,)           (None,)       (None)    VERB:Intrans_root          294
+shall  shall        AUX  aux             ((Person, 3), (Mood, Ind), (VerbForm, Fin), (Tense, Pres))                  (None,)      (None,)         (None,)           (None,)       (None)    VERB:Trans_root:conj       285
+will   will         AUX  aux             ((Person, 3), (Mood, Ind), (VerbForm, Fin), (Tense, Pres))                  (None,)      (None,)         (None,)           (None,)       (None)    VERB:Trans_advcl           252
+shall  shall        AUX  aux             ((Person, 3), (Mood, Ind), (VerbForm, Fin), (Tense, Pres))                  (None,)      (None,)         (None,)           (None,)       (None)    VERB:Intrans_acl:relcl     246
+was    be           AUX  aux:pass        ((Tense, Past), (Number, Sing), (VerbForm, Fin), (Person, 3), (Mood, Ind))  (None,)      (None,)         (None,)           (None,)       (None)    VERB:Intrans_root          242
+be     be           AUX  aux:pass        ((VerbForm, Inf))                                                           (None,)      (None,)         (None,)           (None,)       (None)    VERB:Intrans_ccomp         238
+have   have         AUX  aux             ((Mood, Ind), (VerbForm, Fin), (Tense, Pres), (Number, Plur))               (None,)      (None,)         (None,)           (None,)       (None)    VERB:Intrans_root          226
+shall  shall        AUX  aux             ((Person, 3), (Mood, Ind), (VerbForm, Fin), (Tense, Pres))                  (None,)      (None,)         (None,)           (None,)       (None)    VERB:Intrans_acl           220
+                                                                                                                                                                                            VERB:Intrans_ccomp         213
+...
+
+
+VERB:Intrans 48161
+form 	 [('said', 3040), ('come', 1744), ('came', 1610), ('go', 1120), ('saying', 1060), ('went', 1039), ('shalt', 816), ('according', 686), ('say', 503), ('is', 456), ('made', 445), ('let', 440), ('know', 431), ('done', 387), ('called', 337), ('god', 320), ('speak', 313), ('put', 309), ('answered', 308), ('do', 282)]
+lemma 	 [('say', 4553), ('come', 3244), ('go', 2533), ('do', 947), ('be', 843), ('accord', 689), ('make', 561), ('shal', 553), ('see', 544), ('know', 539), ('speak', 489), ('give', 473), ('take', 454), ('let', 441), ('call', 395), ('bring', 357), ('pass', 351), ('die', 330), ('return', 326), ('answer', 324)]
+misc 	 [('', 48161)]
+pos 	 [('VERB:Intrans', 48161)]
+deprel 	 [('root', 10338), ('advcl', 8592), ('acl', 8229), ('acl:relcl', 4351), ('root:conj', 4076), ('xcomp', 3462), ('ccomp', 2233), ('advcl:conj', 1404), ('ccomp:conj', 583), ('acl:conj', 564), ('nmod:conj', 532), ('root:conj:conj', 508), ('obl:conj', 450), ('acl:relcl:conj', 356), ('xcomp:conj', 306), ('obj:conj', 204), ('csubj', 189), ('nsubj:conj', 170), ('advcl:conj:conj', 164), ('root:conj:conj:conj', 135)]
+deps 	 [('', 48161)]
+feats 	 [("('Tense', 'Past')", 27467), ("('VerbForm', 'Fin')", 20042), ("('Mood', 'Ind')", 19781), ("('VerbForm', 'Part')", 15936), ("('Person', '3')", 12944), ("('VerbForm', 'Inf')", 9188), ("('Tense', 'Pres')", 8611), ("('Number', 'Plur')", 6865), ("('VerbForm', 'Ger')", 2995), ("('Number', 'Sing')", 1670), ("('Mood', 'Imp')", 258), ("('Person', '1')", 136), ("('Person', '2')", 55)]
+translation 	 [('None', 3559), ('monda', 1997), (',', 964), ('mondván', 916), ('a', 541), ('szerint', 484), ('lõn', 319), ('mondának', 293), ('az', 289), ('meg', 239), ('ímé', 211), ('felele', 193), ('vala', 177), ('el', 176), ('menj', 171), ('pedig', 164), ('isten', 156), ('elméne', 150), ('mondá', 144), ('mondják', 132)]
+ancestor_cross 	 [("('_',)", 40166), ('None', 3559), ("('root-1', '_')", 777), ("('nmod-1', '_')", 598), ("('obl-1', '_')", 332), ("('obj-1', '_')", 288), ("('advcl-1', '_')", 282), ("('acl:relcl-1', '_')", 218), ("('root:conj-1', '_')", 216), ("('nsubj-1', '_')", 169), ("('acl-1', '_')", 162), ("('ccomp-1', '_')", 105), ("('_', 'root-1')", 81), ("('xcomp-1', '_')", 71), ("('advcl:conj-1', '_')", 69), ("('_', 'nmod-1')", 52), ("('_', 'obj-1')", 52), ("('obl:conj-1', '_')", 47), ("('nmod:conj-1', '_')", 45), ("('ccomp:conj-1', '_')", 45)]
+descendant_cross 	 [("('_',)", 28159), ("('_', 'obl1')", 5577), ('None', 3559), ("('nsubj1', '_')", 3042), ("('_', 'advmod1')", 1389), ("('aux1', '_')", 1260), ("('nsubj:pass1', '_')", 1235), ("('cc1', '_')", 1074), ("('advmod1', '_')", 941), ("('_', 'xcomp1')", 818), ("('_', 'case2', 'obl1')", 758), ("('aux:pass1', '_')", 714), ("('mark1', '_')", 671), ("('_', 'det2', 'obl1')", 460), ("('_', 'advcl1')", 406), ("('_', 'ccomp1')", 360), ("('_', 'obl1', 'nmod2')", 286), ("('obl1', '_')", 211), ("('_', 'amod2', 'obl1')", 151), ("('_', 'compound:prt1')", 138)]
+cousin_cross 	 [("('_',)", 42137), ('None', 3559), ("('root-1', 'obj1*', '_')", 76), ("('root-1', '_', 'root:conj1*')", 74), ("('root-1', 'obl1*', '_')", 72), ("('root-1', 'root:conj1*', '_')", 64), ("('nsubj1*', 'root-1', '_')", 60), ("('advcl-1', 'obj1*', '_')", 55), ("('root:conj-1', 'obj1*', '_')", 38), ("('amod1*', 'root-1', '_')", 31), ("('root-1', '_', 'cc2*', 'root:conj1*')", 29), ("('acl:relcl-1', 'obj1*', '_')", 27), ("('nsubj1*', '_', 'root-1')", 26), ("('cc1*', 'root:conj-1', '_')", 26), ("('acl-1', 'obj1*', '_')", 24), ("('case1*', 'nmod-1', '_')", 23), ("('case1*', 'obl-1', '_')", 23), ("('det1*', 'root-1', '_')", 21), ("('advmod1*', 'root-1', '_')", 21), ("('_', 'nsubj1*', 'root-1')", 20)]
+children 	 [('NOUN_obl', 18769), ('and_cc', 12838), ('ADV_advmod', 9729), ('NOUN_nsubj', 7145), ('be_aux:pass', 7006), ('shall_aux', 4566), ('VERB:Intrans_advcl', 4114), ('to_mark', 3657), ('VERB:Trans_advcl', 3535), ('NOUN_nsubj:pass', 3124), ('he_nsubj', 3009), ('they_nsubj', 2572), ('that_mark', 2528), ('None', 2443), ('not_advmod', 2308), ('VERB:Intrans_xcomp', 1941), ('VERB:Intrans_ccomp', 1935), ('he_obl', 1719), ('VERB:Intrans_root:conj', 1632), ('have_aux', 1585)]
+parents 	 [('None_None', 10338), ('VERB:Intrans_root', 4938), ('VERB:Trans_root', 3206), ('NOUN_nmod', 2940), ('NOUN_root', 2837), ('VERB:Intrans_advcl', 2252), ('NOUN_obl', 2028), ('NOUN_obj', 1898), ('VERB:Trans_advcl', 1503), ('VERB:Intrans_acl', 1079), ('VERB:Intrans_root:conj', 940), ('NOUN_nsubj', 807), ('VERB:Intrans_acl:relcl', 762), ('VERB:Intrans_ccomp', 692), ('VERB:Trans_root:conj', 620), ('NOUN_root:conj', 610), ('VERB:Intrans_xcomp', 569), ('VERB:Trans_acl:relcl', 518), ('VERB:Trans_acl', 494), ('ADJ_root', 385)]
+
+form       lemma   misc  pos           deprel      deps  feats                                                       translation  ancestor_cross  descendant_cross  cousin_cross  children                                           parents           
+saying     say           VERB:Intrans  acl               ((VerbForm, Ger))                                           (mondván,)   ((_,),)         ((_,),)           ((_,),)       (None)                                             NOUN_root             91
+                                       advcl             ((VerbForm, Ger))                                           (mondván,)   ((_,),)         ((_,),)           ((_,),)       (None)                                             VERB:Intrans_root     58
+                                       acl               ((VerbForm, Ger))                                           (mondván,)   ((_,),)         ((_,),)           ((_,),)       (None)                                             NOUN_nmod             46
+came       come          VERB:Intrans  root              ((Tense, Past), (Person, 3), (Mood, Ind), (VerbForm, Fin))  (lõn,)       ((_,),)         ((_,),)           ((_,),)       (VERB:Intrans_advcl, NOUN_obl, and_cc, it_nsubj)   None_None             45
+                                                                                                                                                                                  (NOUN_obl, VERB:Trans_advcl, and_cc, it_nsubj)     None_None             43
+saying     say           VERB:Intrans  advcl             ((VerbForm, Ger))                                           (mondván,)   ((_,),)         ((_,),)           ((_,),)       (None)                                             VERB:Trans_root       43
+said       say           VERB:Intrans  root:conj         ((Tense, Past), (Person, 3), (Mood, Ind), (VerbForm, Fin))  (monda,)     ((_,),)         ((_,),)           ((_,),)       (and_cc)                                           VERB:Trans_root       41
+                                       advcl:conj        ((Tense, Past), (Person, 3), (Mood, Ind), (VerbForm, Fin))  (monda,)     ((_,),)         ((_,),)           ((_,),)       (and_cc)                                           VERB:Intrans_advcl    33
+                                       root:conj         ((Tense, Past), (Person, 3), (Mood, Ind), (VerbForm, Fin))  (monda,)     ((_,),)         ((_,),)           ((_,),)       (and_cc)                                           VERB:Intrans_root     33
+pitched    pitch         VERB:Intrans  root:conj         ((Tense, Past), (Person, 3), (Mood, Ind), (VerbForm, Fin))  (tábort,)    ((_,),)         ((_,),)           ((_,),)       (NOUN_obl, and_cc)                                 VERB:Intrans_root     28
+saying     say           VERB:Intrans  advcl             ((VerbForm, Ger))                                           (mondván,)   ((_,),)         ((_,),)           ((_,),)       (None)                                             VERB:Intrans_advcl    28
+came       come          VERB:Intrans  root              ((Tense, Past), (Person, 3), (Mood, Ind), (VerbForm, Fin))  (lõn,)       ((_,),)         ((_,),)           ((_,),)       (NOUN_obl, and_cc, it_nsubj)                       None_None             27
+                                                                                                                                                                                  (NOUN_obl, VERB:Intrans_ccomp, and_cc, it_nsubj)   None_None             23
+saying     say           VERB:Intrans  acl               ((VerbForm, Ger))                                           (mondván,)   ((_,),)         ((_,),)           ((_,),)       (None)                                             NOUN_obl              21
+come       come          VERB:Intrans  root              ((Tense, Past), (VerbForm, Part))                           (None,)      (None,)         (None,)           (None,)       (VERB:Intrans_xcomp, and_cc, shall_aux, it_nsubj)  None_None             18
+said       say           VERB:Intrans  root              ((Tense, Past), (Person, 3), (Mood, Ind), (VerbForm, Fin))  (monda,)     ((_,),)         ((_,),)           ((_,),)       (he_nsubj, VERB:Trans_advcl, and_cc)               None_None             17
+came       come          VERB:Intrans  root              ((Tense, Past), (Person, 3), (Mood, Ind), (VerbForm, Fin))  (None,)      (None,)         (None,)           (None,)       (VERB:Intrans_advcl, NOUN_obl, and_cc, it_nsubj)   None_None             16
+saying     say           VERB:Intrans  advcl             ((VerbForm, Ger))                                           (mondván,)   ((_,),)         ((_,),)           ((_,),)       (None)                                             VERB:Intrans_acl      16
+made       make          VERB:Intrans  acl               ((Tense, Past), (VerbForm, Part))                           (None,)      (None,)         (None,)           (None,)       (NOUN_obl)                                         NOUN_nmod             16
+according  accord        VERB:Intrans  acl               ((VerbForm, Ger))                                           (szerint,)   ((_,),)         ((_, obl1),)      ((_,),)       (NOUN_obl)                                         NOUN_nmod             16
+...
+
+
+CCONJ 55283
+form 	 [('and', 47767), ('but', 3782), ('or', 1056), ('neither', 759), ('nor', 718), ('jesus', 363), ('both', 209), ('yet', 120), ('save', 114), ('doth', 87), ('thousand', 55), ('gather', 35), ('stand', 33), ('either', 27), ('whither', 19), ('command', 17), ('brother', 12), ('shut', 12), ('naboth', 11), ('leave', 10)]
+lemma 	 [('and', 47767), ('but', 3782), ('or', 1056), ('neither', 759), ('nor', 718), ('jesus', 363), ('both', 209), ('yet', 120), ('save', 114), ('doth', 87), ('thousand', 55), ('gather', 35), ('stand', 33), ('either', 27), ('whither', 19), ('command', 17), ('brother', 12), ('shut', 12), ('naboth', 11), ('leave', 10)]
+misc 	 [('', 55283)]
+pos 	 [('CCONJ', 55283)]
+deprel 	 [('cc', 55248), ('root', 16), ('punct', 5)]
+deps 	 [('', 55283)]
+feats 	 [('None', 55283)]
+translation 	 [('és', 34091), ('None', 9288), ('pedig', 2354), ('de', 1446), ('hanem', 802), ('s', 713), ('vagy', 646), ('sem', 619), ('a', 563), ('hogy', 497), ('azért', 462), (',', 436), ('nem', 395), ('jézus', 325), ('az', 300), ('mind', 270), ('se', 263), ('azután', 248), ('akkor', 227), ('ne', 181)]
+ancestor_cross 	 [("('_',)", 39228), ('None', 9288), ("('_', 'root:conj-1')", 1075), ("('_', 'root-1')", 773), ("('_', 'nmod:conj-1')", 430), ("('root-2', '_', 'root:conj-1')", 394), ("('_', 'advcl:conj-1')", 267), ("('nmod-2', '_', 'nmod:conj-1')", 251), ("('_', 'obl:conj-1')", 249), ("('obl-2', '_', 'obl:conj-1')", 186), ("('_', 'root:conj:conj-1')", 180), ("('advcl-2', '_', 'advcl:conj-1')", 151), ("('_', 'obj:conj-1')", 151), ("('_', 'nsubj-1')", 140), ("('_', 'nsubj:conj-1')", 132), ("('_', 'acl:conj-1')", 128), ("('_', 'ccomp:conj-1')", 122), ("('root:conj-2', '_', 'root:conj:conj-1')", 108), ("('obj-2', '_', 'obj:conj-1')", 101), ("('obl-3', 'nmod-2', '_', 'nmod:conj-1')", 98)]
+descendant_cross 	 [("('_',)", 45984), ('None', 9288), ("('_', 'advcl:conj:conj1')", 8), ("('_', 'cc:conj1')", 7)]
+cousin_cross 	 [("('_',)", 40485), ('None', 9288), ("('_', 'nsubj1*', 'root-1')", 304), ("('root-2', 'root:conj1*', '_', 'root:conj-1')", 186), ("('_', 'mark1*', 'root-1')", 107), ("('_', 'nsubj1*', 'root:conj-1')", 105), ("('_', 'root:conj-1', 'obj1*')", 100), ("('_', 'root:conj-1', 'obl1*')", 78), ("('_', 'root-1', 'obj1*')", 74), ("('root-2', 'obj1*', '_', 'root:conj-1')", 73), ("('root-2', 'obl1*', '_', 'root:conj-1')", 63), ("('nsubj1*', 'root-2', '_', 'root:conj-1')", 62), ("('_', 'root-1', 'obl1*')", 56), ("('_', 'root:conj-1', 'nmod1*')", 55), ("('root-2', '_', 'root:conj-1', 'root:conj1*')", 54), ("('_', 'nsubj1*', 'advcl-1')", 51), ("('_', 'aux1*', 'root-1')", 41), ("('case1*', 'obl-2', '_', 'obl:conj-1')", 41), ("('_', 'advcl:conj-1', 'obj1*')", 40), ("('_', 'amod1*', 'root:conj-1')", 39)]
+children 	 [('None', 55119), ('NOUN_cc:conj', 90), ('VERB:Intrans_cc:conj', 15), ('ADV_advmod', 9), ('NOUN_root:conj', 6), ('you_obl', 5), ('lo_cc:conj', 5), ('for_case', 5), ('he_obl', 5)]
+parents 	 [('NOUN_root:conj', 4487), ('VERB:Intrans_root', 4460), ('VERB:Trans_root:conj', 4418), ('VERB:Intrans_root:conj', 3798), ('VERB:Trans_root', 3320), ('NOUN_nmod:conj', 2948), ('NOUN_root', 2351), ('NOUN_obl:conj', 1907), ('NOUN_nsubj', 1667), ('NOUN_obj:conj', 1361), ('VERB:Intrans_advcl:conj', 1304), ('VERB:Trans_advcl:conj', 1264), ('NOUN_nsubj:conj', 1058), ('NOUN_advcl:conj', 912), ('NOUN_root:conj:conj', 759), ('VERB:Intrans_advcl', 594), ('VERB:Intrans_ccomp:conj', 546), ('VERB:Intrans_acl:conj', 519), ('VERB:Trans_root:conj:conj', 504), ('VERB:Trans_acl:conj', 502)]
+
+form  lemma  misc  pos    deprel  deps  feats   translation  ancestor_cross  descendant_cross  cousin_cross  children  parents                
+and   and          CCONJ  cc            (None)  (és,)        ((_,),)         ((_,),)           ((_,),)       (None)    VERB:Trans_root:conj       2571
+                                                                                                                       VERB:Intrans_root:conj     2080
+                                                                                                                       NOUN_root:conj             1959
+                                                                                                                       VERB:Intrans_root          1939
+                                                                                                                       VERB:Trans_root            1472
+                                                                                                                       NOUN_nmod:conj             1215
+                                                                                                                       NOUN_obl:conj               877
+                                                (None,)      (None,)         (None,)           (None,)       (None)    NOUN_root:conj              869
+                                                                                                                       VERB:Intrans_root           856
+                                                (és,)        ((_,),)         ((_,),)           ((_,),)       (None)    NOUN_root                   781
+                                                                                                                       NOUN_nsubj                  728
+                                                                                                                       VERB:Trans_advcl:conj       706
+                                                                                                                       VERB:Intrans_advcl:conj     677
+                                                (None,)      (None,)         (None,)           (None,)       (None)    NOUN_root                   677
+                                                (és,)        ((_,),)         ((_,),)           ((_,),)       (None)    NOUN_obj:conj               662
+                                                (None,)      (None,)         (None,)           (None,)       (None)    VERB:Trans_root             611
+                                                                                                                       VERB:Trans_root:conj        519
+                                                                                                                       VERB:Intrans_root:conj      512
+                                                (és,)        ((_,),)         ((_,),)           ((_,),)       (None)    NOUN_nsubj:conj             458
+                                                (None,)      (None,)         (None,)           (None,)       (None)    NOUN_nmod:conj              419
+...
+
+
+PRON 68703
+form 	 [('he', 9670), ('they', 6878), ('him', 6256), ('them', 6009), ('it', 5731), ('that', 4324), ('thou', 4247), ('which', 4062), ('me', 3901), ('you', 2454), ('we', 1774), ('there', 1702), ('us', 1351), ('who', 926), ('she', 896), ('what', 807), ('all', 801), ('her', 769), ('whom', 711), ('this', 692)]
+lemma 	 [('he', 16373), ('they', 13227), ('it', 5779), ('that', 4514), ('thou', 4247), ('which', 4062), ('i', 3812), ('you', 2454), ('we', 1774), ('there', 1702), ('who', 1483), ('us', 1400), ('she', 1033), ('this', 926), ('what', 823), ('all', 801), ('her', 645), ('hath', 453), ('lord', 279), ('whose', 261)]
+misc 	 [('', 68703)]
+pos 	 [('PRON', 68703)]
+deprel 	 [('nsubj', 31341), ('obj', 12943), ('obl', 10187), ('nmod', 6391), ('nsubj:pass', 3256), ('expl', 1159), ('root', 827), ('root:conj', 368), ('iobj', 297), ('acl:relcl', 288), ('nmod:conj', 182), ('appos', 157), ('ccomp', 150), ('obl:conj', 111), ('advcl:conj', 100), ('advcl', 95), ('acl', 88), ('nsubj:conj', 72), ('xcomp', 65), ('obj:conj', 60)]
+deps 	 [('', 68703)]
+feats 	 [("('PronType', 'Prs')", 51978), ("('Person', '3')", 38214), ("('Number', 'Sing')", 28720), ("('Number', 'Plur')", 17361), ("('Gender', 'Masc')", 16584), ("('PronType', 'Rel')", 11016), ("('Person', '1')", 7096), ("('Person', '2')", 6749), ("('PronType', 'Ind')", 2206), ('None', 1707), ("('PronType', 'Dem')", 1453), ("('Gender', 'Fem')", 905), ("('NumType', 'Ord')", 386), ("('PronType', 'Int')", 343), ("('Poss', 'Yes')", 36)]
+translation 	 [('None', 24065), ('a', 3575), ('õt', 1660), ('ki', 1647), (',', 1567), ('néki', 1457), ('kik', 1354), ('õ', 1280), ('azt', 1276), ('õket', 1211), ('nékik', 1016), ('engem', 1006), ('mely', 783), ('te', 774), ('melyet', 758), ('nékem', 728), ('néktek', 701), ('mi', 670), ('és', 658), ('hogy', 650)]
+ancestor_cross 	 [("('_',)", 36227), ('None', 24065), ("('_', 'acl:relcl-1')", 900), ("('_', 'root-1')", 675), ("('advcl-1', '_')", 607), ("('acl:relcl-1', '_')", 537), ("('root-1', '_')", 499), ("('_', 'advcl-1')", 419), ("('acl-1', '_')", 350), ("('root:conj-1', '_')", 293), ("('nmod-1', '_')", 224), ("('xcomp-1', '_')", 211), ("('obj-1', '_')", 195), ("('obl-1', '_')", 189), ("('nmod-2', '_', 'acl:relcl-1')", 181), ("('_', 'ccomp-1')", 181), ("('ccomp-1', '_')", 179), ("('nsubj-1', '_')", 159), ("('obl-2', '_', 'acl:relcl-1')", 148), ("('_', 'root:conj-1')", 147)]
+descendant_cross 	 [("('_',)", 41954), ('None', 24065), ("('case1', '_')", 1056), ("('_', 'nmod1')", 422), ("('_', 'acl:relcl1')", 186), ("('cop1', '_')", 178), ("('_', 'advmod1')", 110), ("('nsubj1', '_')", 104), ("('_', 'acl1')", 100), ("('advmod1', '_')", 83), ("('cc1', '_')", 71), ("('_', 'amod1')", 57), ("('det1', '_')", 54), ("('_', 'nsubj2', 'acl:relcl1')", 50), ("('nmod1', '_')", 46), ("('_', 'case2', 'nmod1')", 44), ("('amod1', '_')", 30), ("('_', 'det2', 'nmod1')", 26), ("('_', 'nsubj1')", 22), ("('_', 'advcl1')", 21)]
+cousin_cross 	 [("('_',)", 37096), ('None', 24065), ("('nsubj1*', 'root-1', '_')", 292), ("('cc1*', '_', 'root-1')", 196), ("('root-1', '_', 'obl1*')", 148), ("('nsubj1*', 'advcl-1', '_')", 128), ("('advcl-1', '_', 'obl1*')", 121), ("('root:conj-1', '_', 'obl1*')", 96), ("('_', 'acl:relcl-1', 'obl1*')", 89), ("('root-1', '_', 'xcomp1*')", 86), ("('advcl-1', '_', 'xcomp1*')", 83), ("('mark1*', '_', 'advcl-1')", 83), ("('_', 'root-1', 'obj1*')", 83), ("('acl-1', '_', 'obl1*')", 80), ("('root-1', 'obj1*', '_')", 69), ("('root-1', '_', 'advmod1*')", 65), ("('advcl-1', '_', 'advmod1*')", 64), ("('_', 'nsubj1*', 'acl:relcl-1')", 62), ("('advmod1*', '_', 'root-1')", 61), ("('cc1*', '_', 'root:conj-1')", 58)]
+children 	 [('None', 47204), ('unto_case', 3452), ('NOUN_nmod', 2599), ('for_case', 1899), ('of_case', 1822), ('with_case', 1272), ('VERB:Intrans_acl:relcl', 1167), ('and_cc', 1145), ('to_case', 1070), ('be_cop', 1000), ('ADV_advmod', 856), ('VERB:Trans_acl:relcl', 773), ('in_case', 740), ('upon_case', 690), ('VERB:Intrans_acl', 557), ('against_case', 538), ('ADJ_amod', 526), ('the_det', 525), ('NOUN_nsubj', 522), ('from_case', 464)]
+parents 	 [('VERB:Trans_root', 6761), ('VERB:Intrans_root', 6167), ('VERB:Trans_acl:relcl', 5448), ('VERB:Trans_advcl', 5385), ('VERB:Intrans_acl:relcl', 4734), ('VERB:Intrans_advcl', 4459), ('VERB:Trans_root:conj', 2809), ('VERB:Trans_acl', 1888), ('NOUN_root', 1798), ('VERB:Intrans_acl', 1704), ('NOUN_acl:relcl', 1683), ('VERB:Intrans_root:conj', 1471), ('NOUN_obj', 1460), ('VERB:Trans_ccomp', 1418), ('NOUN_nmod', 1386), ('VERB:Intrans_ccomp', 1382), ('NOUN_obl', 1222), ('NOUN_nsubj', 858), ('VERB:Trans_advcl:conj', 839), ('None_None', 827)]
+
+form   lemma  misc  pos   deprel  deps  feats                                                           translation  ancestor_cross  descendant_cross  cousin_cross  children  parents               
+he     he           PRON  nsubj         ((Person, 3), (PronType, Prs), (Gender, Masc), (Number, Sing))  (None,)      (None,)         (None,)           (None,)       (None)    VERB:Trans_root           870
+                                                                                                                                                                               VERB:Intrans_root         607
+they   they         PRON  nsubj         ((Person, 3), (PronType, Prs), (Number, Plur))                  (None,)      (None,)         (None,)           (None,)       (None)    VERB:Trans_root           581
+                                                                                                                                                                               VERB:Intrans_root         521
+he     he           PRON  nsubj         ((Person, 3), (PronType, Prs), (Gender, Masc), (Number, Sing))  (None,)      (None,)         (None,)           (None,)       (None)    VERB:Trans_advcl          487
+                                                                                                                                                                               VERB:Intrans_advcl        487
+they   they         PRON  nsubj         ((Person, 3), (PronType, Prs), (Number, Plur))                  (None,)      (None,)         (None,)           (None,)       (None)    VERB:Intrans_advcl        425
+                                                                                                                                                                               VERB:Trans_advcl          424
+it     it           PRON  nsubj         ((PronType, Prs), (Person, 3), (Number, Sing))                  (None,)      (None,)         (None,)           (None,)       (None)    VERB:Intrans_root         317
+thou   thou         PRON  nsubj         ((PronType, Prs), (Person, 2))                                  (None,)      (None,)         (None,)           (None,)       (None)    VERB:Intrans_root         291
+he     he           PRON  nsubj         ((Person, 3), (PronType, Prs), (Gender, Masc), (Number, Sing))  (None,)      (None,)         (None,)           (None,)       (None)    VERB:Trans_acl:relcl      267
+thou   thou         PRON  nsubj         ((PronType, Prs), (Person, 2))                                  (None,)      (None,)         (None,)           (None,)       (None)    VERB:Intrans_advcl        242
+                                                                                                                                                                               VERB:Trans_advcl          222
+                                                                                                                                                                               VERB:Trans_root           209
+he     he           PRON  nsubj         ((Person, 3), (PronType, Prs), (Gender, Masc), (Number, Sing))  (None,)      (None,)         (None,)           (None,)       (None)    VERB:Trans_root:conj      204
+that   that         PRON  nsubj         ((PronType, Rel))                                               (None,)      (None,)         (None,)           (None,)       (None)    VERB:Intrans_acl:relcl    200
+it     it           PRON  nsubj         ((PronType, Prs), (Person, 3), (Number, Sing))                  (lõn,)       ((_,),)         ((_,),)           ((_,),)       (None)    VERB:Intrans_root         198
+they   they         PRON  nsubj         ((Person, 3), (PronType, Prs), (Number, Plur))                  (None,)      (None,)         (None,)           (None,)       (None)    VERB:Trans_root:conj      195
+that   that         PRON  nsubj         ((PronType, Rel))                                               (kik,)       ((_,),)         ((_,),)           ((_,),)       (None)    VERB:Intrans_acl:relcl    179
+which  which        PRON  obj           ((PronType, Rel))                                               (melyet,)    ((_,),)         ((_,),)           ((_,),)       (None)    VERB:Trans_acl:relcl      175
+...
+
+
+DET 101326
+form 	 [('the', 59141), ('his', 7894), ('a', 7665), ('all', 4416), ('my', 4089), ('their', 3612), ('this', 1884), ('your', 1664), ('an', 1584), ('no', 1146), ('every', 1140), ('her', 1106), ('our', 1084), ('that', 986), ('these', 866), ('any', 826), ('another', 428), ('those', 214), ('such', 169), ('what', 140)]
+lemma 	 [('the', 59141), ('a', 9249), ('his', 7893), ('all', 4416), ('my', 4089), ('their', 3612), ('this', 2748), ('you', 1653), ('that', 1200), ('every', 1140), ('no', 1138), ('her', 1098), ('us', 1082), ('any', 826), ('another', 428), ('such', 169), ('what', 145), ('he', 111), ('some', 103), ('both', 81)]
+misc 	 [('', 101326)]
+pos 	 [('DET', 101326)]
+deprel 	 [('det', 80341), ('nmod:poss', 19497), ('det:predet', 766), ('obl', 203), ('nmod', 129), ('nsubj', 112), ('obj', 72), ('nsubj:pass', 40), ('mark', 24), ('root', 23), ('case', 16), ('xcomp', 16), ('acl:relcl', 10), ('advcl', 10), ('ccomp', 8), ('nmod:conj', 8), ('root:conj', 7), ('fixed', 6), ('acl', 6), ('advcl:conj', 5)]
+deps 	 [('', 101326)]
+feats 	 [("('PronType', 'Art')", 69257), ("('Definite', 'Def')", 59371), ("('PronType', 'Prs')", 19555), ("('Poss', 'Yes')", 19555), ("('Number', 'Sing')", 17840), ("('Definite', 'Ind')", 9886), ("('PronType', 'Tot')", 4448), ("('PronType', 'Dem')", 4190), ("('PronType', 'Ind')", 3700), ("('Number', 'Plur')", 1102), ("('PronType', 'Int')", 176), ("('Gender', 'Fem')", 65)]
+translation 	 [('a', 28944), ('None', 26387), ('az', 17219), ('õ', 5654), ('minden', 2233), ('én', 2163), ('e', 1318), ('egy', 1149), ('izráel', 1059), ('egész', 964), ('ti', 949), ('mi', 756), ('annak', 674), ('való', 493), ('mind', 458), ('nem', 447), ('ez', 427), (',', 361), (']', 257), ('júda', 233)]
+ancestor_cross 	 [("('_',)", 49516), ('None', 26387), ("('_', 'nmod-1')", 2612), ("('obl-2', '_', 'nmod-1')", 2275), ("('nmod-2', '_', 'nmod-1')", 1761), ("('_', 'obl-1')", 1743), ("('_', 'obj-1')", 1475), ("('_', 'nsubj-1', 'root-2')", 1208), ("('obj-2', '_', 'nmod-1')", 1122), ("('_', 'nsubj-1')", 884), ("('nsubj-2', '_', 'nmod-1')", 717), ("('root-2', '_', 'obl-1')", 574), ("('_', 'root-1')", 551), ("('root-2', '_', 'obj-1')", 537), ("('advcl-2', '_', 'obl-1')", 533), ("('acl-2', '_', 'obl-1')", 491), ("('advcl-2', '_', 'obj-1')", 489), ("('acl:relcl-2', '_', 'obl-1')", 453), ("('_', 'nsubj-1', 'advcl-2')", 429), ("('root-2', '_', 'nmod-1')", 428)]
+descendant_cross 	 [("('_',)", 74815), ('None', 26387), ("('case1', '_')", 50), ("('_', 'nmod1')", 24), ("('_', 'acl:relcl1')", 9), ("('_', 'det2', 'nmod1')", 6)]
+cousin_cross 	 [("('_',)", 62312), ('None', 26387), ("('case1*', '_', 'obl-1')", 1321), ("('case1*', '_', 'nmod-1')", 720), ("('_', 'obl-1', 'nmod1*')", 385), ("('_', 'obj-1', 'nmod1*')", 304), ("('_', 'nmod-1', 'nmod1*')", 296), ("('_', 'root-1', 'acl1*')", 162), ("('_', 'root-1', 'nmod1*')", 152), ("('_', 'obl-1', 'det2*', 'nmod1*')", 147), ("('_', 'nsubj-1', 'nmod1*')", 143), ("('_', 'obl-1', 'acl1*')", 114), ("('_', 'obj-1', 'acl1*')", 108), ("('_', 'nmod-1', 'acl1*')", 108), ("('root-2', 'obj1*', '_', 'obl-1')", 104), ("('_', 'obl-1', 'case2*', 'nmod1*')", 102), ("('_', 'root:conj-1', 'nmod1*')", 99), ("('_', 'amod1*', 'obl-1')", 97), ("('cop1*', '_', 'root-1')", 91), ("('_', 'amod1*', 'nmod-1')", 91)]
+children 	 [('None', 100704), ('to_case', 121), ('NOUN_nmod', 78), ('of_case', 73), ('one_nummod', 49), ('be_cop', 39), ('ADV_advmod', 36), ('VERB:Intrans_acl:relcl', 34), ('VERB:Trans_acl:relcl', 32), ('VERB:Intrans_acl', 29), ('and_cc', 28), ('for_case', 23), ('that_fixed', 23), ('in_case', 22), ('unto_case', 20), ('NOUN_nsubj', 17), ('VERB:Intrans_ccomp', 16), ('upon_case', 16), ('VERB:Trans_acl', 15), ('VERB:Trans_advcl', 14)]
+parents 	 [('NOUN_nmod', 25134), ('NOUN_obl', 23684), ('NOUN_obj', 17162), ('NOUN_nsubj', 11565), ('NOUN_root', 4698), ('NOUN_root:conj', 2907), ('NOUN_nsubj:pass', 2452), ('NOUN_nmod:conj', 1692), ('NOUN_obl:conj', 965), ('NOUN_acl:relcl', 865), ('NOUN_obj:conj', 737), ('NOUN_appos', 719), ('NOUN_nsubj:conj', 680), ('NOUN_advcl:conj', 556), ('NOUN_advcl', 555), ('NOUN_root:conj:conj', 455), ('NOUN_xcomp', 422), ('NOUN_ccomp', 393), ('NOUN_acl:conj', 287), ('NOUN_acl:relcl:conj', 286)]
+
+form  lemma  misc  pos  deprel     deps  feats                                               translation  ancestor_cross         descendant_cross  cousin_cross  children  parents   
+the   the          DET  det              ((Definite, Def), (PronType, Art))                  (None,)      (None,)                (None,)           (None,)       (None)    NOUN_nmod     4025
+                                                                                             (a,)         ((_,),)                ((_,),)           ((_,),)       (None)    NOUN_obl      3570
+                                                                                             (None,)      (None,)                (None,)           (None,)       (None)    NOUN_obl      3035
+                                                                                             (a,)         ((_,),)                ((_,),)           ((_,),)       (None)    NOUN_nmod     2249
+                                                                                             (az,)        ((_,),)                ((_,),)           ((_,),)       (None)    NOUN_obl      2080
+                                                                                             (a,)         ((_,),)                ((_,),)           ((_,),)       (None)    NOUN_obj      2032
+                                                                                             (None,)      (None,)                (None,)           (None,)       (None)    NOUN_obj      1663
+                                                                                             (a,)         ((_,),)                ((_,),)           ((_,),)       (None)    NOUN_nsubj    1345
+                                                                                             (az,)        ((_,),)                ((_,),)           ((_,),)       (None)    NOUN_obj      1252
+                                                                                                                                                                           NOUN_nmod     1193
+                                                                                             (None,)      (None,)                (None,)           (None,)       (None)    NOUN_nsubj    1170
+a     a            DET  det              ((PronType, Art), (Number, Sing), (Definite, Ind))  (None,)      (None,)                (None,)           (None,)       (None)    NOUN_obj      1167
+the   the          DET  det              ((Definite, Def), (PronType, Art))                  (az,)        ((_,),)                ((_,),)           ((_,),)       (None)    NOUN_nsubj    1118
+a     a            DET  det              ((PronType, Art), (Number, Sing), (Definite, Ind))  (None,)      (None,)                (None,)           (None,)       (None)    NOUN_obl       792
+                                                                                                                                                                           NOUN_nmod      779
+the   the          DET  det              ((Definite, Def), (PronType, Art))                  (None,)      (None,)                (None,)           (None,)       (None)    NOUN_root      725
+his   his          DET  nmod:poss        ((PronType, Prs), (Poss, Yes))                      (None,)      (None,)                (None,)           (None,)       (None)    NOUN_obl       713
+                                                                                             (õ,)         ((_,),)                ((_,),)           ((_,),)       (None)    NOUN_obl       688
+the   the          DET  det              ((Definite, Def), (PronType, Art))                  (a,)         ((obl-2, _, nmod-1),)  ((_,),)           ((_,),)       (None)    NOUN_nmod      683
+                                                                                                          ((_,),)                ((_,),)           ((_,),)       (None)    NOUN_root      673
+...
+
+
+ADP 104007
+form 	 [('of', 31720), ('in', 11897), ('for', 8391), ('unto', 7340), ('to', 5880), ('with', 5616), ('from', 3410), ('upon', 2546), ('as', 2499), ('by', 2469), ('out', 2440), ('into', 1898), ('on', 1870), ('up', 1712), ('against', 1506), ('at', 1475), ('before', 1416), ('after', 1066), ('among', 855), ('over', 794)]
+lemma 	 [('of', 31720), ('in', 11897), ('for', 8391), ('unto', 7340), ('to', 5880), ('with', 5616), ('from', 3410), ('upon', 2546), ('as', 2492), ('by', 2469), ('out', 2440), ('into', 1898), ('on', 1870), ('up', 1712), ('against', 1506), ('at', 1475), ('before', 1416), ('after', 1066), ('among', 855), ('over', 794)]
+misc 	 [('', 104007)]
+pos 	 [('ADP', 104007)]
+deprel 	 [('case', 97220), ('compound:prt', 3043), ('fixed', 2185), ('mark', 1340), ('obl', 82), ('nmod', 40), ('advmod', 11), ('punct', 9), ('acl:relcl', 8), ('nmod:conj', 8), ('obl:conj', 7), ('obj', 7), ('acl', 6), ('case:conj', 6), ('root', 6), ('root:conj', 5)]
+deps 	 [('', 104007)]
+feats 	 [('None', 104007)]
+translation 	 [('None', 57460), ('az', 6221), ('a', 5069), (',', 4940), ('mert', 3068), ('mint', 1701), ('õ', 826), ('vala', 809), ('elõtt', 741), ('és', 694), ('pedig', 661), ('ki', 627), ('ellen', 602), ('közül', 516), ('által', 508), ('meg', 485), (']', 478), ('között', 436), ('is', 420), ('szerint', 413)]
+ancestor_cross 	 [('None', 57460), ("('_',)", 26627), ("('_', 'nmod-1')", 6837), ("('_', 'obl-1')", 4800), ("('nmod-2', '_', 'nmod-1')", 908), ("('obl-2', '_', 'nmod-1')", 749), ("('obj-2', '_', 'nmod-1')", 684), ("('root-2', '_', 'obl-1')", 472), ("('advcl-2', '_', 'obl-1')", 447), ("('acl-2', '_', 'obl-1')", 439), ("('acl:relcl-2', '_', 'obl-1')", 381), ("('nsubj-2', '_', 'nmod-1')", 359), ("('root-2', '_', 'nmod-1')", 207), ("('root:conj-2', '_', 'obl-1')", 207), ("('xcomp-2', '_', 'obl-1')", 197), ("('_', 'root-1')", 191), ("('root:conj-2', '_', 'nmod-1')", 183), ("('case-1', '_', 'obl-2')", 128), ("('ccomp-2', '_', 'obl-1')", 127), ("('_', 'root:conj-1')", 121)]
+descendant_cross 	 [('None', 57460), ("('_',)", 46442), ("('_', 'fixed1')", 84), ("('cc1', '_')", 5)]
+cousin_cross 	 [('None', 57460), ("('_',)", 40962), ("('_', 'det1*', 'obl-1')", 322), ("('_', 'det1*', 'nmod-1')", 235), ("('_', 'obl-1', 'nmod1*')", 233), ("('nsubj1*', 'root-2', '_', 'obl-1')", 163), ("('_', 'amod1*', 'nmod-1')", 151), ("('_', 'nmod-1', 'nmod1*')", 135), ("('root-2', 'obj1*', '_', 'obl-1')", 103), ("('_', 'amod1*', 'obl-1')", 103), ("('advcl-2', 'obj1*', '_', 'obl-1')", 65), ("('_', 'nmod1*', 'nmod-1')", 59), ("('_', 'nmod:poss1*', 'obl-1')", 56), ("('nsubj1*', 'advcl-2', '_', 'obl-1')", 52), ("('amod1*', 'root-2', '_', 'nmod-1')", 44), ("('det1*', 'root-2', '_', 'nmod-1')", 43), ("('_', 'obl-1', 'acl1*')", 39), ("('root:conj-2', 'obj1*', '_', 'obl-1')", 37), ("('det1*', 'nmod-2', '_', 'nmod-1')", 37), ("('nsubj:pass1*', 'root-2', '_', 'obl-1')", 36)]
+children 	 [('None', 101615), ('of_fixed', 1060), ('for_fixed', 123), ('as_fixed', 117), ('unto_fixed', 96), ('ADV_fixed', 69), ('with_fixed', 63), ('to_fixed', 60), ('among_fixed', 59), ('in_fixed', 59), ('before_fixed', 55), ('that_fixed', 54), ('off_fixed', 49), ('and_cc', 42), ('against_fixed', 40), ('at_fixed', 35), ('be_cop', 28), ('out_fixed', 17), ('upon_fixed', 17), ('than_fixed', 16)]
+parents 	 [('NOUN_nmod', 39067), ('NOUN_obl', 31621), ('he_PRON_obl', 2556), ('they_PRON_obl', 2101), ('NOUN_root', 1683), ('i_PRON_obl', 1458), ('they_PRON_nmod', 1054), ('you_PRON_obl', 963), ('NOUN_root:conj', 949), ('NOUN_nmod:conj', 878), ('VERB:Intrans_advcl', 869), ('ADV_advmod', 802), ('out_ADP_case', 794), ('he_PRON_nmod', 746), ('NOUN_acl:relcl', 680), ('VERB:Trans_advcl', 625), ('NOUN_nsubj', 592), ('VERB:Intrans_acl', 546), ('NOUN_obl:conj', 544), ('VERB:Intrans_root', 502)]
+
+form  lemma  misc  pos  deprel  deps  feats   translation  ancestor_cross  descendant_cross  cousin_cross  children  parents      
+of    of           ADP  case          (None)  (None,)      (None,)         (None,)           (None,)       (None)    NOUN_nmod        16971
+in    in           ADP  case          (None)  (None,)      (None,)         (None,)           (None,)       (None)    NOUN_obl          3900
+to    to           ADP  case          (None)  (None,)      (None,)         (None,)           (None,)       (None)    NOUN_obl          2138
+in    in           ADP  case          (None)  (None,)      (None,)         (None,)           (None,)       (None)    NOUN_nmod         1814
+unto  unto         ADP  case          (None)  (None,)      (None,)         (None,)           (None,)       (None)    NOUN_obl          1629
+with  with         ADP  case          (None)  (None,)      (None,)         (None,)           (None,)       (None)    NOUN_obl          1525
+of    of           ADP  case          (None)  (None,)      (None,)         (None,)           (None,)       (None)    NOUN_obl          1421
+                                              (,,)         ((_, nmod-1),)  ((_,),)           ((_,),)       (None)    NOUN_nmod          876
+into  into         ADP  case          (None)  (None,)      (None,)         (None,)           (None,)       (None)    NOUN_obl           832
+from  from         ADP  case          (None)  (None,)      (None,)         (None,)           (None,)       (None)    NOUN_obl           789
+for   for          ADP  case          (None)  (None,)      (None,)         (None,)           (None,)       (None)    NOUN_obl           787
+unto  unto         ADP  case          (None)  (None,)      (None,)         (None,)           (None,)       (None)    he_PRON_obl        737
+                                                                                                                     NOUN_nmod          721
+with  with         ADP  case          (None)  (None,)      (None,)         (None,)           (None,)       (None)    NOUN_nmod          683
+for   for          ADP  case          (None)  (None,)      (None,)         (None,)           (None,)       (None)    NOUN_nmod          676
+                                              (mert,)      ((_,),)         ((_,),)           ((_,),)       (None)    NOUN_obl           647
+upon  upon         ADP  case          (None)  (None,)      (None,)         (None,)           (None,)       (None)    NOUN_obl           621
+of    of           ADP  fixed         (None)  (None,)      (None,)         (None,)           (None,)       (None)    out_ADP_case       591
+unto  unto         ADP  case          (None)  (None,)      (None,)         (None,)           (None,)       (None)    they_PRON_obl      580
+to    to           ADP  case          (None)  (None,)      (None,)         (None,)           (None,)       (None)    NOUN_nmod          568
+...
+
+
+NOUN 169185
+form 	 [('lord', 5236), ('i', 4133), ('god', 3441), ('thee', 2521), ('man', 2421), ('ye', 2374), ('son', 2074), ('israel', 2019), ('people', 2004), ('house', 1860), ('children', 1606), ('king', 1590), ('men', 1545), ('day', 1544), ('land', 1539), ('hand', 1378), ('things', 1119), ('hath', 1037), ('sons', 935), ('father', 890)]
+lemma 	 [('lord', 5274), ('man', 3918), ('i', 3655), ('god', 3383), ('son', 2616), ('thee', 2521), ('ye', 2374), ('day', 2331), ('israel', 2019), ('people', 2006), ('house', 1944), ('king', 1913), ('hand', 1804), ('child', 1798), ('land', 1580), ('thing', 1564), ('father', 1381), ('word', 1132), ('hath', 1037), ('city', 922)]
+misc 	 [('', 169185)]
+pos 	 [('NOUN', 169185)]
+deprel 	 [('nmod', 51498), ('obl', 34131), ('obj', 26103), ('nsubj', 20422), ('root', 7175), ('root:conj', 5210), ('nmod:conj', 3824), ('nsubj:pass', 3344), ('obl:conj', 2295), ('obj:conj', 1646), ('acl:relcl', 1553), ('nsubj:conj', 1449), ('appos', 1117), ('advcl:conj', 1061), ('advcl', 1021), ('xcomp', 802), ('root:conj:conj', 789), ('ccomp', 715), ('acl:conj', 559), ('acl:relcl:conj', 491)]
+deps 	 [('', 169185)]
+feats 	 [("('Number', 'Sing')", 128831), ("('Number', 'Plur')", 38574), ("('Gender', 'Masc')", 9257), ('None', 1780), ("('Gender', 'Fem')", 900)]
+translation 	 [('None', 8964), ('úr', 2870), ('izráel', 1516), ('isten', 1391), ('fiai', 1247), ('fia', 1165), (',', 1032), ('úrnak', 1015), ('te', 937), ('én', 929), ('király', 791), ('nép', 656), ('ímé', 646), ('a', 607), ('föld', 526), ('napon', 517), ('ember', 511), ('téged', 508), ('júda', 465), ('fiainak', 433)]
+ancestor_cross 	 [("('_',)", 114480), ('None', 8964), ("('obl-1', '_')", 5748), ("('nmod-1', '_')", 5677), ("('root-1', '_')", 4317), ("('obj-1', '_')", 3748), ("('_', 'root-1')", 2772), ("('advcl-1', '_')", 2570), ("('nsubj-1', '_')", 2301), ("('root:conj-1', '_')", 2146), ("('acl-1', '_')", 1894), ("('acl:relcl-1', '_')", 1773), ("('_', 'advcl-1')", 990), ("('xcomp-1', '_')", 927), ("('nmod:conj-1', '_')", 733), ("('ccomp-1', '_')", 679), ("('advcl:conj-1', '_')", 536), ("('nsubj:pass-1', '_')", 474), ("('_', 'ccomp-1')", 452), ("('_', 'acl-1')", 396)]
+descendant_cross 	 [("('_',)", 110826), ("('_', 'nmod1')", 22893), ("('case1', '_')", 11539), ('None', 8964), ("('det1', '_')", 7369), ("('amod1', '_')", 4001), ("('cc1', '_')", 2135), ("('_', 'acl1')", 1998), ("('nmod1', '_')", 1644), ("('cop1', '_')", 1387), ("('nmod:poss1', '_')", 1269), ("('_', 'det2', 'nmod1')", 981), ("('_', 'case2', 'nmod1')", 973), ("('advmod1', '_')", 946), ("('_', 'acl:relcl1')", 895), ("('nsubj1', '_')", 794), ("('_', 'amod2', 'nmod1')", 598), ("('_', 'advmod1')", 460), ("('nummod1', '_')", 409), ("('_', 'nmod1', 'nmod2')", 394)]
+cousin_cross 	 [("('_',)", 144514), ('None', 8964), ("('root-1', '_', 'root:conj1*')", 528), ("('root-1', '_', 'obl1*')", 434), ("('nsubj1*', 'root-1', '_')", 284), ("('root-1', 'obj1*', '_')", 269), ("('advcl-1', '_', 'obl1*')", 252), ("('root-1', 'root:conj1*', '_')", 209), ("('root-1', '_', 'cc2*', 'root:conj1*')", 200), ("('root:conj-1', '_', 'obl1*')", 161), ("('_', 'advmod1*', 'root-1')", 149), ("('advcl-1', 'obj1*', '_')", 144), ("('root:conj-1', 'obj1*', '_')", 139), ("('cc1*', '_', 'root-1')", 137), ("('root-1', '_', 'advcl1*')", 133), ("('_', 'aux1*', 'root-1')", 127), ("('acl-1', '_', 'obl1*')", 120), ("('_', 'root-1', 'obj1*')", 117), ("('root-1', 'obl1*', '_')", 117), ("('case1*', 'obl-1', '_')", 112)]
+children 	 [('the_det', 57736), ('NOUN_nmod', 44839), ('of_case', 27769), ('ADJ_amod', 25458), ('and_cc', 19429), ('None', 17985), ('in_case', 10558), ('a_det', 9047), ('his_nmod:poss', 7808), ('be_cop', 7729), ('VERB:Intrans_acl', 7347), ('ADV_advmod', 6013), ('for_case', 5030), ('to_case', 4395), ('with_case', 4042), ('my_nmod:poss', 4014), ('unto_case', 3798), ('their_nmod:poss', 3576), ('VERB:Trans_acl', 3381), ('all_det', 3208)]
+parents 	 [('VERB:Trans_root', 15997), ('NOUN_nmod', 15464), ('NOUN_obl', 12887), ('VERB:Intrans_root', 11568), ('NOUN_obj', 9691), ('VERB:Trans_advcl', 9062), ('NOUN_root', 8382), ('None_None', 7175), ('VERB:Intrans_advcl', 5916), ('NOUN_nsubj', 5757), ('VERB:Intrans_acl', 5018), ('VERB:Trans_root:conj', 4967), ('VERB:Trans_acl', 4445), ('VERB:Trans_acl:relcl', 3649), ('NOUN_root:conj', 2955), ('VERB:Intrans_acl:relcl', 2657), ('VERB:Intrans_root:conj', 2436), ('VERB:Trans_xcomp', 2283), ('VERB:Trans_ccomp', 2275), ('VERB:Intrans_ccomp', 2042)]
+
+form    lemma   misc  pos   deprel  deps  feats             translation  ancestor_cross   descendant_cross  cousin_cross  children            parents          
+israel  israel        NOUN  nmod          ((Number, Sing))  (izráel,)    ((nmod-1, _),)   ((_,),)           ((_,),)       (of_case)           NOUN_nmod            212
+i       i             NOUN  nsubj         ((Number, Sing))  (None,)      (None,)          (None,)           (None,)       (None)              VERB:Trans_root      188
+                                          (None)            (None,)      (None,)          (None,)           (None,)       (None)              VERB:Trans_root      183
+israel  israel        NOUN  nmod          ((Number, Sing))  (izráel,)    ((obl-1, _),)    ((_,),)           ((_,),)       (of_case)           NOUN_obl             169
+                                                                         ((nsubj-1, _),)  ((_,),)           ((_,),)       (of_case)           NOUN_nsubj           133
+lord    lord          NOUN  nmod          ((Number, Sing))  (úr,)        ((obl-1, _),)    ((_,),)           ((_,),)       (of_case, the_det)  NOUN_obl             131
+                            nsubj         ((Number, Sing))  (úr,)        ((_, root-1),)   ((_,),)           ((_,),)       (the_det)           VERB:Intrans_root    120
+                            nmod          ((Number, Sing))  (úr,)        ((nmod-1, _),)   ((_,),)           ((_,),)       (of_case, the_det)  NOUN_nmod            113
+i       i             NOUN  nsubj         ((Number, Sing))  (None,)      (None,)          (None,)           (None,)       (None)              VERB:Intrans_root     96
+god     god           NOUN  nmod          ((Number, Sing))  (isten,)     ((nmod-1, _),)   ((_,),)           ((_,),)       (of_case)           NOUN_nmod             96
+lord    lord          NOUN  nsubj         ((Number, Sing))  (úr,)        ((_, root-1),)   ((_,),)           ((_,),)       (the_det)           VERB:Trans_root       94
+god     god           NOUN  nmod          ((Number, Sing))  (isten,)     ((obj-1, _),)    ((_,),)           ((_,),)       (of_case)           NOUN_obj              84
+ye      ye            NOUN  nsubj         ((Number, Sing))  (None,)      (None,)          (None,)           (None,)       (None)              VERB:Trans_root       83
+i       i             NOUN  nsubj         (None)            (None,)      (None,)          (None,)           (None,)       (None)              VERB:Intrans_root     77
+moses   mose          NOUN  nmod          ((Number, Plur))  (mózesnek,)  ((_,),)          ((_,),)           ((_,),)       (unto_case)         NOUN_root             76
+ye      ye            NOUN  nsubj         ((Number, Sing))  (None,)      (None,)          (None,)           (None,)       (None)              VERB:Trans_advcl      75
+i       i             NOUN  nsubj         ((Number, Sing))  (None,)      (None,)          (None,)           (None,)       (None)              VERB:Trans_advcl      74
+lord    lord          NOUN  nmod          ((Number, Sing))  (úrnak,)     ((obl-1, _),)    ((_,),)           ((_,),)       (of_case, the_det)  NOUN_obl              74
+i       i             NOUN  nsubj         ((Number, Sing))  (én,)        ((_,),)          ((_,),)           ((_,),)       (None)              NOUN_ccomp            74
+lord    lord          NOUN  nmod          ((Number, Sing))  (úr,)        ((nsubj-1, _),)  ((_,),)           ((_,),)       (of_case, the_det)  NOUN_nsubj            72
+...
+
+
+Processing took: 197.29964351654053
