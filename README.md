@@ -50,5 +50,29 @@ The folder contains three subfolders:
 ### Data
 
 The [`Data/`](https://github.com/mskroon/DeSDA/tree/master/Chapter%204%20-%20Alignment/Data) folder contains:
-- [`en-hu`](https://github.com/mskroon/DeSDA/tree/master/Chapter%204%20-%20Alignment/Data/en-hu)
-  - [`en-hu.eflomal.txt`](https://github.com/mskroon/DeSDA/blob/master/Chapter%204%20-%20Alignment/Data/en-hu/en-hu.eflomal.txt)
+
+- [`en-hu`](https://github.com/mskroon/DeSDA/tree/master/Chapter%204%20-%20Alignment/Data/en-hu): contains data files relevant to word alignment with [`eflomal`](https://github.com/robertostling/eflomal) (Östling and Tiedemann 2016), such as input and output;
+  - [`en-hu.eflomal.txt`](https://github.com/mskroon/DeSDA/blob/master/Chapter%204%20-%20Alignment/Data/en-hu/en-hu.eflomal.txt): sentence pairs formatted for input;
+  - the rest are output files;
+- [`python`](https://github.com/mskroon/DeSDA/tree/master/Chapter%204%20-%20Alignment/Data/python): contains an English and Hungarian Bible (from [Christodoulopoulos and Steedman 2015](https://github.com/christos-c/bible-corpus)), with one verse ID and verse per line, but only those verses that are present in both versions of the Bible;
+  - [`xml_aligner.py`](https://github.com/mskroon/DeSDA/blob/master/Chapter%204%20-%20Alignment/Data/python/xml_aligner.py): can be used to align the XML Bibles from Christodouloupoulos and Steedman (2015) such that the output contains only the verses present in both translations.
+
+### Tools
+
+The [`Tools/`](https://github.com/mskroon/DeSDA/tree/master/Chapter%204%20-%20Alignment/Tools) folder contains the three main tools developed for Chapter 4, which can be used to detect syntactic differences:
+
+- the [Data Grouper for Attribute Exploration or DGAE](https://github.com/mskroon/DeSDA/blob/master/Chapter%204%20-%20Alignment/Tools/DGAE.py);
+- the [Generalization Tree Inducer or GTI](https://github.com/mskroon/DeSDA/blob/master/Chapter%204%20-%20Alignment/Tools/GTI.py);
+- the [Affix-Attribute Associator or AAA](https://github.com/mskroon/DeSDA/blob/master/Chapter%204%20-%20Alignment/Tools/AAA.py).
+
+### Output
+
+The [`Output/`](https://github.com/mskroon/DeSDA/tree/master/Chapter%204%20-%20Alignment/Output) folder contains all the relevant output:
+
+- [`AAA_en-hu.txt`](https://github.com/mskroon/DeSDA/blob/master/Chapter%204%20-%20Alignment/Output/AAA_en-hu.txt): the output of AAA;
+- [`DGAE_en-hu_deprel.txt`](https://github.com/mskroon/DeSDA/blob/master/Chapter%204%20-%20Alignment/Output/DGAE_en-hu_deprel.txt): the output of DGAE grouping over `deprel`;
+- [`DGAE_en-hu_pos.txt`](https://github.com/mskroon/DeSDA/blob/master/Chapter%204%20-%20Alignment/Output/DGAE_en-hu_pos.txt): the output of DGAE grouping over `pos`;
+- [`DGAE_en-hu_pos_deprel.txt`](https://github.com/mskroon/DeSDA/blob/master/Chapter%204%20-%20Alignment/Output/DGAE_en-hu_pos_deprel.txt): the output of DGAE grouping over `pos` and `deprel`;
+- [`GTI_en-hu_deprel.fragment.txt`](https://github.com/mskroon/DeSDA/blob/master/Chapter%204%20-%20Alignment/Output/GTI_en-hu_deprel.fragment.txt): a fragment (first 50.000 lines) of the output of GTI pre-splitting over `deprel`;
+- [`GTI_en-hu_pos.fragment.txt`](https://github.com/mskroon/DeSDA/blob/master/Chapter%204%20-%20Alignment/Output/GTI_en-hu_pos.fragment.txt): a fragment (first 50.000 lines) of the output of GTI pre-splitting over `pos`;
+- [`GTI_en-hu_pos_deprel.fragment.txt`](https://github.com/mskroon/DeSDA/blob/master/Chapter%204%20-%20Alignment/Output/GTI_en-hu_pos_deprel.fragment.txt): a fragment (first 50.000 lines) of the output of GTI pre-splitting over `pos` and `deprel`.
