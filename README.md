@@ -43,4 +43,12 @@ The output of `MDL_difference_detector.py` can be found in [`Output/`](https://g
 
 ## Chapter 4 - Alignment
 
-The folder Chapter 4 - Alignment contains the tools, data and output of the developed and described tools from Chapter 4 of my PhD dissertation.
+The folder [Chapter 4 - Alignment](https://github.com/mskroon/DeSDA/tree/master/Chapter%204%20-%20Alignment) contains the tools and data described in Chapter 4 of my dissertation.
+
+The folder contains three subfolders:
+
+### Data
+
+The [`Data/`](https://github.com/mskroon/DeSDA/tree/master/Chapter%204%20-%20Alignment/Data) folder contains:
+- [`en-hu`](https://github.com/mskroon/DeSDA/tree/master/Chapter%204%20-%20Alignment/Data/en-hu)
+  - [`en-hu.eflomal.txt`](https://github.com/mskroon/DeSDA/blob/master/Chapter%204%20-%20Alignment/Data/en-hu/en-hu.eflomal.txt)
