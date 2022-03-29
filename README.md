@@ -6,7 +6,7 @@ This repository consists of three main folders, corresponding to the central cha
 
 ## Chapter 2 - Filter
 
-The folder Chapter 2 - Filter conatins the tools and data described in Chapter 2 of my dissertation and in [Kroon, Barbiers, Odijk and van der Pas (2019)](https://benjamins.com/catalog/avt.00029.kro).
+The folder [Chapter 2 - Filter](https://github.com/mskroon/DeSDA/tree/master/Chapter%202%20-%20Filter) contains the tools and data described in Chapter 2 of my dissertation and in [Kroon, Barbiers, Odijk and van der Pas (2019)](https://benjamins.com/catalog/avt.00029.kro).
 
 The folder contains two subfolders:
 
@@ -31,7 +31,15 @@ The [`Tools/`](https://github.com/mskroon/DeSDA/tree/master/Chapter%202%20-%20Fi
 
 ## Chapter 3 - MDL
 
-The folder Chapter 3 - MDL contains the tools, data and output of the developed and described tools from Chapter 3 of my PhD dissertation.
+The folder [Chapter 3 - MDL](https://github.com/mskroon/DeSDA/tree/master/Chapter%203%20-%20MDL) contains the tools and data described in Chapter 3 of my dissertation and in [Kroon, Barbiers, Odijk and van der Pas (2020)](https://www.clinjournal.org/clinj/article/view/109). The [README](https://github.com/mskroon/DeSDA/tree/master/Chapter%203%20-%20MDL) describes clearly how to recreate the research.
+
+In the folder one can find, among other things, [`MDL_difference_detector.py`](https://github.com/mskroon/DeSDA/blob/master/Chapter%203%20-%20MDL/Tools/MDL_difference_detector.py), the main tool to detect syntactic differences using MDL. Variables are set within the Python file. Revelant are:
+- `setup`, which sets how the script should be run: with or without filtered data (the first character), with or without superpattern subtraction (the second character).	`setup` must be `(NN|NY|YN|YY)`.
+- `lang_a` and `lang_b`, which correspond to the language abbreviations used in the [`Data/`](https://github.com/mskroon/DeSDA/tree/master/Chapter%203%20-%20MDL/Data) folder.
+
+`MDL_difference_detector.py` takes specifically formatted input. Please refer to the [README](https://github.com/mskroon/DeSDA/tree/master/Chapter%203%20-%20MDL) to recreate the research.
+
+The output of `MDL_difference_detector.py` can be found in [`Output/`](https://github.com/mskroon/DeSDA/tree/master/Chapter%203%20-%20MDL/Output).
 
 ## Chapter 4 - Alignment
 
