@@ -31,4 +31,4 @@ The ```Data``` folder contains two subfolders: ```python``` and ```en-hu```.
 
 Finally ```Output``` contains the output for AAA and DGAE in three different setups. 
 
-Unfortunately, the GTI output is too large to upload on GitHub. However, those who are intested, please contact me.
+Unfortunately, the GTI output is too large to be uploaded on GitHub in their totality. However, I have uploaded fragments containing the first 50.000 lines of the output. Those who are interested in the complete output can contact me.
